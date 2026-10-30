@@ -6,7 +6,7 @@
 | --- | --- | --- | --- |
 | Windows，conda-forge PyMOL 3.1.0，Python 3.12，PyQt5 / Qt 5.15.15 | 本地通过 | 0.3.1 指定窗口通过 | 基准环境；0.3.2 另做程序回归 |
 | GitHub Windows runner，PyMOL 3.1.0，Python 3.12，PyQt5 | 见下方 CI | 未进行 | 自动回归环境 |
-| Ubuntu 24.04，PyMOL 3.1.0，Python 3.12，PyQt5，Noto Sans CJK | 见下方 CI | 未进行 | 新增 Linux 自动检查 |
+| Ubuntu 24.04，PyMOL 3.1.0，Python 3.12，PyQt5，Noto Sans CJK | [0.3.2 自动检查通过](https://github.com/RociferX/pymol-ZH-plugin/actions/runs/41086189819) | 未进行 | 新增 Linux 自动检查 |
 | macOS | 未验证 | 未验证 | 欢迎提交复现信息 |
 | 其他 PyMOL 版本或 Qt 绑定 | 未验证 | 未验证 | 按实际结果补充 |
 
