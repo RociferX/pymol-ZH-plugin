@@ -1,0 +1,23 @@
+name: 安装、更新或启动问题
+description: 安装失败、更新未生效或自动加载异常
+title: '[安装] '
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境与安装包
+      description: 系统及架构、PyMOL 安装来源/版本、插件 ZIP 文件名、是否安装过旧版。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作与结果
+      description: 安装步骤、插件管理器中的 startup 状态、重启后的结果。
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: 错误信息或截图
+      description: 粘贴原始错误文本或截图；先去除私人路径与不打算公开的数据。

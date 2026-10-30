@@ -1,0 +1,23 @@
+name: 翻译、缺字或布局问题
+description: 报告漏译、译文不准确、文字截断或按钮重叠
+title: '[显示] '
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境
+      description: 系统及架构、PyMOL 安装来源/版本、插件版本、Qt 绑定/版本、显示缩放。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 位置与复现步骤
+      description: 所在菜单或窗口、点击顺序、英文原文与当前中文；可直接粘贴截图。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望显示
+      description: 建议译文或应有布局；如能复现，请说明切回英文后的情况。

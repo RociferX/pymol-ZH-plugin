@@ -1,0 +1,23 @@
+name: 新环境兼容性反馈
+description: 提交其他系统、PyMOL 或 Qt 版本的成功或失败结果
+title: '[兼容] '
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: 完整环境
+      description: 系统及架构、PyMOL 安装来源/版本、插件/Python/Qt 版本、显示缩放、字体。
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: 检查范围与结果
+      description: 安装、重启自动加载、语言切换、A/S/H/L/C、下拉选项、设置和导入导出等，注明实际检查过的项目。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 复现步骤与证据
+      description: 错误信息、截图或检查报告；说明使用真实桌面还是离屏检查。

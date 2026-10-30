@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 安装与显示故障排查
+    url: https://github.com/RociferX/pymol-ZH-plugin/blob/main/docs/TROUBLESHOOTING.md
+    about: 安装、更新、字体、缩放和停用方法

@@ -152,7 +152,9 @@ class DisplayLayout:
             widget.setElideMode(QtCore.Qt.TextElideMode.ElideNone)
             widget.setExpanding(False)
             # Keep all common dialog tabs visible when they fit the screen.
-            width = sum(widget.tabSizeHint(i).width() for i in range(widget.count()))
+            # Native Qt tab bars may reject protected tabSizeHint calls in
+            # Python bindings. The public hint already combines all tab sizes.
+            width = widget.sizeHint().width()
             screen = widget.screen()
             limit = screen.availableGeometry().width() - 32 if screen else 1200
             if width < limit:

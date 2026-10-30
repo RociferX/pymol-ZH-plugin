@@ -1,16 +1,20 @@
 # pymol-ZH-plugin
 
+[![自动检查](https://github.com/RociferX/pymol-ZH-plugin/actions/workflows/checks.yml/badge.svg)](https://github.com/RociferX/pymol-ZH-plugin/actions/workflows/checks.yml)
+
 **PyMOL 开源版的简体中文显示插件。安装后正常启动 PyMOL 即可显示中文，可随时切回英文。**
 
 通过 Qt 绘制映射和覆盖面板显示中文，保留英文命令、参数键、选项值、用户输入和分子数据。插件独立安装，无需修改 PyMOL 原程序文件或使用专用启动器。
 
 [下载最新版插件](https://github.com/RociferX/pymol-ZH-plugin/releases/latest) · [更新记录](CHANGELOG.md) · [检查范围](docs/VALIDATION.md)
 
+[故障排查](docs/TROUBLESHOOTING.md) · [兼容性表](docs/COMPATIBILITY.md) · [中英术语检索](docs/GLOSSARY.md) · [使用演示](docs/QUICKSTART.md) · [反馈问题](https://github.com/RociferX/pymol-ZH-plugin/issues/new/choose)
+
 ![中文菜单、对象操作区与右下角控件](docs/images/main.png)
 
 ## 安装
 
-1. 从 [Releases](https://github.com/RociferX/pymol-ZH-plugin/releases) 下载 **`pymol_zh_cn-0.3.1.zip`**，无需解压。GitHub 自动生成的 `Source code` 压缩包用于开发，请选择带版本号的插件 ZIP。
+1. 从 [Releases](https://github.com/RociferX/pymol-ZH-plugin/releases) 下载 **`pymol_zh_cn-0.3.2.zip`**，无需解压。GitHub 自动生成的 `Source code` 压缩包用于开发，请选择带版本号的插件 ZIP。
 2. 在 PyMOL 中打开 `Plugin → Plugin Manager → Install New Plugin → Choose file...`，选择该 ZIP。
 3. 首次安装后当前窗口自动显示中文；更新已经加载的旧版本时，重启一次 PyMOL。
 4. 以后从原有图标或命令照常启动，插件默认自动加载。
@@ -38,7 +42,7 @@
 
 ## 兼容性与布局
 
-已验证：**Windows、conda-forge PyMOL Open-Source 3.1.0（`py312h7aa25ef_8`）、Python 3.12、PyQt5 / Qt 5.15.15**。其他 PyMOL 版本、Qt 绑定、macOS 和 Linux 尚未验证。需要 PyMOL 的 Qt 图形界面及可显示中文的系统字体。
+实际桌面已验证：**Windows、conda-forge PyMOL Open-Source 3.1.0（`py312h7aa25ef_8`）、Python 3.12、PyQt5 / Qt 5.15.15**。新增 Windows 和 Ubuntu 自动回归，具体结果与其他平台状态见[兼容性表](docs/COMPATIBILITY.md)。需要 PyMOL 的 Qt 图形界面及可显示中文的系统字体。
 
 中文按钮、下拉框和长说明会扩展尺寸或换行；设置表与标签页参考可用屏幕宽度。已检查 100%、125%、150%、200% 离屏缩放，并完成 100% 和 200% 的指定窗口实际桌面检查，详见[检查记录](docs/VALIDATION.md)。
 
@@ -68,6 +72,8 @@ python scripts/check_plugin_installation.py
 ```
 
 Qt 检查脚本使用离屏模式，不操作用户的桌面窗口。`check_form_layouts.py` 默认检查 100%；设置环境变量 `QT_SCALE_FACTOR` 为 `1.25`、`1.5`、`2` 可分别检查其他缩放。标准安装检查使用隔离用户目录，验证 ZIP 安装与后续自动加载。结果写入被 Git 忽略的 `artifacts/`。
+
+离屏检查需安装可显示中文的字体：Windows 微软雅黑、Linux Noto Sans CJK 或 macOS 苹方。GitHub Actions 在推送、PR、版本标签或手动触发时，自动运行控件回归、翻译资源、打包及标准安装检查，并保留按平台区分的报告。工作流见 [checks.yml](.github/workflows/checks.yml)，环境设置采用 [setup-miniconda 的标准环境文件与激活方式](https://github.com/conda-incubator/setup-miniconda#environment-activation)。
 
 可选源码覆盖盘点需要另行获取对应的 [PyMOL v3.1.0 源码](https://github.com/schrodinger/pymol-open-source/tree/v3.1.0)：
 
