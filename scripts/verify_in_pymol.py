@@ -4,6 +4,7 @@ import os
 from pathlib import Path
 import sys
 import traceback
+from test_support import set_test_font
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -24,9 +25,7 @@ def verify():
         window.resize(1280, 850)
         # Offscreen QPA does not enumerate Windows fonts. This is test setup,
         # not plugin behavior; the normal desktop uses its existing fonts.
-        if not QtGui.QFontDatabase().families():
-            QtGui.QFontDatabase.addApplicationFont('C:/Windows/Fonts/msyh.ttc')
-            app.setFont(QtGui.QFont('Microsoft YaHei UI', 10))
+        set_test_font(app, QtGui)
         app.processEvents()
         window.grab().save(str(OUTPUT / 'pymol-main-en.png'))
         original_menu_keys = tuple(window.menudict)

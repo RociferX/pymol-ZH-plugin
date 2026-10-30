@@ -11,10 +11,10 @@ from pymol_zh_cn._qt import QtCore, QtGui, QtWidgets
 from pymol_zh_cn.style import DisplayController
 from pymol_zh_cn._qt import is_command_text
 from stock_forms import load_stock_form
+from test_support import set_test_font
 
 app = QtWidgets.QApplication([])
-QtGui.QFontDatabase.addApplicationFont('C:/Windows/Fonts/msyh.ttc')
-app.setFont(QtGui.QFont('Microsoft YaHei UI', 10))
+set_test_font(app, QtGui)
 controller = DisplayController(app)
 scale = os.environ.get('QT_SCALE_FACTOR', '1')
 output = Path(os.environ.get('PYMOL_ZH_ARTIFACTS', str(ROOT / 'artifacts' / 'open-source'))) / f'layout-{scale}'

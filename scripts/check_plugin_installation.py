@@ -5,8 +5,9 @@ from pathlib import Path
 import subprocess
 import sys
 import tempfile
+from release_info import ROOT, VERSION, PACKAGE
+from test_support import set_test_font
 
-ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / 'artifacts' / 'open-source'
 
 
@@ -17,8 +18,7 @@ def check(phase, profile):
     from pymol.Qt import QtGui
     from pmg_qt import pymol_qt_gui as gui
     app = gui.PyMOLApplication(['Plugin installation check'])
-    QtGui.QFontDatabase.addApplicationFont('C:/Windows/Fonts/msyh.ttc')
-    app.setFont(QtGui.QFont('Microsoft YaHei UI', 10))
+    set_test_font(app, QtGui)
     gui.window = window = gui.PyMOLQtGUI()
     window.show()
     import pymol.gui
@@ -40,7 +40,7 @@ def check(phase, profile):
         from pymol.plugins.legacysupport import tkMessageBox
         tkMessageBox.showinfo = lambda title, message, **kw: notifications.append([title, message])
         installation.installPluginFromFile(
-            str(ROOT / 'dist' / 'pymol_zh_cn-0.3.1.zip'), parent=window,
+            str(PACKAGE), parent=window,
             plugdir=str(destination))
         plugins.pref_save(filename=plugins.PYMOLPLUGINSRC)
         assert any(title == 'Success' for title, _ in notifications), notifications
@@ -50,6 +50,7 @@ def check(phase, profile):
     info = plugins.plugins['pymol_zh_cn']
     module = info.module
     assert info.loaded and info.autoload
+    assert info.get_version() == VERSION
     assert Path(module.__file__).resolve().is_relative_to(profile.resolve())
     assert 'pymol_zh_cn' not in sys.modules, 'Workspace module was imported'
     controller = module._controller

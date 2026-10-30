@@ -12,6 +12,7 @@
 !/tests/
 !/scripts/
 !/docs/
+!/.github/
 
 __pycache__/
 *.py[cod]
@@ -32,3 +33,5 @@ Thumbs.db
 !/scripts/verify_details.py
 !/scripts/verify_remaining.py
 !/scripts/stock_forms.py
+!/scripts/test_support.py
+!/scripts/release_info.py

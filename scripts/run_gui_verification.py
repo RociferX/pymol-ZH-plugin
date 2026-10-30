@@ -4,6 +4,7 @@ os.environ.setdefault('QT_QPA_PLATFORM', 'offscreen')
 from pathlib import Path
 import sys
 import traceback
+from test_support import set_test_font
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -21,9 +22,7 @@ try:
     from pymol.Qt import QtGui
     from pmg_qt import pymol_qt_gui as gui
     app = gui.PyMOLApplication(['PyMOL GUI verification'])
-    if not QtGui.QFontDatabase().families():
-        QtGui.QFontDatabase.addApplicationFont('C:/Windows/Fonts/msyh.ttc')
-        app.setFont(QtGui.QFont('Microsoft YaHei UI', 10))
+    set_test_font(app, QtGui)
     stage.write_text('constructing official GUI', encoding='utf-8')
     gui.window = gui.PyMOLQtGUI()
     gui.window.show()

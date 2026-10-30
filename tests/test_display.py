@@ -5,6 +5,8 @@ from pathlib import Path
 import sys
 import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
+from test_support import set_test_font
 from pymol_zh_cn._qt import QtCore, QtGui, QtWidgets
 from pymol_zh_cn.style import DisplayController
 from pymol_zh_cn.translation import Catalog
@@ -30,8 +32,7 @@ class DisplayTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.app = QtWidgets.QApplication.instance() or QtWidgets.QApplication([])
-        QtGui.QFontDatabase.addApplicationFont('C:/Windows/Fonts/msyh.ttc')
-        cls.app.setFont(QtGui.QFont('Microsoft YaHei UI', 10))
+        set_test_font(cls.app, QtGui)
         cls.controller = DisplayController(cls.app)
 
     def setUp(self):

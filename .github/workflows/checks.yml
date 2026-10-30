@@ -1,0 +1,60 @@
+name: Plugin checks
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  regression:
+    name: ${{ matrix.os }} / PyMOL 3.1.0
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-24.04]
+    defaults:
+      run:
+        shell: bash -el {0}
+    env:
+      QT_QPA_PLATFORM: offscreen
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Install Linux display dependencies
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y fonts-noto-cjk libegl1 libopengl0
+      - uses: conda-incubator/setup-miniconda@fc2d68f6413eb2d87b895e92f8584b5b94a10167 # v3
+        with:
+          miniforge-version: latest
+          environment-file: environment-open-source.yml
+          activate-environment: pymol-open-source-zh
+          channels: conda-forge
+          channel-priority: strict
+      - name: Record environment
+        run: conda list
+      - name: Control regressions
+        run: python tests/test_display.py
+      - name: Translation and original value checks
+        run: python scripts/verify_output.py
+      - name: Build and inspect plugin ZIP
+        run: |
+          python scripts/build_plugin.py
+          python scripts/check_package.py
+      - name: Standard installation and autoload
+        run: python scripts/check_plugin_installation.py
+      - name: Save reports and package
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: checks-${{ matrix.os }}
+          path: |
+            artifacts/**/*.json
+            dist/*
+          if-no-files-found: ignore

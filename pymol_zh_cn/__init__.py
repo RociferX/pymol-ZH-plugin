@@ -1,8 +1,8 @@
 # Name: PyMOL Chinese Display
-# Version: 0.3.1
+# Version: 0.3.2
 # Description: Reversible Simplified Chinese GUI display mapping; English values unchanged.
 """PyMOL Chinese Display: a reversible, paint-time language mapping plugin."""
-__version__ = '0.3.1'
+__version__ = '0.3.2'
 _controller = None
 _menu_added = False
 
