@@ -1,0 +1,1384 @@
+# Complete known native output formats; placeholders preserve original data.
+%s-Error: %s	{0} 错误：{1:message}
+Setting: %s set to %s.	设置：{0} 已设为 {1}。
+Setting: %s set to %s in object "%s".	设置：对象“{2}”的 {0} 已设为 {1}。
+Setting-Warning: %s is not supported in Open-Source version of PyMOL	设置警告：开源版 PyMOL 不支持 {0}。
+Executive: Colored %d atoms and %d object.	执行结果：已为 {0} 个原子和 {1} 个对象着色。
+Executive: Colored %d atoms and %d objects.	执行结果：已为 {0} 个原子和 {1} 个对象着色。
+Executive: Colored %d atoms and %d object%s.	执行结果：已为 {0} 个原子和 {1} 个对象着色{2:plural}。
+Executive: Colored %d atoms.	执行结果：已为 {0} 个原子着色。
+Selector: selection "%s" defined with %d atoms.	选择结果：选区“{0}”已建立，包含 {1} 个原子。
+Selector-Error: Invalid selection name "%s".	选择错误：无效的选区名称“{0}”。
+Error: Invalid selection name "%s".	错误：无效的选区名称“{0}”。
+Error: Invalid selection.	错误：无效的选择表达式。
+Error: invalid state	错误：无效的状态编号。
+Error: no atoms selected	错误：没有选中原子。
+Error: unrecognized command	错误：无法识别的命令。
+Error: sorry no help available on that command.	错误：该命令没有可用的帮助说明。
+Error: unable to open file "%s"	错误：无法打开文件“{0}”。
+Error: failed to open file "%s"	错误：打开文件“{0}”失败。
+No such file or directory	文件或目录不存在。
+Permission denied	访问被拒绝。
+division by zero	除数不能为零。
+list index out of range	列表索引超出范围。
+tuple index out of range	元组索引超出范围。
+dictionary changed size during iteration	遍历过程中字典大小发生变化。
+not enough values to unpack (expected %d, got %d)	解包的值不足：需要 {0} 个，实际得到 {1} 个。
+too many values to unpack (expected %d)	解包的值过多：预期 {0} 个。
+invalid literal for int() with base %d: %s	无法按 {0} 进制转换为整数：{1}。
+could not convert string to float: %s	无法将字符串转换为浮点数：{0}。
+name '%s' is not defined	名称“{0}”尚未定义。
+No module named '%s'	找不到模块“{0}”。
+'%s' object has no attribute '%s'	“{0}”对象没有属性“{1}”。
+unknown error	未知错误。
+[Errno %d] No such file or directory: %s	[Errno {0}] 文件或目录不存在：{1}。
+[Errno %d] Permission denied: %s	[Errno {0}] 访问被拒绝：{1}。
+[Errno %d] Is a directory: %s	[Errno {0}] 指定路径是目录：{1}。
+[Errno %d] Not a directory: %s	[Errno {0}] 指定路径不是目录：{1}。
+[WinError %d] The system cannot find the file specified: %s	[WinError {0}] 系统找不到指定文件：{1}。
+[WinError %d] The system cannot find the path specified: %s	[WinError {0}] 系统找不到指定路径：{1}。
+[WinError %d] Access is denied: %s	[WinError {0}] 访问被拒绝：{1}。
+unsupported operand type(s) for %s: '%s' and '%s'	运算符 {0} 不支持类型“{1}”与“{2}”。
+'%s' object is not iterable	“{0}”对象不能迭代。
+'%s' object is not subscriptable	“{0}”对象不支持下标访问。
+'%s' object is not callable	“{0}”对象不可调用。
+expected str, bytes or os.PathLike object, not %s	需要字符串、字节串或路径对象，实际收到 {0}。
+invalid syntax	语法无效。
+unexpected indent	出现了不应有的缩进。
+expected an indented block	此处需要缩进的代码块。
+During handling of the above exception, another exception occurred:	处理上述异常期间，又发生了另一个异常：
+The above exception was the direct cause of the following exception:	上述异常直接导致了以下异常：
+%s: Mode not implemented: %d	{0}：尚未实现模式 {1}。
+%s: VTKm not available, falling back to internal implementation	{0}：VTKm 不可用，回退到内置实现。
+%s: Invalid surface_type: %d	{0}：无效的 surface_type：{1}。
+Crystal: Unit Cell         %8.3f %8.3f %8.3f	晶体：晶胞边长 {0} {1} {2}
+Crystal: Alpha Beta Gamma  %8.3f %8.3f %8.3f	晶体：α、β、γ 角 {0} {1} {2}
+Crystal: RealToFrac Matrix	晶体：实空间到分数坐标的变换矩阵
+Crystal: %9.4f %9.4f %9.4f	晶体：{0} {1} {2}
+Crystal: FracToReal Matrix	晶体：分数坐标到实空间的变换矩阵
+Crystal: Unit Cell Volume %8.0f.	晶体：晶胞体积 {0}。
+GL_Error: 0x%04x @ %s	OpenGL 错误：0x{0}，位置 {1}
+IsosurfGetRange: entered mn: %4.2f %4.2f %4.2f mx: %4.2f %4.2f %4.2f	IsosurfGetRange：进入范围，最小值 {0} {1} {2}，最大值 {3} {4} {5}
+IsosurfVolume: Surface generated using %d lines.	IsosurfVolume：已用 {0} 条线生成表面。
+MapSetupExpressXY-Debug: entered.	MapSetupExpressXY 调试：进入函数。
+MapSetupExpressXY-Debug: leaving...	MapSetupExpressXY 调试：离开函数…
+MapSetupExpressXYVert-Debug: leaving...	MapSetupExpressXYVert 调试：离开函数…
+MapSetupExpress-Debug: leaving...n=%d	MapSetupExpress 调试：离开函数，n={0}
+MapNew-Debug: entered.	MapNew 调试：进入函数。
+%s-Warning: clamping Max %e -> %e	{0} 警告：将最大值从 {1} 限制为 {2}。
+Match: assigning %d x %d pairwise scores.	匹配：正在计算 {0}×{1} 的成对评分。
+Match-Error: unable to open matrix file '%s'.	匹配错误：无法打开矩阵文件“{0}”。
+Match: read scoring matrix.	匹配：已读取评分矩阵。
+MatchAlign: aligning residues (%d vs %d)...	MatchAlign：正在比对残基（{0} 对 {1}）…
+MatchAlign-DEBUG: best entry %8.3f %d %d %d	MatchAlign 调试：最佳条目 {0} {1} {2} {3}
+Matrix-Warning: Kabsch matrix not orthonormal: falling back on iteration.	矩阵警告：Kabsch 矩阵不满足正交归一条件，回退到迭代方法。
+Matrix-Warning: Kabsch matrix inversion failed: falling back on iteration.	矩阵警告：Kabsch 矩阵求逆失败，回退到迭代方法。
+Matrix-Warning: Kabsch matrix degenerate: falling back on iteration.	矩阵警告：Kabsch 矩阵退化，回退到迭代方法。
+Matrix-Warning: Kabsch matrix not normal: falling back on iteration.	矩阵警告：Kabsch 矩阵不满足正规条件，回退到迭代方法。
+Matrix-Warning: Kabsch eigenvalue(s) negative: falling back on iteration.	矩阵警告：Kabsch 特征值为负，回退到迭代方法。
+Matrix-Warning: Kabsch decomposition failed: falling back on iteration.	矩阵警告：Kabsch 分解失败，回退到迭代方法。
+Matrix: Warning: no convergence (%1.8f<%1.8f after %d iterations).	矩阵警告：未收敛（{0}<{1}，已执行 {2} 次迭代）。
+GLERROR 0x%04x: %s	OpenGL 错误 0x{0}：{1:message}
+Loading shader named: %s	正在加载着色器：{0}
+Error: geometry shader creation failed. name=%s err=0x%x	错误：创建几何着色器失败，名称={0}，错误码=0x{1}
+ShaderPrg-Debug: geometry shader compiled.	ShaderPrg 调试：几何着色器已编译。
+Error: tess eval shader creation failed. name=%s err=0x%x	错误：创建细分求值着色器失败，名称={0}，错误码=0x{1}
+Geometry shaders not available	几何着色器不可用。
+Tessellation shaders not available	细分着色器不可用。
+ShaderMgr-Detail: using 8 lights (use precomputed_lighting for light_count > 8)	着色器管理器：使用 8 个光源；light_count 大于 8 时请使用 precomputed_lighting。
+ShaderPrg-Error: %s; name='%s'	着色器程序错误：{0:message}；名称=“{1}”
+ShaderPrg-Error-InfoLog:\n%s	着色器程序错误详细日志：\n{0:message}
+Detected OpenGL version %d.%d.	检测到 OpenGL 版本 {0}.{1}。
+Invalid GL_VERSION format.	GL_VERSION 格式无效。
+CShaderPrg_Link-Error: Shader program failed to link name='%s'; GL_MAX_VARYING_FLOATS=%d log follows.	着色器链接错误：程序“{0}”链接失败；GL_MAX_VARYING_FLOATS={1}，详细日志如下。
+Texture OpenGL: nrefreshes=%d newDim=%d	OpenGL 纹理：刷新次数={0}，新尺寸={1}
+IE11 texSubImage2D bug detected, supressing...	检测到 IE11 的 texSubImage2D 问题，正在抑制…
+TriangleBuildObvious-Debug: entered: i1=%d i2=%d n=%d	TriangleBuildObvious 调试：进入函数，i1={0}，i2={1}，n={2}
+BasisMakeMap: I->NVertex %d [(%8.3f, %8.3f, %8.3f),...]	BasisMakeMap：顶点数 {0}，坐标 [({1}, {2}, {3}),…]
+BasisMakeMap: %d total vertices	BasisMakeMap：共 {0} 个顶点
+BasisMakeMap: Extent [%8.2f %8.2f] [%8.2f %8.2f] [%8.2f %8.2f]	BasisMakeMap：坐标范围 [{0} {1}] [{2} {3}] [{4} {5}]
+%s-Warning: unexpected op=0x%x (line %d)	{0} 警告：遇到意外操作码 0x{1}，第 {2} 行。
+CGO-Warning: narrays mismatch: %d != %d	CGO 警告：数组数量不一致，{0} != {1}
+%s-Error: Corrupt data	{0} 错误：数据损坏。
+CGOCheckForText-Debug: %d	CGOCheckForText 调试：{0}
+CGO-Error: CGOCombineBeginEnd: invalid op=0x%02x inside BEGIN/END	CGO 错误：CGOCombineBeginEnd 在 BEGIN/END 内遇到无效操作码 0x{0}。
+CGOCountNumVertices: CGO_END encountered, should call CGOCombineBeginEnd before CGOCountNumVertices	CGOCountNumVertices：遇到 CGO_END；应先调用 CGOCombineBeginEnd，再统计顶点。
+CGOCountNumVertices: CGO_VERTEX encountered, should call CGOCombineBeginEnd before CGOCountNumVertices	CGOCountNumVertices：遇到 CGO_VERTEX；应先调用 CGOCombineBeginEnd，再统计顶点。
+CGOCountNumVertices: CGO_BEGIN encountered, should call CGOCombineBeginEnd before CGOCountNumVertices	CGOCountNumVertices：遇到 CGO_BEGIN；应先调用 CGOCombineBeginEnd，再统计顶点。
+ERROR: OptimizePointsToVBO used with unsupported CGO ops	错误：OptimizePointsToVBO 收到不受支持的 CGO 操作。
+ERROR: CGOProcessCGOtoArrays() could not allocate enough memory	错误：CGOProcessCGOtoArrays() 无法分配足够内存。
+CGOOptimizeToVBONotIndexed: ERROR: CGODrawBuffersNotIndexed() could not allocate enough memory	CGOOptimizeToVBONotIndexed 错误：CGODrawBuffersNotIndexed() 无法分配足够内存。
+ERROR: CGOOptimizeToVBOIndexed() num_total_indexes_lines=%d mode=%d nverts=%d idxpl=%d	CGOOptimizeToVBOIndexed() 错误：线索引总数={0}，模式={1}，顶点数={2}，idxpl={3}
+WARNING: CGOOptimizeSpheresToVBONonIndexed() CGO_DRAW_BUFFERS_INDEXED or CGO_DRAW_BUFFERS_INDEXED encountered op=%d	CGOOptimizeSpheresToVBONonIndexed() 警告：遇到 CGO_DRAW_BUFFERS_INDEXED，操作码={0}
+WARNING: CGOOptimizeCylindersToVBO() CGO_DRAW_SCREEN_TEXTURES_AND_POLYGONS encountered op=0x%X	CGOOptimizeCylindersToVBO() 警告：遇到 CGO_DRAW_SCREEN_TEXTURES_AND_POLYGONS，操作码=0x{0}
+WARNING: CGOOptimizeCylindersToVBO() CGO_DRAW_LABELS encountered op=0x%X	CGOOptimizeCylindersToVBO() 警告：遇到 CGO_DRAW_LABELS，操作码=0x{0}
+WARNING: CGOOptimizeCylindersToVBO() CGO_DRAW_TEXTURES encountered op=0x%X	CGOOptimizeCylindersToVBO() 警告：遇到 CGO_DRAW_TEXTURES，操作码=0x{0}
+CGOSimplifyNoCompress-Error: CGO_DRAW_BUFFERS_INDEXED encountered	CGOSimplifyNoCompress 错误：遇到 CGO_DRAW_BUFFERS_INDEXED。
+CGOSimplifyNoCompress-Error: CGO_DRAW_BUFFERS_NOT_INDEXED encountered	CGOSimplifyNoCompress 错误：遇到 CGO_DRAW_BUFFERS_NOT_INDEXED。
+CGOSimplifyNoCompress-Error: CGO_DRAW_SPHERE_BUFFERS encountered	CGOSimplifyNoCompress 错误：遇到 CGO_DRAW_SPHERE_BUFFERS。
+CGOSimplifyNoCompress-Error: CGO_DRAW_CYLINDER_BUFFERS encountered	CGOSimplifyNoCompress 错误：遇到 CGO_DRAW_CYLINDER_BUFFERS。
+CGOSimplifyNoCompress-Error: CGO_DRAW_LABELS encountered	CGOSimplifyNoCompress 错误：遇到 CGO_DRAW_LABELS。
+CGOSimplifyNoCompress-Error: CGO_DRAW_TEXTURES encountered	CGOSimplifyNoCompress 错误：遇到 CGO_DRAW_TEXTURES。
+WARNING: CGOOptimizeTextures() CGO_DRAW_BUFFERS_INDEXED or CGO_DRAW_BUFFERS_INDEXED encountered op=%d	CGOOptimizeTextures() 警告：遇到 CGO_DRAW_BUFFERS_INDEXED，操作码={0}
+WARNING: CGOOptimizeLabels() CGO_DRAW_BUFFERS_INDEXED or CGO_DRAW_BUFFERS_INDEXED encountered op=%d	CGOOptimizeLabels() 警告：遇到 CGO_DRAW_BUFFERS_INDEXED，操作码={0}
+WARNING: CGOOptimizeConnectors() CGO_DRAW_BUFFERS_INDEXED or CGO_DRAW_BUFFERS_INDEXED encountered op=%d	CGOOptimizeConnectors() 警告：遇到 CGO_DRAW_BUFFERS_INDEXED，操作码={0}
+CGOConvertLinesToShaderCylinders: CGO_END encountered without CGO_BEGIN but skipped for OpenGLES	CGOConvertLinesToShaderCylinders：没有 CGO_BEGIN 却遇到 CGO_END；OpenGLES 中已跳过。
+CGOConvertLinesToShaderCylinders: CGO_VERTEX encountered without CGO_BEGIN but skipped for OpenGLES	CGOConvertLinesToShaderCylinders：没有 CGO_BEGIN 却遇到 CGO_VERTEX；OpenGLES 中已跳过。
+CGOConvertTrianglesToAlpha: CGO_END encountered without CGO_BEGIN but skipped for OpenGLES	CGOConvertTrianglesToAlpha：没有 CGO_BEGIN 却遇到 CGO_END；OpenGLES 中已跳过。
+CGOConvertTrianglesToAlpha: CGO_VERTEX encountered without CGO_BEGIN but skipped for OpenGLES	CGOConvertTrianglesToAlpha：没有 CGO_BEGIN 却遇到 CGO_VERTEX；OpenGLES 中已跳过。
+CGO-Warning: CGOGenerateNormalsForTriangles: unhandled op=0x%02x inside BEGIN/END	CGO 警告：CGOGenerateNormalsForTriangles 在 BEGIN/END 内遇到未处理的操作码 0x{0}。
+CGO_gl_begin() is called but not implemented in OpenGLES	调用了 CGO_gl_begin()，但 OpenGLES 中尚未实现。
+CGO_gl_end() is called but not implemented in OpenGLES	调用了 CGO_gl_end()，但 OpenGLES 中尚未实现。
+CGO_gl_vertex() is called but not implemented in OpenGLES	调用了 CGO_gl_vertex()，但 OpenGLES 中尚未实现。
+ERROR: RepSurfaceRender() vertexIndices is not set, nindices=%d	RepSurfaceRender() 错误：vertexIndices 未设置，索引数={0}
+CGO_gl_special(): bad mode=%d	CGO_gl_special()：无效模式 {0}
+CGO_gl_error() is not suppose to be called op=%d	不应调用 CGO_gl_error()，操作码={0}
+%s: unexpected CGO_PICK_COLOR with !reset_colors	{0}：!reset_colors 时出现意外的 CGO_PICK_COLOR
+FIXME: SUPPOSEDLY UNUSED CODE EXECUTED in CGORenderPicking(!	待修复：CGORenderPicking 中执行了本应未使用的代码（!
+ColladaRender-Error: No libxml2 support, can't output COLLADA file.	COLLADA 渲染错误：缺少 libxml2 支持，无法输出 COLLADA 文件。
+ColladaRender-Error: libxml2 library not properly configured	COLLADA 渲染错误：libxml2 库配置不正确。
+Color: "%s" defined as [ %3.3f, %3.3f, %3.3f ].	颜色：已将“{0}”定义为 [ {1}, {2}, {3} ]。
+Color: and assigned number %d.	颜色：分配的编号为 {0}。
+Color: defined table '%s'.	颜色：已定义颜色表“{0}”。
+Color: loaded table '%s'.	颜色：已加载颜色表“{0}”。
+ColorTableLoad-Error: invalid dimensions w x h  = %d x %d; should be 512 x 512.	颜色表加载错误：尺寸 {0} × {1} 无效，应为 512 × 512。
+ColorTableLoad-Error: unable to load '%s'.	颜色表加载错误：无法加载“{0}”。
+Color: purged table; colors unchanged.	颜色：已清除颜色表；颜色未改变。
+ExtrudeCircle-DEBUG: entered.	圆形挤出调试：已进入。
+Putty: mean %8.3f stdev %8.3f min %8.3f max %8.3f	柔性管：均值 {0}，标准差 {1}，最小值 {2}，最大值 {3}
+MoviePNG-Error: Missing rendered image.	动画 PNG 错误：缺少已渲染的图像。
+Movie: General Purpose Commands:	动画：通用命令：
+Movie: No movie commands are defined.	动画：尚未定义动画命令。
+MoviePNG-DEBUG: Cycle %d...	动画 PNG 调试：第 {0} 轮……
+MoviePNG-Error: unable to obtain a valid OpenGL image.  Trying again...	动画 PNG 错误：无法获取有效的 OpenGL 图像，正在重试……
+MoviePNG-Error: unable to write '%s'	动画 PNG 错误：无法写入“{0}”。
+MoviePNG-DEBUG: i = %d, I->Image[image] = %p	动画 PNG 调试：i = {0}，I->Image[image] = {1}
+Movie: frame %4d of %4d, %4.2f sec. (%d:%02d:%02d - %d:%02d:%02d to go).	动画：第 {0}/{1} 帧，{2} 秒。（已用 {3}:{4}:{5}，剩余 {6}:{7}:{8}）
+MoviePNG-DEBUG: done.	动画 PNG 调试：已完成。
+MoviePNG-Warning: disabling seq_view, may conflict with movie export	动画 PNG 警告：正在关闭序列视图，它可能与动画导出冲突。
+MovieSequence: entered. str:%s	动画序列：已进入，字符串：{0}
+MovieSequence: leaving... I->NFrame%d	动画序列：正在退出……I->NFrame {0}
+MovieFrameToImage-DEBUG: result %d	动画帧转图像调试：结果 {0}
+MovieSetImage: setting movie image %d	动画图像：正在设置第 {0} 幅图像。
+Movie-Error: frame %d does not exist.  Use 'mset' to define movie first.	动画错误：第 {0} 帧不存在，请先用 mset 定义动画。
+MovieView: Setting frame %d.	动画视图：正在设置第 {0} 帧。
+MovieView: interpolating unspecified frames %d to %d (wrapping)	动画视图：正在插值未指定的第 {0} 至 {1} 帧（循环）。
+MovieView: interpolating unspecified frames %d to %d.	动画视图：正在插值未指定的第 {0} 至 {1} 帧。
+MovieView: reinterpolating all frames %d to %d (wrapping).	动画视图：正在重新插值第 {0} 至 {1} 帧（循环）。
+MovieView: reinterpolating all frames %d to %d.	动画视图：正在重新插值第 {0} 至 {1} 帧。
+MovieClearImages: clearing...	动画图像：正在清除……
+OrthoSpecial: %c (%d), x %d y %d, mod %d	界面特殊按键：{0}（{1}），x {2}，y {3}，修饰键 {4}
+OrthoDirty: called.	界面刷新标记：已调用。
+Ortho: bg_grad: bg_image_filename='%s' cannot be loaded, unset	界面：无法加载背景图像 bg_image_filename='{0}'，已取消该设置。
+OrthoDoDraw: entered.	界面绘制：已进入。
+AxPyMOL(TM) Evaluation Product - Copyright (c) Schrodinger, LLC.	AxPyMOL(TM) 试用产品 — 版权所有 (c) Schrodinger, LLC.
+This Executable Build integrates and extends Open-Source PyMOL	此可执行版本集成并扩展了开源 PyMOL。
+PyMOL(TM) Incentive Product - Copyright (c) Schrodinger, LLC.	PyMOL(TM) 商业产品 — 版权所有 (c) Schrodinger, LLC.
+PyMOL(TM) Molecular Graphics System, Version	PyMOL(TM) 分子图形系统，版本
+Copyright (c) Schrodinger, LLC.\n All Rights Reserved.	版权所有 (c) Schrodinger, LLC.\n 保留所有权利。
+Created by Warren L. DeLano, Ph.D.	创始作者：Warren L. DeLano 博士
+Other Major Authors and Contributors:	其他主要作者与贡献者：
+Ralf W. Grosse-Kunstleve, Ph.D.	Ralf W. Grosse-Kunstleve 博士
+PyMOL is user-supported open-source software.  Although some versions	PyMOL 是由用户支持的开源软件。虽然部分版本
+are freely available, PyMOL is not in the public domain.	可免费获得，但 PyMOL 并非公有领域软件。
+If PyMOL is helpful in your work or study, then please volunteer	如果 PyMOL 对你的工作或学习有帮助，欢迎自愿
+support for our ongoing efforts to create open and affordable scientific	购买 PyMOL 维护或支持订阅，以支持我们持续开发
+software by purchasing a PyMOL Maintenance and/or Support subscription.	开放且价格合理的科学软件。
+More information can be found at "http://www.pymol.org".	更多信息见 http://www.pymol.org。
+Enter "help" for a list of commands.	输入 help 可查看命令列表。
+Enter "help <command-name>" for information on a specific command.	输入 help <command-name> 可查看指定命令的说明。
+Hit ESC anytime to toggle between text and graphics.	随时按 Esc 可在文字与图形视图之间切换。
+PyMOL-Error: can't find module 'vfont'	PyMOL 错误：找不到 vfont 模块。
+PSleep-DEBUG: napping.	休眠调试：正在短暂休眠。
+%s: Uncaught exception.  PyMOL may have a bug.	{0}：出现未捕获的异常，PyMOL 可能存在程序错误。
+ObjectMotion: Setting frame %d.	对象运动：正在设置第 {0} 帧。
+ObjectMotion: interpolating unspecified frames %d to %d (wrapping).	对象运动：正在插值未指定的第 {0} 至 {1} 帧（循环）。
+ObjectMotion: interpolating unspecified frames %d to %d.	对象运动：正在插值未指定的第 {0} 至 {1} 帧。
+ObjectMotion: reinterpolating all frames %d to %d (wrapping).	对象运动：正在重新插值第 {0} 至 {1} 帧（循环）。
+ObjectMotion: reinterpolating all frames %d to %d.	对象运动：正在重新插值第 {0} 至 {1} 帧。
+Warning: Invalid characters in '%s' have been replaced or stripped	警告：“{0}”中的无效字符已被替换或移除。
+Warning: '%s' is a reserved keyword, appending underscore	警告：“{0}”是保留关键字，正在追加下划线。
+Warning: '%s' may become a reserved selection keyword in the future	警告：“{0}”将来可能成为选择表达式的保留关键字。
+Ray: minvoxel  %8.3f\n Ray: NPrimit  %d nvert %d	光线追踪：最小体素 {0}\n 图元数 {1}，顶点数 {2}
+RayRenderTest: obtained %i graphics primitives.	光线追踪测试：已取得 {0} 个图元。
+RayRenderG3d: processed %i graphics primitives.	G3d 光线追踪：已处理 {0} 个图元。
+RayRenderPOV: w %d h %d f %8.3f b %8.3f	POV 光线追踪：宽 {0}，高 {1}，前裁剪 {2}，后裁剪 {3}
+RayRenderPovRay: processed %i graphics primitives.	PovRay 光线追踪：已处理 {0} 个图元。
+Ray: filling voxels with %d threads...	光线追踪：正在使用 {0} 个线程填充体素……
+Ray: antialiasing with %d threads...	光线追踪：正在使用 {0} 个线程抗锯齿……
+Ray: rendering with %d threads...	光线追踪：正在使用 {0} 个线程渲染……
+RayNew: Background = %x %d %d %d	光线追踪初始化：背景 = {0} {1} {2} {3}
+Ray: processed %i graphics primitives in %4.2f sec.	光线追踪：已处理 {0} 个图元，用时 {1} 秒。
+Ray: voxels: [%4.2f:%dx%dx%d], [%4.2f:%dx%dx%d], %4.2f sec.	光线追踪：体素 [{0}:{1}×{2}×{3}]、[{4}:{5}×{6}×{7}]，用时 {8} 秒。
+Ray: voxels: [%4.2f:%dx%dx%d], %4.2f sec.	光线追踪：体素 [{0}:{1}×{2}×{3}]，用时 {4} 秒。
+RayRender: n_hit %d	光线追踪渲染：命中次数 {0}
+WARNING: glReadBuffer caused GL error 0x%04x	警告：glReadBuffer 引发 GL 错误 0x{0}。
+Scene: view updated.	场景：视图已更新。
+%s: wrote %dx%d pixel image to file "%s".	{0}：已将 {1} × {2} 像素图像写入文件“{3}”。
+%s-Error: error writing "%s"! Please check directory...	{0} 错误：写入“{1}”失败，请检查目录……
+%s: leaving... I->NFrame %d	{0}：正在退出……I->NFrame {1}
+Scene: Making movie image.	场景：正在生成动画图像。
+Scene: loaded image from '%s'.	场景：已从“{0}”加载图像。
+Scene: unable to load image from '%s'.	场景：无法从“{0}”加载图像。
+raw_image_callback-Error: no numpy support	raw_image_callback 错误：缺少 NumPy 支持。
+Warning: Clipboard image transfers disabled in Evaluation builds.	警告：试用版本已禁用剪贴板图像传输。
+Scene: updating objects with %d threads...	场景：正在使用 {0} 个线程更新对象……
+You clicked %s	你点击了 {0}
+Scene: Origin set.	场景：已设置原点。
+You clicked %s -> (%s)	你点击了 {0} →（{1}）
+You unpicked %s.	你取消拾取了 {0}。
+%s: no atom found nearby.	{0}：附近未找到原子。
+%s: GL RGBA BITS: (%d, %d, %d, %d)	{0}：GL RGBA 位数：（{1}、{2}、{3}、{4}）
+SceneClick-Detail: obj %p index %d bond %d	场景点击详情：对象 {0}，索引 {1}，键 {2}
+Ray: tracing %dx%d = %d rays against %d primitives.	光线追踪：{0} × {1} = {2} 条光线，{3} 个图元。
+Ray: render time: %4.2f sec. = %3.1f frames/hour (%4.2f sec. accum.).	光线追踪：渲染用时 {0} 秒，折合每小时 {1} 帧（累计 {2} 秒）。
+Ray: render aborted.	光线追踪：渲染已中止。
+Warning: Clipboard image transfers disabled in Evaluation Builds.	警告：试用版本已禁用剪贴板图像传输。
+SceneRender: entered. pick %p x %d y %d smp %p	场景渲染：已进入，拾取 {0}，x {1}，y {2}，smp {3}
+Stereo Error 0x%x: stereo_mode=11 dynamic requires access to the accumulation buffer,\nyou need to start PyMOL with the -t argument, setting back to default	立体显示错误 0x{0}：stereo_mode=11 动态模式需要访问累积缓冲区。\n请用 -t 参数启动 PyMOL；现已恢复默认设置。
+SceneInitializeViewport: I->vp_prepareViewPortForStereo=nullptr	场景视口初始化：I->vp_prepareViewPortForStereo=nullptr
+Setting-Error: type mismatch	设置错误：类型不匹配。
+Python-Error: atom-state-level setting unsupported type=%d	Python 错误：原子状态级设置不支持类型 {0}。
+SettingUniqueCopyAll-Bug: merging settings not implemented	设置复制错误：尚未实现设置合并。
+Setting-Error: use_shaders cannot be set when Shaders are not available, setting use_shaders back to false	设置错误：着色器不可用，无法启用 use_shaders，已恢复为 false。
+Setting-Warning: text longer than OrthoLineLength	设置警告：文字长度超过 OrthoLineLength。
+Setting-Error: type read mismatch (int) %d	设置错误：读取类型不匹配（整数），{0}。
+Setting-Error: type read mismatch (boolean) %d	设置错误：读取类型不匹配（布尔值），{0}。
+Setting-Warning: type read mismatch (float/color) %d	设置警告：读取类型不匹配（浮点数/颜色），{0}。
+Setting-Error: type read mismatch (float) %d	设置错误：读取类型不匹配（浮点数），{0}。
+Setting-Error: type read mismatch (string) %d	设置错误：读取类型不匹配（字符串），{0}。
+Setting-Error: type read mismatch (float3) %d	设置错误：读取类型不匹配（三元浮点数），{0}。
+Setting-Error: type set mismatch (integer) %d	设置错误：写入类型不匹配（整数），{0}。
+Setting-Error: unknown color '%s'	设置错误：未知颜色“{0}”。
+Setting-Error: type set mismatch (float) %d	设置错误：写入类型不匹配（浮点数），{0}。
+Setting-Error: type set mismatch (string) %d	设置错误：写入类型不匹配（字符串），{0}。
+Setting-Error: type set mismatch (float3) %d	设置错误：写入类型不匹配（三元浮点数），{0}。
+Setting-Warning: '%s' is no longer used	设置警告：“{0}”已停用。
+Setting-Warning: %s range = [%d,%d]; setting to %d.	设置警告：{0} 的范围为 [{1},{2}]，已设为 {3}。
+Setting-Details: spec_power is depreciated in PyMOL 1.5.  This option will not work in future versions. Please set shininess to set the specular exponent for movable light sources.	设置详情：spec_power 从 PyMOL 1.5 起已弃用，将在后续版本失效。请通过 shininess 设置可移动光源的镜面反射指数。
+Setting-Details: display lists were depreciated in PyMOL 1.7.x.  The settings use_display_lists, simplify_display_lists, and excl_display_lists_shaders no longer work.	设置详情：显示列表从 PyMOL 1.7.x 起已弃用。use_display_lists、simplify_display_lists 和 excl_display_lists_shaders 已不再生效。
+Setting-Error: geometry shaders not available	设置错误：几何着色器不可用。
+Setting-Error: render_as_cylinders cannot be set when the Cylinder Shader is not available, setting render_as_cylinder back to false	设置错误：圆柱着色器不可用，无法启用 render_as_cylinders，已恢复为 false。
+Setting-Warning: %s is set incorrectly (%f), setting to 1	设置警告：{0} 的值不正确（{1}），已设为 1。
+Setting-Warning: %s is out of range of the graphics card's capability (range: %f-%f), lines might not be rendered correctly	设置警告：{0} 超出显卡支持范围（{1}–{2}），线条可能无法正确渲染。
+Setting-Warning: sphere_mode > 9 is not supported in Open-Source version of PyMOL	设置警告：开源版 PyMOL 不支持 sphere_mode > 9。
+Setting-Warning: state can't be less than 0.	设置警告：状态不能小于 0。
+Setting-Warning: label_connector_mode range = [0,4]	设置警告：label_connector_mode 的范围为 [0,4]。
+Setting-Error: Cannot set a display scale factor of 0	设置错误：显示缩放系数不能为 0。
+RepLabel-Warning: GLUT labels (label_font_id 0-4) are no longer available for labelling\n    the scene since they are not resizeable label_font_id=%d setting back to 5 (default)	标签警告：GLUT 字体（label_font_id 0–4）不能缩放，已不能用于场景标签。\n当前 label_font_id={0}，已恢复为 5（默认值）。
+Symmetry: Found %d symmetry operators.	对称性：已找到 {0} 个对称操作。
+Warning: Bonds with two symmetry operations not supported	警告：不支持带有两个对称操作的化学键。
+Warning: Loading '%s' failed: %s	警告：加载“{0}”失败：{1:message}
+ExecutiveLoad-Detail: Detected chem_comp CIF (%s)	加载详情：检测到 chem_comp CIF（{0}）。
+ExecutiveLoad-Detail: Detected mmCIF	加载详情：检测到 mmCIF。
+ExecutiveLoad-Detail: Detected small molecule CIF	加载详情：检测到小分子 CIF。
+Error: model numbers < 1 not supported: %d	错误：不支持小于 1 的模型编号：{0}。
+Executive-Detail: _geom_bond name lookup failed: %s %s	执行详情：_geom_bond 名称查找失败：{0} {1}
+Executive-Detail: _chemical_conn_bond name lookup failed	执行详情：_chemical_conn_bond 名称查找失败。
+Executive-Detail: _struct_conn name lookup failed: %s %s	执行详情：_struct_conn 名称查找失败：{0} {1}
+Executive-Detail: _chem_comp_bond name lookup failed: %s %s	执行详情：_chem_comp_bond 名称查找失败：{0} {1}
+Executive-Detail: _pymol_bond name lookup failed: %d %d	执行详情：_pymol_bond 名称查找失败：{0} {1}
+TITLE     %s	标题：{0}
+ExecutiveLoad-Detail: No such assembly: '%s'	加载详情：没有该装配体：“{0}”。
+ExecutiveLoad-Detail: Creating assembly '%s'	加载详情：正在创建装配体“{0}”。
+mmCIF-Warning: no coordinates found in data_%s	mmCIF 警告：data_{0} 中未找到坐标。
+Warning: Loading _chem_comp_bond CIF data for residue '%s' failed: %s	警告：加载残基“{0}”的 _chem_comp_bond CIF 数据失败：{1:message}
+ExecutiveLoad-Warning: No _chem_comp_bond data for residue '%s'	加载警告：没有残基“{0}”的 _chem_comp_bond 数据。
+Error: This build has no BinaryCIF support.\n Please install/enable msgpack-c.	错误：此版本缺少 BinaryCIF 支持。\n请安装或启用 msgpack-c。
+BCIF-Warning: no coordinates found in data_%s	BCIF 警告：data_{0} 中未找到坐标。
+No numpy support	缺少 NumPy 支持。
+ObjectMolReadPDBStr: ignoring SCALEn (identity matrix).	PDB 读取：忽略 SCALEn（单位矩阵）。
+ObjectMolReadPDBStr: ignoring SCALEn (invalid matrix).	PDB 读取：忽略 SCALEn（无效矩阵）。
+ObjectMolecule: using SCALEn to compute orthogonal coordinates.	分子对象：正在使用 SCALEn 计算正交坐标。
+RotateU failed	RotateU 失败。
+Error: This build has no fast MMTF support.	错误：此版本缺少快速 MMTF 支持。
+Error: loading MMTF into existing object not supported, please use 'create'\n        to append to an existing object.	错误：不支持将 MMTF 加载到已有对象中，请使用 create\n追加到已有对象。
+Error: multiplex not supported for MMTF	错误：MMTF 不支持 multiplex。
+Error: Failed to load MMTF file	错误：加载 MMTF 文件失败。
+MMTF structureId: '%s', mmtfVersion: '%s'	MMTF 结构标识：“{0}”，MMTF 版本：“{1}”
+MMTF-Inconsistency-Warning: atom count mismatch (%d != numAtoms=%d)	MMTF 一致性警告：原子数不匹配（{0} != numAtoms={1}）。
+MMTF-Inconsistency-Warning: bond count mismatch (%d != numBonds=%d)	MMTF 一致性警告：化学键数不匹配（{0} != numBonds={1}）。
+MOL-V3000-Error: %s.	MOL-V3000 错误：{0:message}。
+Warning: could not load callback object	警告：无法加载回调对象。
+Warning: callable needs to be picklable for session storage	警告：可调用对象必须支持 pickle 序列化才能存入会话。
+FloatToCGO: error encountered on element %d	FloatToCGO：处理第 {0} 个元素时出错。
+ObjectDist-Move: Out of Move	距离对象移动：超出移动范围。
+ObjectDistNewFromSele: obj1 is frozen = %d into state %d+1	选择转距离对象：obj1 已冻结 = {0}，目标状态 {1}+1。
+ObjectDist-Error: modes 5-7 only available in Incentive PyMOL	距离对象错误：模式 5–7 仅在商业版 PyMOL 中可用。
+ObjectDistNewFromAngleSele: obj1 is frozen = %d into state %d+1	角度选择转距离对象：obj1 已冻结 = {0}，目标状态 {1}+1。
+ObjectDistNewFromAngleSele: obj2 is frozen = %d into state %d+1	角度选择转距离对象：obj2 已冻结 = {0}，目标状态 {1}+1。
+ObjectDistNewFromAngleSele: obj3 is frozen = %d into state %d+1	角度选择转距离对象：obj3 已冻结 = {0}，目标状态 {1}+1。
+GadgetRamp-Warning: number of colors (%d) and number of levels (%d) don't\n match and n_level != 2. Support for trailing extreme colors dropped in 1.8.	色阶警告：颜色数（{0}）与阈值数（{1}）不匹配，且阈值数不为 2。\n从 1.8 起已取消末尾极值颜色的支持。
+ObjectMap: Map volume reduced by %2.0f%%.	密度图：体积已减少 {0}%。
+ObjectMapUpdateExtents-DEBUG: ExtentFlag %d	密度图边界更新调试：ExtentFlag {0}
+ObjectMap: Map created.	密度图：已创建。
+ObjectMapCCP4: Map appears to be truncated -- aborting.	CCP4 密度图：数据似乎被截断，正在中止。
+ObjectMapCCP4: Map appears to be reverse endian, swapping...	CCP4 密度图：字节序似乎相反，正在交换……
+ObjectMapCCP4: NC %d   NR %d   NS %d	CCP4 密度图：NC {0}，NR {1}，NS {2}
+ObjectMapCCP4-ERR: Only map mode 0-2 currently supported (this map is mode %d)	CCP4 密度图错误：目前仅支持模式 0–2，此图为模式 {0}。
+ObjectMapCCP4: Map is mode %d.	CCP4 密度图：模式 {0}。
+ObjectMapCCP4: NCSTART %d   NRSTART %d   NSSTART  %d	CCP4 密度图：NCSTART {0}，NRSTART {1}，NSSTART {2}
+ObjectMapCCP4: NX %d   NY %d   NZ  %d	CCP4 密度图：NX {0}，NY {1}，NZ {2}
+ObjectMapCCP4: X %8.3f   Y %8.3f  Z  %8.3f	CCP4 密度图：X {0}，Y {1}，Z {2}
+ObjectMapCCP4: alpha %8.3f   beta %8.3f  gamma %8.3f	CCP4 密度图：α {0}，β {1}，γ {2}
+ObjectMapCCP4: MAPC %d   MAPR %d  MAPS  %d	CCP4 密度图：MAPC {0}，MAPR {1}，MAPS {2}
+ObjectMapCCP4: Applied skew transformation	CCP4 密度图：已应用斜切变换。
+ObjectMapCCP4: Applied MRC 2000 ORIGIN %.2f %.2f %.2f	CCP4 密度图：已应用 MRC 2000 原点 {0} {1} {2}。
+ObjectMapCCP4: Ignoring N*START	CCP4 密度图：忽略 N*START。
+ObjectMapCCP4: AMIN %f AMAX %f AMEAN %f ARMS %f	CCP4 密度图：AMIN {0}，AMAX {1}，AMEAN {2}，ARMS {3}
+ObjectMapCCP4: NZ value is zero, but NX = NY, so we'll guess NZ = NX = NY.	CCP4 密度图：NZ 为零，但 NX = NY，推定 NZ = NX = NY。
+ObjectMapCCP4: sym_skip %d bytes %d expectation %d	CCP4 密度图：sym_skip {0}，字节数 {1}，预期 {2}
+ObjectMapCCP4: Map has invalid symmetry length -- working around.	CCP4 密度图：对称数据长度无效，正在尝试兼容处理。
+ObjectMapCCP4: Map Size %d x %d x %d	CCP4 密度图：尺寸 {0} × {1} × {2}
+ObjectMapCCP4: Normalizing with mean = %8.6f and stdev = %8.6f.	CCP4 密度图：正在归一化，均值 = {0}，标准差 = {1}。
+ObjectMapCCP4: Map will not be normalized.\n ObjectMapCCP4: Current mean = %8.6f and stdev = %8.6f.	CCP4 密度图：不进行归一化。\n当前均值 = {0}，标准差 = {1}。
+ObjectMap: Map read.  Range: %5.3f to %5.3f	密度图：已读取，数值范围 {0} 至 {1}。
+MapStateToCCP4-Error: Unsupported field type	密度图转 CCP4 错误：不支持该数据场类型。
+%s-Warning: MRC expects orthogonal axes	{0} 警告：MRC 要求坐标轴正交。
+%s-Warning: MRC expects orthonormal map	{0} 警告：MRC 要求密度图正交归一。
+PHIStrToMap: %s	PHI 密度图：{0:message}
+PHIStrToMap: Map Size %d x %d x %d	PHI 密度图：尺寸 {0} × {1} × {2}
+ObjectMap: Map read.  Range = %5.3f to %5.3f	密度图：已读取，数值范围 = {0} 至 {1}。
+FLDStrToMap: Map Size %d x %d x %d	FLD 密度图：尺寸 {0} × {1} × {2}
+Error: unable to read FLD file.	错误：无法读取 FLD 文件。
+Error: This looks like a DSN6 map file, but I can't match endianness.	错误：文件似乎是 DSN6 密度图，但无法确定字节序。
+BRIXStrToMap: Prod = %8.3f, Plus = %8.3f	BRIX 密度图：Prod = {0}，Plus = {1}
+BRIXStrToMap: Map Size %d x %d x %d	BRIX 密度图：尺寸 {0} × {1} × {2}
+BRIXStrToMap: Reported Sigma = %8.3f	BRIX 密度图：文件报告的标准差 = {0}
+BRIXStrToMap: Range = %5.6f to %5.6f	BRIX 密度图：数值范围 = {0} 至 {1}
+BRIXStrToMap: Calculated Mean = %8.3f, Sigma = %8.3f	BRIX 密度图：计算的均值 = {0}，标准差 = {1}
+BRIXStrToMap: Normalizing...	BRIX 密度图：正在归一化……
+Error: unable to read BRIX/DSN6 file.	错误：无法读取 BRIX/DSN6 文件。
+ObjectMapGRD-Warning: Binary GRD reader not yet validated.	GRD 密度图警告：二进制 GRD 读取器尚未验证。
+ObjectMap: %s	密度图：{0:message}
+ObjectMapGRD-Warning: block length not matched -- not a true GRD binary?	GRD 密度图警告：块长度不匹配，可能不是标准 GRD 二进制文件。
+ObjectMapGRD-Warning: funky ivary, nbyte, intdat -- not a true GRD binary?	GRD 密度图警告：ivary、nbyte、intdat 异常，可能不是标准 GRD 二进制文件。
+ObjectMapGRD-Warning: fast_axis %d unsupported!	GRD 密度图警告：不支持 fast_axis {0}。
+ObjectMapGRDStrToMap: Normalizing: mean = %8.6f and stdev = %8.6f.	GRD 密度图：正在归一化，均值 = {0}，标准差 = {1}。
+ObjectMapGRDStrToMap: Mean = %8.6f and stdev = %8.6f.	GRD 密度图：均值 = {0}，标准差 = {1}。
+GRDXStrToMap: Map Size %d x %d x %d	GRDX 密度图：尺寸 {0} × {1} × {2}
+Error: unable to read GRD file.	错误：无法读取 GRD 文件。
+ObjectMapLoadCCP4File: Loading from '%s'.	CCP4 密度图：正在从“{0}”加载。
+ObjectMapLoadPHIFile: Loading from '%s'.	PHI 密度图：正在从“{0}”加载。
+DXStrToMap: Dimensions: %d %d %d	DX 密度图：维度 {0} {1} {2}
+DXStrToMap: Origin %8.3f %8.3f %8.3f	DX 密度图：原点 {0} {1} {2}
+DXStrToMap: Grid %8.3f %8.3f %8.3f	DX 密度图：网格 {0} {1} {2}
+DXStrToMap: %d data points.	DX 密度图：{0} 个数据点。
+%s-Warning: Failed to parse %u values	{0} 警告：有 {1} 个数值解析失败。
+ObjectMapLoadDXFile: Does '%s' exist?	DX 密度图：请检查“{0}”是否存在。
+ACNTStrToMap: Dimensions: %d %d %d	ACNT 密度图：维度 {0} {1} {2}
+ACNTStrToMap: Origin %8.3f %8.3f %8.3f	ACNT 密度图：原点 {0} {1} {2}
+ACNTStrToMap: Grid %8.3f %8.3f %8.3f	ACNT 密度图：网格 {0} {1} {2}
+ACNTStrToMap: %d data points.	ACNT 密度图：{0} 个数据点。
+ObjectMapLoadACNTFile: Does '%s' exist?	ACNT 密度图：请检查“{0}”是否存在。
+ObjectMapDump: %s written to %s	密度图导出：已将 {0} 写入 {1}。
+ObjectMesh-Warning: map has been deleted, saving as CGO.	网格警告：密度图已删除，将保存为 CGO。
+ObjectMeshDump: %s written to %s	网格导出：已将 {0} 写入 {1}。
+ObjectMeshUpdate-Error: map '%s' has been deleted.	网格更新错误：密度图“{0}”已删除。
+ObjectMesh: updating "%s".	网格：正在更新“{0}”。
+ObjectMesh-Warning: no symmetry expanded map points found.	网格警告：未找到经过对称扩展的密度图采样点。
+ObjectMesh-Warning: not all symmetry expanded points covered by map.	网格警告：部分对称扩展采样点未被密度图覆盖。
+%s: memory allocation failed	{0}：内存分配失败。
+%s: Discrete objects not supported	{0}：不支持离散对象。
+ObjMolLoadTRJFile: Missing topology	TRJ 轨迹：缺少拓扑。
+ObjMolLoadTRJFile: Loading from "%s".	TRJ 轨迹：正在从“{0}”加载。
+ObjectMolecule: skipping set %d...	分子对象：正在跳过第 {0} 组……
+ObjectMolecule: averaging set %d...	分子对象：正在对第 {0} 组取平均……
+ObjectMolecule: read set %d into state %d...	分子对象：已将第 {0} 组读入状态 {1}……
+ObjectMolecule: average loaded into state %d...	分子对象：已将平均值加载到状态 {0}……
+ObjMolLoadTRJFile-Error: Failed to read expected coordinate value.\n  This traj. does not match the loaded parameter/topology file.\n  Likely cause: either the atom count or the periodic box settings\n  are inconsistent between the two files.	TRJ 轨迹错误：未能读取预期的坐标值。\n该轨迹与已加载的参数/拓扑文件不匹配。\n可能原因：两个文件的原子数或周期盒设置不一致。
+ObjMolLoadRSTFile: Missing topology	RST 坐标：缺少拓扑。
+ObjMolLoadRSTFile: Loading from "%s".	RST 坐标：正在从“{0}”加载。
+ObjectMolecule: read coordinates into state %d...	分子对象：已将坐标读入状态 {0}……
+ObjMolLoadRSTFile: atom/coordinate mismatch.	RST 坐标：原子数与坐标数不匹配。
+findflag: flag %s format %s	标记查找：标记 {0}，格式 {1}
+ObjectMolecule-Error: Unrecognized file format (can't find "%s").	分子对象错误：无法识别文件格式（找不到“{0}”）。
+ObjectMolecule: Attempting to read Amber7 topology file.	分子对象：正在尝试读取 Amber7 拓扑文件。
+ObjectMolecule: Assuming this is an Amber6 topology file.	分子对象：假定这是 Amber6 拓扑文件。
+TOPStr2CoordSet: read counts line nAtom %d NBONA %d NBONH %d	拓扑读取：计数行 nAtom {0}，NBONA {1}，NBONH {2}
+TOPStrToCoordSet: Warning: can't currently image a truncated octahedron...	拓扑读取警告：目前无法对截角八面体做周期映像处理……
+TOPStr2CoordSet: read atom names.	拓扑读取：已读入原子名称。
+TOPStr2CoordSet: read charges.	拓扑读取：已读入电荷。
+TOPStr2CoordSet: read LJ atom types.	拓扑读取：已读入 Lennard-Jones 原子类型。
+TOPStr2CoordSet: read residue labels.	拓扑读取：已读入残基标签。
+TOPStr2CoordSet: read residues.	拓扑读取：已读入残基。
+TOPStr2CoordSet: read %d hydrogen containing bonds.	拓扑读取：已读入 {0} 个含氢化学键。
+TOPStr2CoordSet: read %d hydrogen free bonds.	拓扑读取：已读入 {0} 个不含氢的化学键。
+TOPStr2CoordSet: read atom types.	拓扑读取：已读入原子类型。
+%s: Loading from %s.	{0}：正在从 {1} 加载。
+%s: entered.	{0}：已进入。
+ObjectMoleculeReadXYZ: Found %i atoms...	XYZ 读取：找到 {0} 个原子……
+ObjectMolecule-DEBUG: %s %s %d %s %8.3f %8.3f %8.3f %6.2f %6.2f %s	分子对象调试：{0} {1} {2} {3} {4} {5} {6} {7} {8} {9}
+ObjectMolecule: computing spheroid from states %d to %d.	分子对象：正在根据状态 {0} 至 {1} 计算椭球体。
+%s(%d,%d): Unreasonable connectivity in heteroatom,\n  unsuccessful in guessing valences.	{0}（{1},{2}）：杂原子的连接关系不合理，\n无法推断化合价。
+ObjMolTransSele-Debug: state %d	分子选择变换调试：状态 {0}
+%s: read through molecule %d.	{0}：已读至第 {1} 个分子。
+%s-DEBUG: sele %d op->code %d	{0} 调试：选择 {1}，op->code {2}
+Executive-Warning: No matches found for state %d.	执行警告：未找到状态 {0} 的匹配项。
+NO_MMLIBS-Warning: stereochemistry not supported in this PyMOL build.	NO_MMLIBS 警告：此 PyMOL 版本不支持立体化学。
+NO_MMLIBS-Warning: automatic 'text_type' assignment not supported in this PyMOL build.	NO_MMLIBS 警告：此 PyMOL 版本不支持自动分配 text_type。
+Scene: updating coordinate sets with %d threads...	场景：正在使用 {0} 个线程更新坐标集……
+ObjectMolecule-DEBUG: updating representations for state %d of "%s".	分子对象调试：正在更新“{1}”的状态 {0} 的表示方式。
+ObjectMolecule: updates complete for object %s.	分子对象：对象 {0} 更新完成。
+%s: read MODEL %d	{0}：已读入 MODEL {1}。
+ObjMol: created %s/%s/%s/%s`%d%c/%s	分子对象：已创建 {0}/{1}/{2}/{3}`{4}{5}/{6}
+ObjectMoleculeReadPDB: Found %i atoms...	PDB 读取：找到 {0} 个原子……
+ObjectMolecule: read HELIX %c %d%.1s %c %d%.1s	分子对象：已读入 HELIX {0} {1}{2} {3} {4}{5}
+ObjectMolecule: read SHEET %c %d%.1s %c %d%.1s	分子对象：已读入 SHEET {0} {1}{2} {3} {4}{5}
+PDBStrToCoordSet: Attempting to read symmetry information	PDB 读取：正在尝试读取对称性信息。
+PDBStrToCoordSet: SCALE%d %8.4f %8.4f %8.4f %8.4f	PDB 读取：SCALE{0} {1} {2} {3} {4}
+ObjectMolecule: Read crystal symmetry information.	分子对象：已读入晶体对称性信息。
+PDBStr2CoordSet: Read %d bonds from CONECT records (%p).	PDB 读取：从 CONECT 记录中读入 {0} 个化学键（{1}）。
+%s: ok %d after CoordSet %d	{0}：坐标集 {2} 处理后，成功标记 {1}。
+%s: ok %d after restore	{0}：恢复后，成功标记 {1}。
+%s: Assuming chains are discrete...	{0}：假定各链为离散对象……
+%s: Found %d bonds.	{0}：找到 {1} 个化学键。
+%s: incorporating explicit bonds. %d %d	{0}：正在合并显式化学键，{1} {2}。
+%s: incorporating linkage bonds. %d %d	{0}：正在合并连接键，{1} {2}。
+%s-Warning: Space group is not 'P 1'.	{0} 警告：空间群不是 P 1。
+ObjectSlice-Error: allocation failed	切片对象错误：内存分配失败。
+ObjectSliceUpdate-Error: map '%s' has been deleted.	切片更新错误：密度图“{0}”已删除。
+ObjectSlice: updating "%s".	切片：正在更新“{0}”。
+ObjectSurfaceDump: %s written to %s	表面导出：已将 {0} 写入 {1}。
+ObjectSurfaceUpdate-Error: map '%s' has been deleted.	表面更新错误：密度图“{0}”已删除。
+ObjectSurface: updating "%s".	表面：正在更新“{0}”。
+ObjectVolume-Error: map '%s' has been deleted.	体渲染错误：密度图“{0}”已删除。
+ObjectVolumeInvalidate-Msg: %zu states.	体渲染失效通知：{0} 个状态。
+ObjectVolumeUpdate: state=%d, refresh=%d, resurface=%d.	体渲染更新：状态={0}，刷新={1}，重建表面={2}。
+ObjectVolumeStateGetColors failed	获取体渲染状态颜色失败。
+ObjectVolumeRender-Msg: state=%d, pass=%d, refresh=%d, recolor=%d.	体渲染通知：状态={0}，轮次={1}，刷新={2}，重新着色={3}。
+ObjectVolumeRender-Error: Could not get field data.	体渲染错误：无法获取数据场。
+ObjectVolume-Warning: no symmetry expanded map points found.	体渲染警告：未找到经过对称扩展的密度图采样点。
+ObjectVolume-Warning: not all symmetry expanded points covered by map.	体渲染警告：部分对称扩展采样点未被密度图覆盖。
+%s-Warning: ray rendering failed	{0} 警告：光线追踪渲染失败。
+RepCartoon: Use settings tube_quality=%d oval_quality=%d putty_quality=%d loop_quality=%d sampling=%d	卡通表示：使用设置 tube_quality={0} oval_quality={1} putty_quality={2} loop_quality={3} sampling={4}
+RepCylBondRender: rendering pickable...	圆柱键渲染：正在渲染可拾取对象……
+Warning: sphere_mode=5 was removed, use sphere_mode=9.	警告：sphere_mode=5 已移除，请使用 sphere_mode=9。
+RepSurfaceCGOGenerate failed	表面 CGO 生成失败。
+RepSurfaceColor():  Ambient Occlusion computing mode=%d #vertices=%d done=%d	表面着色：正在计算环境光遮蔽，模式={0}，顶点数={1}，已完成={2}。
+RepSurfaceColor():  #vertices=%d Ambient Occlusion average #atoms looked at per vertex = %f	表面着色：顶点数={0}，环境光遮蔽计算中每个顶点平均检查的原子数={1}。
+RepSurfaceColor():  Ambient Occlusion computed #atoms=%d #vertices=%d time=%lf seconds	表面着色：环境光遮蔽已计算，原子数={0}，顶点数={1}，耗时 {2} 秒。
+Error-RepSurface: insufficient memory to calculate surface at this quality.	表面错误：内存不足，无法按此质量计算表面。
+RepSurface: %i surface points.	表面：{0} 个采样点。
+RepSurface: %i triangles.	表面：{0} 个三角形。
+RepWireBondNew-Debug: entered.	线框键创建调试：已进入。
+SculptMeasureObject-Debug: entered.	雕刻测量调试：已进入。
+Sculpt: I->Shaker->NPyraCon %d	雕刻：I->Shaker->NPyraCon {0}
+Sculpt: I->Shaker->NPlanCon %d	雕刻：I->Shaker->NPlanCon {0}
+SculptMeasureObject-Debug: leaving...	雕刻测量调试：正在退出……
+VFontWriteToCGO-Error: invalid font identifier (%d)	矢量字体写入 CGO 错误：字体标识无效（{0}）。
+VFontIndent-Error: invalid font identifier  (%d)	矢量字体缩进错误：字体标识无效（{0}）。
+VFont-Error: Bad character code.	矢量字体错误：字符编码无效。
+Editor: Inverted atom.	编辑器：已反转原子。
+EditorRender-Debug: rendering...	编辑器渲染调试：正在渲染……
+Editor: grabbing all fragments.	编辑器：正在抓取所有片段。
+Isosurface: buffer %8.3f carve %8.3f	等值面：缓冲距离 {0}，裁切距离 {1}
+Isosurface: created "%s", setting level to %5.3f	等值面：已创建“{0}”，阈值设为 {1}。
+Isomesh: buffer %8.3f carve %8.3f	等值网格：缓冲距离 {0}，裁切距离 {1}
+Isomesh: created "%s", setting level to %5.3f	等值网格：已创建“{0}”，阈值设为 {1}。
+Gradient: created "%s"	梯度：已创建“{0}”。
+Volume: buffer %8.3f carve %8.3f	体渲染：缓冲距离 {0}，裁切距离 {1}
+Volume: created "%s"	体渲染：已创建“{0}”。
+Names-Pattern-Error: Pattern looks like an atom selection (has parenthesis or operators), this is not supported for object name patterns.	名称模式错误：模式含有括号或运算符，看起来像原子选择表达式；对象名称模式不支持这种写法。
+Group-Error: object '%s' is not a group object.	分组错误：对象“{0}”不是组对象。
+Executive: adding '%s' to group '%s'.	执行：正在将“{0}”加入组“{1}”。
+%s-Warning: Can't find source object '%s'.	{0} 警告：找不到源对象“{1}”。
+%s-Warning: No match for target '%s'.	{0} 警告：目标“{1}”没有匹配项。
+Drag-Error: selection spans more than one object.	拖动错误：选择跨越多个对象。
+Drag-Error: cannot drag group objects yet.	拖动错误：暂不支持拖动组对象。
+Drag-Error: invalid or empty selection.	拖动错误：选择无效或为空。
+Pop-Error: source selection '%s' can't be an object.	弹出选择错误：源选择“{0}”不能是对象。
+Pop-Error: invalid source selection name '%s'	弹出选择错误：源选择名称“{0}”无效。
+Executive-GetVolumeRamp Entered.	执行：已进入体渲染色阶获取。
+Spectrum: range (%8.5f to %8.5f).	光谱着色：范围（{0} 至 {1}）。
+Executive: skipping unrecognized object "%s" of type %d.	执行：跳过无法识别的对象“{0}”，类型 {1}。
+ExectiveSetNamedEntries-Error: after object "%s".	命名项恢复错误：处理对象“{0}”后出错。
+Error: not a dict	错误：不是字典。
+Warning: This session was created with a newer version of PyMOL (%1.6f).	警告：此会话由更高版本的 PyMOL（{0}）创建。
+Error: Please update first -- see http://www.pymol.org	错误：请先更新，详见 http://www.pymol.org。
+Warning: Some content may not load completely.	警告：部分内容可能无法完整加载。
+Executive: Loading version %1.6f session...	执行：正在加载版本 {0} 的会话……
+ExectiveSetSession-Error: after colors.	会话恢复错误：处理颜色后出错。
+ExectiveSetSession-Error: after color_ext.	会话恢复错误：处理扩展颜色后出错。
+ExectiveSetSession-Error: after settings.	会话恢复错误：处理设置后出错。
+ExectiveSetSession-Error: after names.	会话恢复错误：处理名称后出错。
+ExectiveSetSession-Error: after selector secrets.	会话恢复错误：处理选择器内部数据后出错。
+ExectiveSetSession-Error: after view.	会话恢复错误：处理视图后出错。
+ExectiveSetSession-Error: after movie.	会话恢复错误：处理动画后出错。
+ExectiveSetSession-Error: after editor.	会话恢复错误：处理编辑器后出错。
+Session was saved with: viewport %d, %d	会话保存时的视口：{0}，{1}
+ExectiveSetSession-Error: after main.	会话恢复错误：处理主界面后出错。
+ExectiveSetSession-Warning: restore may be incomplete.	会话恢复警告：恢复可能不完整。
+%s-Warning: Cannot set symmetry for '%s' (type %s)	{0} 警告：无法为“{1}”设置对称性（类型 {2}）。
+%s-Details: Updated symmetry for '%s'	{0} 详情：已更新“{1}”的对称性。
+%s: entered %s,%d,%d,%d,%d,%d	{0}：已进入，{1},{2},{3},{4},{5},{6}
+Smooth: copying coordinates to temporary arrays..	平滑：正在将坐标复制到临时数组……
+%s: got %d %d	{0}：已获取 {1} {2}。
+Smooth: updating coordinates...	平滑：正在更新坐标……
+%s: put %d %d	{0}：已写入 {1} {2}。
+Executive-Error: object %s not found.	执行错误：找不到对象 {0}。
+Executive-Error: object %s is not a molecular object.	执行错误：对象 {0} 不是分子对象。
+Error: object %s not found.	错误：找不到对象 {0}。
+ExecutiveAlign: mobile selection must derive from one object only.	结构比对：移动端选择必须仅来自一个对象。
+ExecutiveAlign: No alignment found.	结构比对：未找到比对结果。
+%s: %d atoms aligned.	{0}：已比对 {1} 个原子。
+ExecutiveAlign-Error: atomic alignment failed (mismatched identifiers?).	结构比对错误：原子比对失败，可能是标识不匹配。
+ExecutiveAlign: invalid selections for alignment.	结构比对：用于比对的选择无效。
+SetDihedral: adjusted to %5.3f	二面角：已调整为 {0}。
+Rename: renamed %d atoms.	重命名：已重命名 {0} 个原子。
+ExecutiveRebuildAll: entered.	全部重建：已进入。
+ExecutiveRemove-Debug: purging %i of %i atoms in %s	原子移除调试：正在从 {2} 清除 {0}/{1} 个原子。
+%s-Warning: legacy mode was removed	{0} 警告：旧模式已移除。
+The 'exfoliate' flag is deprecated. Use 'hide surface, (%s)' instead.	exfoliate 标记已弃用，请改用 hide surface, ({0})。
+Flag: flag %d is set in %d of %d atoms.	标记：{2} 个原子中有 {1} 个设有标记 {0}。
+Flag: flag %d cleared on all atoms.	标记：已清除所有原子上的标记 {0}。
+Flag: flag %d set on %d atoms.	标记：已为 {1} 个原子设置标记 {0}。
+Flag: flag %d cleared on %d atoms.	标记：已清除 {1} 个原子上的标记 {0}。
+Protect: %d atoms protected from movement.	保护：已禁止移动 {0} 个原子。
+Protect: %d atoms deprotected.	保护：已解除 {0} 个原子的移动保护。
+Mask: %d atoms masked (cannot be picked or selected).	屏蔽：已屏蔽 {0} 个原子（不能被拾取或选择）。
+Mask: %d atoms unmasked.	屏蔽：已解除 {0} 个原子的屏蔽。
+Editor-Warning: bonds cannot be created between objects, only within.	编辑器警告：只能在同一对象内部成键，不能跨对象成键。
+Bond: %d bonds added to model "%s".	成键：已向模型“{1}”添加 {0} 个化学键。
+Valence: %d bond valences adjusted in model "%s".	化合价：已调整模型“{1}”中 {0} 个化学键的键级。
+Unbond: %d bonds removed from model "%s".	断键：已从模型“{1}”移除 {0} 个化学键。
+Bond-Warning: no bonds added.	成键警告：未添加化学键。
+Valence-Warning: no bond valences changed.	化合价警告：没有键级发生变化。
+Unbond-Warning: no bonds removed.	断键警告：未移除化学键。
+Executive: object %s created.	执行：已创建对象 {0}。
+Label: %slabelled %i atoms.	标签：{0}已为 {1} 个原子设置标签。
+Alter: modified %i atoms.	属性修改：已修改 {0} 个原子。
+Iterate: iterated over %i atoms.	迭代：已遍历 {0} 个原子。
+%s: No atoms selected.	{0}：未选中原子。
+AlterList: modified %i atoms.	列表修改：已修改 {0} 个原子。
+IterateList: iterated over %i atoms.	列表迭代：已遍历 {0} 个原子。
+AlterState: modified %i atom coordinate states.	状态修改：已修改 {0} 个原子坐标状态。
+IterateState: iterated over %i atom coordinate states.	状态迭代：已遍历 {0} 个原子坐标状态。
+ExecutiveIterateState: No atoms selected.	状态迭代：未选中原子。
+Executive-Warning: Mobile selection spans more than one object.	执行警告：移动端选择跨越多个对象。
+Executive-Error: Mobile selection spans more than one object. Aborting.	执行错误：移动端选择跨越多个对象，正在中止。
+Executive-Warning: Ordering requested but not well defined.	执行警告：请求了排序，但顺序定义不明确。
+%s: %d atoms rejected during cycle %d (RMSD=%0.2f).	{0}：第 {2} 轮剔除 {1} 个原子（RMSD={3}）。
+Executive: Error -- no atoms left after refinement!	执行错误：优化后没有剩余原子。
+Executive: RMSD = %8.3f (%d to %d atoms)	执行：RMSD = {0}（{1} 对 {2} 个原子）
+%s: RMSD = %8.3f (%d to %d atoms)	{0}：RMSD = {1}（{2} 对 {3} 个原子）
+ExecutiveDrawNow: leaving.	即时绘制：正在退出。
+Getting: %s for %d bonds in object "%s".	读取：对象“{2}”中 {1} 个化学键的 {0}。
+%s: entered. '%s' '%s'	{0}：已进入，“{1}”“{2}”。
+Setting-Warning: '%s' is not a bond-level setting	设置警告：“{0}”不是化学键级设置。
+%s: entered. sele '%s' '%s'	{0}：已进入，选择“{1}”“{2}”。
+%s: entered. sele "%s" updates=%d index=%d	{0}：已进入，选择“{1}”，更新={2}，索引={3}。
+Setting: %s set to %s in %d objects.	设置：已在 {2} 个对象中将 {0} 设为 {1}。
+Setting: %s set to %s in %d objects, state %d.	设置：已在 {2} 个对象的状态 {3} 中将 {0} 设为 {1}。
+Setting: %s set for %d atoms in object "%s".	设置：已为对象“{2}”中的 {1} 个原子设置 {0}。
+Setting: %s set to %s in object "%s", state %d.	设置：已在对象“{2}”的状态 {3} 中将 {0} 设为 {1}。
+Setting-Warning: '%s' is a %s-level setting	设置警告：“{0}”是 {1} 级设置。
+%s-Error: sele "%s" not found.	{0} 错误：找不到选择“{1}”。
+%s-Error: sele "%s" lacks state %d.	{0} 错误：选择“{1}”没有状态 {2}。
+%s: entered. sele "%s"	{0}：已进入，选择“{1}”。
+ExecutiveSetObjSettingFromString: entered	对象字符串设置：已进入。
+Setting: %s restored to default (%s)	设置：{0} 已恢复为默认值（{1}）。
+Setting: %s unset in %d objects.	设置：已在 {1} 个对象中取消 {0}。
+Setting: %s unset in %d objects, state %d.	设置：已在 {1} 个对象的状态 {2} 中取消 {0}。
+Setting: %s unset for %d atoms in object "%s".	设置：已为对象“{2}”中的 {1} 个原子取消 {0}。
+Setting: %s unset in object "%s".	设置：已在对象“{1}”中取消 {0}。
+Setting: %s unset in object "%s", state %d.	设置：已在对象“{1}”的状态 {2} 中取消 {0}。
+Executive: Colored %d atom%s and %d object%s.	执行：已为 {0} 个原子{1:plural}和 {2} 个对象{3:plural}着色。
+Executive: Colored %d object%s.	执行：已为 {0} 个对象{1:plural}着色。
+Executive: Colored %d atom%s.	执行：已为 {0} 个原子{1:plural}着色。
+%s: name %s state %d	{0}：名称 {1}，状态 {2}
+ExecutiveWindowZoom-DEBUG: name valid, but no extents -- using default view	窗口缩放调试：名称有效但缺少边界，将使用默认视图。
+%s: origin for %s set to %8.3f %8.3f %8.3f	{0}：已将 {1} 的原点设为 {2} {3} {4}。
+%s: scene origin set to %8.3f %8.3f %8.3f	{0}：已将场景原点设为 {1} {2} {3}。
+ExecutiveSetObjVisib: entered.	对象可见性设置：已进入。
+Making new object: %s from name=%s, a=%d, x=%d, y=%d, z=%d	创建新对象：{0}，源名称={1}，a={2}，x={3}，y={4}，z={5}
+Executive: object name "%s" is illegal -- renamed to 'all_'.	执行：对象名称“{0}”无效，已重命名为 all_。
+Executive-Warning: name "%s" collides with a selection language keyword.	执行警告：名称“{0}”与选择语言关键字冲突。
+Executive: object "%s" created.	执行：已创建对象“{0}”。
+SliceMap: created "%s".	切片密度图：已创建“{0}”。
+CmdLoad: Coordinates appended into object "%s", state %d.	加载：已将坐标追加到对象“{0}”的状态 {1}。
+ExecutiveLoadTraj-DEBUG: loading TRJ	轨迹加载调试：正在加载 TRJ。
+face-to-face %d %d	面对面相互作用 {0} {1}
+edge-to-face %d %d	边对面相互作用 {0} {1}
+pi-cat %d %d	π–阳离子相互作用 {0} {1}
+Warning: MOL/SDF 999 atom/bond limit reached, using V3000	警告：已达到 MOL/SDF 的 999 原子/键上限，将使用 V3000。
+Warning: aromatic bonds not supported by MAE format, exporting as single bonds	警告：MAE 格式不支持芳香键，将按单键导出。
+Error: unknown format: '%s'	错误：未知格式：“{0}”。
+scene: scene stored as "%s".	场景：已存储为“{0}”。
+scene: current order:	场景：当前顺序：
+MovieScene: key=%s action=%s message=%s store_view=%d store_color=%d store_active=%d store_rep=%d store_thumbnail=%d animate=%f new_key=%s hand=%d	动画场景：键={0}，操作={1}，消息={2}，存储视图={3}，存储颜色={4}，存储启用状态={5}，存储表示方式={6}，存储缩略图={7}，动画={8}，新键={9}，手性={10}
+Error: invalid action '%s'	错误：无效操作“{0}”。
+ObjectMolecule-Error: sorry, VMD Molfile Plugins not compiled into this build.	分子对象错误：此版本编译时未包含 VMD Molfile 插件。
+ObjectMap-Error: sorry, VMD Molfile Plugins not compiled into this build.	密度图对象错误：此版本编译时未包含 VMD Molfile 插件。
+PlugIOManager: unable to locate plugin '%s'	输入输出插件：找不到插件“{0}”。
+PlugIOManager: not a trajectory plugin '%s'	输入输出插件：“{0}”不是轨迹插件。
+ObjectMolecule: plugin '%s' cannot open '%s'.	分子对象：插件“{0}”无法打开“{1}”。
+ObjectMolecule: plugin '%s' cannot open file because the number of atoms in the object (%d) did not equal the number of atoms in the '%s' (%d) file.	分子对象：插件“{0}”无法打开文件，因为对象原子数（{1}）与“{2}”文件中的原子数（{3}）不一致。
+ObjectMolecule-Details: Enabling defer_builds_mode	分子对象详情：正在启用 defer_builds_mode。
+PlugIOManager: not a map plugin '%s'	输入输出插件：“{0}”不是密度图插件。
+PlugIOManager: plugin '%s' cannot open '%s'.	输入输出插件：插件“{0}”无法打开“{1}”。
+PlugIOManager: read_volumetric_metadata failed	输入输出插件：read_volumetric_metadata 失败。
+PlugIOManagerLoadVol-Waring: 0 values, skipping set %d	体数据加载警告：数值数量为 0，跳过第 {0} 组。
+PlugIOManager: read_volumetric_data failed	输入输出插件：read_volumetric_data 失败。
+Warning: Axes not aligned, using map-state matrix	警告：坐标轴未对齐，将使用密度图状态矩阵。
+ObjectMap: read %zu values	密度图：已读取 {0} 个数值。
+ObjectMolecule: unable to locate plugin '%s'	分子对象：找不到插件“{0}”。
+ObjectMolecule: plugin '%s' failed to read atoms.	分子对象：插件“{0}”读取原子失败。
+ObjectMolecule: plugin '%s' failed to read bonds.	分子对象：插件“{0}”读取化学键失败。
+ObjectCGO: unable to locate plugin '%s'	CGO 对象：找不到插件“{0}”。
+ObjectCGO: plugin '%s' cannot open '%s'.	CGO 对象：插件“{0}”无法打开“{1}”。
+ObjectCGO: plugin '%s' failed to read graphics.	CGO 对象：插件“{0}”读取图形失败。
+PlugIOManagerLoad: no plugin '%s'	插件加载：没有插件“{0}”。
+PlugIOManagerLoad: can't load trajectory into object '%s'	插件加载：无法将轨迹加载到对象“{0}”。
+PlugIOManagerLoad: '%s' doesn't provide any read function	插件加载：“{0}”未提供任何读取函数。
+AssignSS-Warning: Ignoring incomplete residue /%s/%s/%s/%d%c ...	二级结构分配警告：忽略不完整残基 /{0}/{1}/{2}/{3}{4} ……
+%s: ERROR: Unreasonable number of neighbors for dss, cannot assign secondary structure.	{0} 错误：dss 的相邻原子数不合理，无法分配二级结构。
+%s-DEBUG: entry.	{0} 调试：已进入。
+%s-Warning: state = %d	{0} 警告：状态 = {1}
+ObjectMap: Computing Gaussian map for %d atom positions.	密度图：正在为 {0} 个原子位置计算高斯图。
+ObjectMap: Normalizing: mean = %8.6f & stdev = %8.6f.	密度图：正在归一化，均值 = {0}，标准差 = {1}。
+ObjectMap: Not normalizing: mean = %8.6f and stdev = %8.6f.	密度图：不进行归一化，均值 = {0}，标准差 = {1}。
+%s: Total charge is %0.3f for %d points (%d atoms).	{0}：{2} 个点（{3} 个原子）的总电荷为 {1}。
+%s: Setting net charge to zero...	{0}：正在将净电荷设为零……
+%s: Evaluating local Coulomb potential for grid (shift=%0.2f)...	{0}：正在计算网格的局部库仑势（偏移={1}）……
+%s: Evaluating Coulomb potential for grid (cutoff=%0.2f)...	{0}：正在计算网格的库仑势（截断距离={1}）……
+%s: Evaluating Coulomb potential for grid (no cutoff)...	{0}：正在计算网格的库仑势（无截断）……
+Error: assign_atom_types only supports format='mol2'	错误：assign_atom_types 仅支持 format='mol2'。
+LoadCoords-Warning: numpy array with unsupported dtype	坐标加载警告：NumPy 数组的数据类型不受支持。
+%s-Debug: entered sta0 %d sta1 %d	{0} 调试：已进入，sta0 {1}，sta1 {2}
+Selector: found %d atoms.	选择器：找到 {0} 个原子。
+Selector-Error: %s	选择器错误：{0:message}
+%s-Debug: entered with "%s".	{0} 调试：以“{1}”进入。
+Selector: Embedded %s, %d atoms.	选择器：已嵌入 {0}，共 {1} 个原子。
+Selector-Error: Invalid domain selection name "%s".	选择器错误：域选择名称“{0}”无效。
+SelectorUpdateTableSingleObject-Debug: entered for %s...	单对象选择表更新调试：已进入，目标 {0}……
+APIEnter-DEBUG: as thread %ld.	API 进入调试：线程 {0}。
+Movie: Risk declined by user.  Movie commands have been deleted.	动画：用户拒绝执行有风险的动画命令，这些命令已删除。
+Cmd-Update: Start ExecutiveMapGenerate.	命令更新：开始生成密度图。
+Cmd-Update: Finished ExecutiveMapGenerate.	命令更新：密度图生成完成。
+CmdAlign-DEBUG %s %s	命令比对调试：{0} {1}
+Cmd: initiating test %d-%d.	命令：正在启动测试 {0}–{1}。
+Cmd: concluding test %d-%d.	命令：正在结束测试 {0}–{1}。
+Executive-Error: object '%s' not found.	执行错误：找不到对象“{0}”。
+Executive-Warning: no cif data for object '%s'\n ! The 'cif_keepinmemory' setting needs to be set prior to loading a cif file.	执行警告：对象“{0}”没有 CIF 数据。\n必须在加载 CIF 文件之前启用 cif_keepinmemory。
+Executive-Details: key '%s' not in cif data for object '%s'.	执行详情：对象“{1}”的 CIF 数据中没有键“{0}”。
+MainDraw: called.	主绘制：已调用。
+MainSpecial: %d %d %d	主窗口特殊按键：{0} {1} {2}
+Error: Unknown content type '%s'	错误：未知内容类型“{0}”。
+Error: Unknown content format '%s' with type '%s'	错误：类型“{1}”的内容格式“{0}”未知。
+OpenGL graphics engine:\n  GL_VENDOR:   %s\n  GL_RENDERER: %s\n  GL_VERSION:  %s	OpenGL 图形引擎：\n  GL_VENDOR（厂商）：{0}\n  GL_RENDERER（渲染器）：{1}\n  GL_VERSION（版本）：{2}
+Error: can only clean one object at a time	错误：一次只能清理一个对象。
+Select a single atom on the residue and press remove again	请在该残基上选择一个原子，再次按移除。
+Error: cannot sculpt more than one object at a time	错误：一次只能雕刻一个对象。
+doAutoPick-Error: exception	自动拾取错误：发生异常。
+_get_assemblies failed	获取装配体失败。
+_get_chains failed	获取链失败。
+DEBUG: skipped: 0x%x 0x%x	调试：已跳过：0x{0} 0x{1}
+tkinter init failed	Tkinter 初始化失败。
+menu %s exists	菜单 {0} 已存在。
+Error: no such menu: %s	错误：没有该菜单：{0}
+get_view: matrix copied to clipboard.	视图获取：矩阵已复制到剪贴板。
+TODO %s %s	待实现：{0} {1}
+no prior image	没有先前的图像。
+Image copied to clipboard	图像已复制到剪贴板。
+Could not read PyMOL stylesheet.	无法读取 PyMOL 样式表。
+DEBUG: PYMOL_DATA=%s	调试：PYMOL_DATA={0}
+load_form import failed (%s)	load_form 导入失败（{0:message}）。
+warning: skipping %s	警告：跳过 {0}。
+error: %s	错误：{0:message}
+Scene names with spaces are not supported	场景名称不支持空格。
+Item not found	找不到项目。
+Blank scene names are not allowed	场景名称不能为空。
+%s  has been deleted and will be removed from the table	{0} 已删除，将从表格中移除。
+This key does not have a default value.	此按键没有默认值。
+Failed to change key binding	更改按键绑定失败。
+Warning: setHistogram vmin=%s vmax=%s	警告：设置直方图 vmin={0}，vmax={1}
+Warning: setColors x=%s	警告：设置颜色 x={0}
+molauto %s -nocentre molauto.pdb | molscript -r > molauto.r3d	molauto {0} -nocentre molauto.pdb | molscript -r > molauto.r3d
+not a ply file	不是 PLY 文件。
+unknown instruction: %s	未知指令：{0}
+PyMOL Command Reference written to %s	PyMOL 命令参考已写入 {0}。
+### cut below here and paste into script ###	### 剪切下方内容并粘贴到脚本中 ###
+### cut above here and paste into script ###	### 剪切上方内容并粘贴到脚本中 ###
+malformed color ramp	颜色渐变格式错误。
+volume_color %s,	volume_color {0},
+Messy annotations	注解格式混乱。
+Unsuported boolean flag %s	不支持的布尔标记 {0}
+cmd.sync() timed out (lock_attempt)	cmd.sync() 超时（lock_attempt）。
+Invalid boolean value: %s	无效的布尔值：{0}
+Error: unable to open log file '%s'	错误：无法打开日志文件“{0}”。
+Cmd: log closed.	命令：日志已关闭。
+cmd.sync() timed out (wait_queue)	cmd.sync() 超时（wait_queue）。
+Cmd: logging to '%s'.	命令：正在记录日志到“{0}”。
+Cmd: appending to '%s'.	命令：正在追加日志到“{0}”。
+cmd.sync() timed out (wait_deferred)	cmd.sync() 超时（wait_deferred）。
+not a valid modifier key: '%s'.	不是有效的修饰键：“{0}”。
+Error: unrecognized mouse ring: '%s'	错误：无法识别鼠标模式环：“{0}”。
+arg and kw must be empty if fn is string	fn 为字符串时，arg 和 kw 必须为空。
+special '%s' key not found.	找不到特殊按键“{0}”。
+Can't map regular letters.	不能映射普通字母键。
+config_mouse: %s	鼠标配置：{0}
+Can't map regular letters with SHFT.	不能映射 Shift 与普通字母键的组合。
+mouse: %s	鼠标：{0}
+no dataset found	未找到数据集。
+phase name missing	缺少相位名称。
+invalid range	范围无效。
+unable to load fragment '%s'.	无法加载片段“{0}”。
+Warning: properties are not supported in Open-Source PyMOL	警告：开源版 PyMOL 不支持属性功能。
+action=ungroup is deprecated, use the "ungroup" command	action=ungroup 已弃用，请使用 ungroup 命令。
+MapGenerate-Error: Could not find file '%s'.\n Please check the filename and try again.	密度图生成错误：找不到文件“{0}”。\n请检查文件名后重试。
+Improperly formatted weights name	权重名称的格式不正确。
+Error: Map generation failed	错误：密度图生成失败。
+MapGenerate-Error: Cannot import headering module.  Cannot read MTZ file or make map.	密度图生成错误：无法导入 headering 模块，不能读取 MTZ 文件或生成密度图。
+Warning: non-boolean extract values are deprecated!	警告：非布尔型 extract 值已弃用。
+Loading map '%s'	正在加载密度图“{0}”。
+filename must have .txt extension	文件名必须以 .txt 为扩展名。
+Diagnostics written to "%s"	诊断信息已写入“{0}”。
+missing expression	缺少表达式。
+Error: you must first pick an atom to replace.	错误：必须先拾取要替换的原子。
+Error: bad vector.	错误：向量无效。
+Error: bad axis.	错误：轴无效。
+Modified %d residues	已修改 {0} 个残基。
+Altered %d MSE residues to MET	已将 {0} 个 MSE 残基改为 MET。
+Uniquify: renamed %d %s identifier(s)	标识唯一化：已重命名 {0} 个 {1} 标识。
+Copied %d atoms to object %s	已将 {0} 个原子复制到对象 {1}。
+Error: translate: unrecognized object_mode	错误：translate 无法识别 object_mode。
+Error: rotate: unknown object '%s'.	错误：rotate 的对象“{0}”未知。
+Error: rotate: unrecognized object_mode	错误：rotate 无法识别 object_mode。
+Selection must be pk1 to attach O5' phosphate	连接 O5' 磷酸基团时，选择必须为 pk1。
+This building selection has an unphosphorylated O5' end.	此构建选择具有未磷酸化的 O5' 端。
+%s already bonded!	{0} 已经成键。
+The program did not detect a double stranded structure, so the opposing residue will not be attached.	程序未检测到双链结构，因此不会连接相对链上的残基。
+unknown argument: %s	未知参数：{0}
+"mode" must be "DNA" or "RNA" only.	mode 只能为 DNA 或 RNA。
+an object with that name already exists	同名对象已存在。
+Something went wrong when fitting the new residue.	拟合新残基时出错。
+Form not recognized	无法识别该构象。
+Double stranded bool was not provided to move_new_res	未向 move_new_res 提供双链布尔值。
+check_DNA_base_pair has no opposing residue to check	check_DNA_base_pair 没有可检查的相对残基。
+More than one bond target was identified, so this will not be bound	检测到多个成键目标，因此不会成键。
+More than one bond target was found on selected chain, so this will not be bound.	所选链上检测到多个成键目标，因此不会成键。
+More than one bond target was found on opposing chain, so this will not be bound.	相对链上检测到多个成键目标，因此不会成键。
+invalid connection point: must be one atom, name O3' or P	连接点无效：必须为一个名为 O3' 或 P 的原子。
+No helix state selected	未选择螺旋状态。
+Double helix RNA building is not currently supported.	目前不支持构建双螺旋 RNA。
+"%s" not of %s type...	“{0}”不是 {1} 类型……
+Error: an object with than name already exists	错误：同名对象已存在。
+Error: invalid connection point: must be one atom, name N or C.	错误：连接点无效，必须为一个名为 N 或 C 的原子。
+Generating a %d residue peptide from sequence...	正在根据序列生成含 {0} 个残基的肽链……
+Identified bond targets were too far apart, so this will not be bound	检测到的成键目标距离过远，因此不会成键。
+Something went wrong with resv loop in extend_nuc	extend_nuc 的 resv 循环出错。
+Error: invalid connection point: must be C for residue '%s'	错误：连接点无效，残基“{0}”必须使用 C。
+Z chain was detected. New chain will append A	检测到 Z 链，新链名将追加 A。
+z chain was detected. New chain will append a	检测到 z 链，新链名将追加 a。
+Error: invalid connection point: must be N for residue '%s'	错误：连接点无效，残基“{0}”必须使用 N。
+Base pairing result is not returning 0 or 1	碱基配对结果未返回 0 或 1。
+double_stranded_bool is not returning True or False	double_stranded_bool 未返回 True 或 False。
+Multiple residues meet base pairing requirements. Building as if no opposing strand detected.	多个残基符合碱基配对要求，将按未检测到相对链的情况构建。
+Phosphate has been successfully added	已成功添加磷酸基团。
+Error: please pick a nitrogen or carbonyl carbon to grow from.	错误：请拾取氮原子或羰基碳原子作为延伸起点。
+Error: unable to attach fragment.	错误：无法连接片段。
+No based pair was found on chain  %s	链 {0} 上未找到碱基对。
+Warning: 'spheroid' is experimental, incomplete, and unstable.	警告：spheroid 为实验功能，尚不完整且不稳定。
+minimize: missing parameters, can't continue	能量最小化：缺少参数，无法继续。
+Applying pse_export_version=%.3f compatibility	正在应用 pse_export_version={0} 兼容设置。
+unknown unit, supported units are: %s	未知单位，支持的单位为：{0}
+dpi > 0 required with unit "%s" (hint: set the "image_dots_per_inch" setting)	单位“{0}”要求 dpi > 0，请设置 image_dots_per_inch。
+%s not supported with multisave	multisave 不支持 {0}。
+pmo format not supported anymore	已不再支持 PMO 格式。
+%s format not supported with multisave	multisave 不支持 {0} 格式。
+need one or more of {name}, {num}, {state}, {title}	需要至少包含 {name}、{num}、{state}、{title} 之一。
+.MTL export not implemented	尚未实现 .MTL 导出。
+no prior image available	没有可用的先前图像。
+no prior image available, fall back to rendering	没有可用的先前图像，将改为渲染。
+Unrecognized file format	无法识别文件格式。
+File format not supported for export	此文件格式不支持导出。
+Using Python 2 compatible legacy pickler	正在使用兼容 Python 2 的旧版 pickle 序列化器。
+Warning: `session_compression` is deprecated. Save to ".pze" or ".pse.gz" files instead, and/or use `pse_binary_dump`	警告：session_compression 已弃用。请保存为 .pze 或 .pse.gz，并可结合使用 pse_binary_dump。
+Save: Please wait -- writing session file...	保存：正在写入会话文件，请稍候……
+Save: wrote "%s".	保存：已写入“{0}”。
+Save-Error: no file written	保存错误：未写入文件。
+FIXME: savefunctions[%s]: *args	待修复：savefunctions[{0}]：*args
+positional-only arguments not supported	不支持仅限位置的参数。
+Warning: failed to backport session: %s	警告：会话向旧版本转换失败：{0:message}
+cache: optimization complete (~%0.1f MB).	缓存：优化完成（约 {0} MB）。
+cache: optimizing scene '%s'.	缓存：正在优化场景“{0}”。
+cache: no scenes defined -- optimizing current display.	缓存：未定义场景，正在优化当前显示。
+ls: Nothing found.  Is that a valid path?	目录列表：未找到内容，请检查路径是否有效。
+cd: now in %s	切换目录：当前位于 {0}。
+feedback: possible actions: \nset, enable, disable	反馈：可用操作：\nset、enable、disable
+Error: invalid feedback action '%s'.	错误：无效的反馈操作“{0}”。
+feedback: Please specify module names:	反馈：请指定模块名称：
+feedback: Please specify masks:	反馈：请指定掩码：
+Error: ambiguous feedback action '%s'.	错误：反馈操作“{0}”存在歧义。
+Error: invalid feedback mask '%s'.	错误：无效的反馈掩码“{0}”。
+Error: invalid feedback module '%s'.	错误：无效的反馈模块“{0}”。
+Error: ambiguous feedback mask '%s'.	错误：反馈掩码“{0}”存在歧义。
+Error: ambiguous feedback module '%s'.	错误：反馈模块“{0}”存在歧义。
+need at least 2 selection	至少需要 2 个选择。
+need even number of selections	选择数量必须为偶数。
+CEalign-Error: Your target selection is too short.	CE 比对错误：目标端选择过短。
+CEalign-Error: Your mobile selection is too short.	CE 比对错误：移动端选择过短。
+CEalign-Error: window size must be an integer greater than 2.	CE 比对错误：窗口大小必须为大于 2 的整数。
+CEalign-Error: gap_max must be a positive integer.	CE 比对错误：gap_max 必须为正整数。
+no public objects	没有公开对象。
+RMSD %f over %i residues	RMSD 为 {0}，覆盖 {1} 个残基。
+TTT Matrix:	TTT 变换矩阵：
+CEalign-Error: alignment failed	CE 比对错误：比对失败。
+CEalign-Error: selection spans multiple objects, cannot create alignment object	CE 比对错误：选择跨越多个对象，无法创建比对对象。
+%-20s RMSD = %8.3f (%d atoms)	{0} RMSD = {1}（{2} 个原子）
+%-20s RMSD = %8.3f	{0} RMSD = {1}
+cmd.intra_rms: %5.3f in state %d vs state %d	cmd.intra_rms：状态 {1} 对状态 {2}，RMSD {0}
+cmd.intra_rms_cur: %5.3f in state %d vs state %d	cmd.intra_rms_cur：状态 {1} 对状态 {2}，RMSD {0}
+%-20s RMSD = %8.3f%s	{0} RMSD = {1}{2}
+cmd.intra_fit: %5.3f in state %d vs mixed target	cmd.intra_fit：状态 {1} 对混合目标，RMSD {0}
+cmd.intra_fit: %5.3f in state %d vs state %d	cmd.intra_fit：状态 {1} 对状态 {2}，RMSD {0}
+ignoring gui.ext_hide	忽略 gui.ext_hide。
+ignoring gui.ext_show	忽略 gui.ext_show。
+Error: Please provide the setting 'default_%s_names' a comma separated string	错误：请为 default_{0}_names 设置提供逗号分隔的字符串，
+with the values for 2FoFc and FoFc, amplitude and phase names, respectively.	分别填写 2FoFc、FoFc 的振幅名称和相位名称。
+Warning: Byte order of file unknown.  Guessing header location.	警告：文件字节序未知，正在推定文件头位置。
+Error: File '%s' cannot be parsed because PyMOL cannot find the header.  If you think	错误：无法解析文件“{0}”，因为 PyMOL 找不到文件头。如果你认为
+PyMOL should be able to read this, plese send the file and this mesage to	PyMOL 应当能够读取此文件，请将文件和此消息发送给
+Error-CIFReader: Couldn't read '%s' for input.	CIF 读取错误：无法读取输入文件“{0}”。
+Error: Parsing MTZ Header poorly formatted MTZ file	MTZ 文件头解析错误：MTZ 文件格式不正确。
+bad field: '%s'	字段无效：“{0}”。
+Error Parsing MTZ Header: bad column name: '%s'	MTZ 文件头解析错误：列名称无效：“{0}”。
+PyMOL>help %s	PyMOL>help {0}
+CMD: %s	命令：{0}
+API: %s.%s	API：{0}.{1}
+FILE: %s	文件：{0}
+(Hit ESC to hide)	（按 Esc 隐藏）
+API: cmd.%s	API：cmd.{0}
+'%s' format not supported by this PyMOL build	此 PyMOL 版本不支持“{0}”格式。
+check_gromacs_trj_magic is deprecated	check_gromacs_trj_magic 已弃用。
+Error-fetch: unable to load '%s'.	网络获取错误：无法加载“{0}”。
+zipped (%s) trajectories not supported	不支持压缩（{0}）轨迹。
+unknown format '%s'	未知格式“{0}”。
+Error: unable to handle PWG file	错误：无法处理 PWG 文件。
+PSE contains objects which cannot be unpickled (%s)	PSE 含有无法反序列化的对象（{0}）。
+Error: embedded data '%s' not found.	错误：找不到嵌入数据“{0}”。
+trj magic test failed: %s	轨迹魔数检查失败：{0:message}
+Empty sequence for key "%s"	键“{0}”对应的序列为空。
+Warning: %s	警告：{0:message}
+cmd.load(format="%s") is deprecated, use cmd.load_raw(format="%s")	cmd.load(format="{0}") 已弃用，请使用 cmd.load_raw(format="{1}")。
+unsupported file type: %s	不支持的文件类型：{0}
+no such chain: %s	没有该链：{0}
+Loading %s	正在加载 {0}。
+Warning: group and object arguments given	警告：同时提供了 group 和 object 参数。
+No such assembly: "%s"	没有该装配体：“{0}”。
+FIXME: loadfunctions[%s]: *args	待修复：loadfunctions[{0}]：*args
+Reporting back pymol port via: '%s'	正在通过“{0}”回报 PyMOL 端口。
+Warning: failed to fetch from %s	警告：从 {0} 获取失败。
+Warning: Cannot write to "%s"	警告：无法写入“{0}”。
+Report attempt may have failed.	回报尝试可能失败。
+header command must be: header add Some-Key "some value"	header 命令必须采用以下形式：header add Some-Key "some value"
+Error: missing path to root content	错误：缺少根内容的路径。
+Error: requested path '%s' does not exist.	错误：请求的路径“{0}”不存在。
+Error: unable to launch web application'%s'.	错误：无法启动 Web 应用“{0}”。
+Error: unrecognized input:  %s	错误：无法识别输入：{0}
+No key mapping and no scene or view for '%s'	“{0}”没有按键映射，也没有对应的场景或视图。
+failed to open file "%s"	打开文件“{0}”失败。
+Downloading %s	正在下载 {0}。
+Error: Download failed	错误：下载失败。
+Your "fetch_path" setting might point to a read-only directory	fetch_path 设置可能指向只读目录。
+No key mapping for '%s'	“{0}”没有按键映射。
+Load-Error: Unable to load file '%s'.	加载错误：无法加载文件“{0}”。
+Warning: failed to query "My Documents" from registry	警告：无法从注册表查询“我的文档”。
+ignoring PyMOLWin.exe argument %s	忽略 PyMOLWin.exe 参数 {0}。
+Warning: --retina option has been removed	警告：--retina 选项已移除。
+(no pymolrc file found)	（未找到 pymolrc 文件）
+Warning: --nospnav not available in Open-Source PyMOL	警告：开源版 PyMOL 不支持 --nospnav。
+Error: could not chdir to %s	错误：无法切换到目录 {0}。
+No active selection	没有活动选择。
+Nothing on clipboard	剪贴板为空。
+STL export not supported by this PyMOL build	此 PyMOL 版本不支持 STL 导出。
+STL import not supported by this PyMOL build	此 PyMOL 版本不支持 STL 导入。
+COLLADA import not supported by this PyMOL build	此 PyMOL 版本不支持 COLLADA 导入。
+no PDBx:atom_site nodes found in XML file	XML 文件中未找到 PDBx:atom_site 节点。
+not a CML file	不是 CML 文件。
+File doesn't look like XML	文件看起来不是 XML。
+XML file doesn't look like a PDBML file	XML 文件看起来不是 PDBML 文件。
+Error: model_num < 1 not supported	错误：不支持 model_num < 1。
+Warning: no coordinates for atom %s	警告：原子 {0} 没有坐标。
+Error: no matching files	错误：没有匹配的文件。
+using encoder "%s"	正在使用编码器“{0}”。
+unknown encoder "%s"	未知编码器“{0}”。
+produce: %d bytes written...	动画生成：已写入 {0} 字节……
+produce-error: Unable to create mpeg file.	动画生成错误：无法创建 MPEG 文件。
+produce: compression failed	动画生成：压缩失败。
+produce: finished.	动画生成：已完成。
+encoder "%s" not available	编码器“{0}”不可用。
+produce-error: Unable to import module pymol.mpeg_encode.	动画生成错误：无法导入 pymol.mpeg_encode 模块。
+produce-error: Unable to validate pymol.mpeg_encode.	动画生成错误：无法验证 pymol.mpeg_encode。
+Warning: Adjusting frame rate to %s fps (legal values are: %s)	警告：正在将帧率调整为 {0} fps（允许值：{1}）。
+produce: creating '%s' (in background)...	动画生成：正在后台创建“{0}”……
+neither "ffmpeg" nor "convert" available for video encoding	ffmpeg 和 convert 均不可用，无法编码视频。
+ffmpeg failed with exit status %s	ffmpeg 失败，退出状态 {0}。
+Cannot find "mpeg_encode"	找不到 mpeg_encode。
+parser: no matching %s.	解析器：没有匹配的 {0}。
+Python expressions disallowed in this file	此文件不允许使用 Python 表达式。
+parser: matching %s:	解析器：匹配的 {0}：
+Error: %s	错误：{0:message}
+Embed: read %d lines.	嵌入：已读取 {0} 行。
+Parser: caught %s	解析器：捕获 {0:message}
+parser: no matching files.	解析器：没有匹配的文件。
+parser: matching files:	解析器：匹配的文件：
+Skip: skipped %d lines.	跳过：已跳过 {0} 行。
+Command disallowed in this file	此文件不允许执行该命令。
+Error: ambiguous command:	错误：命令存在歧义：
+Movie commands disallowed in this file	此文件不允许执行动画命令。
+Error: invalid arguments for %s command.	错误：{0} 命令的参数无效。
+Warning: use 'run' instead of '@' with Python files?	警告：Python 文件应使用 run 而不是 @。
+Error: unrecognized keyword: %s	错误：无法识别关键字：{0}
+Error: embed only legal in special files (e.g. p1m)	错误：embed 仅能用于特殊文件（例如 p1m）。
+PyMOL: stopped on exception.	PyMOL：因异常而停止。
+Error: unknown keyword mode: %s	错误：未知关键字模式：{0}
+Error: Python blocks disallowed in this file.	错误：此文件不允许使用 Python 代码块。
+Error: invalid argument(s).	错误：参数无效。
+Parsing-Error: missing required argument in function %s : %s	解析错误：函数 {0} 缺少必需参数：{1}
+Error: too many positional arguments for %s	错误：{0} 的位置参数过多。
+Error: %s^ syntax error (type 3).	错误：{0}^ 语法错误（类型 3）。
+invalid namespace "%s"	无效命名空间“{0}”。
+Error: %s^ syntax error (type 2).	错误：{0}^ 语法错误（类型 2）。
+Error: %s^ syntax error (type 1).	错误：{0}^ 语法错误（类型 1）。
+PyMOL-HTTPd: serving requests on http://localhost:%d	PyMOL HTTP 服务：正在 http://localhost:{0} 处理请求。
+broken pipe	管道已断开。
+applying: %s	正在应用：{0}
+could not find collada2gltf	找不到 collada2gltf。
+Invalid state %d for object %s	对象 {1} 的状态 {0} 无效。
+Selection spans multiple object states	选择跨越多个对象状态。
+mass is zero	质量为零。
+cmd.count_states: %d states.	cmd.count_states：{0} 个状态。
+Warning: use get_color_indices instead of get_color_tuple(mode=%s)	警告：请使用 get_color_indices，替代 get_color_tuple(mode={0})。
+OpenGL graphics engine:	OpenGL 图形引擎：
+GL_VENDOR:    %s	GL_VENDOR（厂商）：{0}
+GL_RENDERER:  %s	GL_RENDERER（渲染器）：{0}
+GL_VERSION:   %s	GL_VERSION（版本）：{0}
+cmd.get_position: [%8.3f,%8.3f,%8.3f]	cmd.get_position（位置）：[{0},{1},{2}]
+cmd.get_distance: %5.3f Angstroms.	cmd.get_distance（距离）：{0} 埃。
+cmd.get_angle: %5.3f degrees.	cmd.get_angle（角度）：{0} 度。
+cmd.get_dihedral: %5.3f degrees.	cmd.get_dihedral（二面角）：{0} 度。
+cmd.get_area: %5.3f Angstroms^2.	cmd.get_area（面积）：{0} 平方埃。
+cmd.get_chains:  %s	cmd.get_chains（链）：{0}
+cmd.extent: min: [%8.3f,%8.3f,%8.3f]	cmd.extent（最小边界）：[{0},{1},{2}]
+cmd.extent: max: [%8.3f,%8.3f,%8.3f]	cmd.extent（最大边界）：[{0},{1},{2}]
+count_atoms: %d atoms	count_atoms（原子计数）：{0} 个原子
+Center of Mass: [%8.3f,%8.3f,%8.3f]	质心：[{0},{1},{2}]
+Assembly IDs: %s	装配体标识：{0}
+TTT is None	TTT 变换矩阵为 None。
+get_symmetry: A     = %7.3f B    = %7.3f C     = %7.3f	get_symmetry（晶胞长度）：A = {0}，B = {1}，C = {2}
+get_symmetry: Alpha = %7.3f Beta = %7.3f Gamma = %7.3f	get_symmetry（晶胞角度）：α = {0}，β = {1}，γ = {2}
+get_symmetry: SpaceGroup = %s	get_symmetry（空间群）：{0}
+get_symmetry: No symmetry defined.	get_symmetry：未定义对称性。
+get_title: %s	get_title（标题）：{0}
+cmd.get_movie_length: %d frames	cmd.get_movie_length（动画长度）：{0} 帧
+cmd.count_frames: %d frames	cmd.count_frames（帧计数）：{0} 帧
+cmd.overlap: %5.3f Angstroms.	cmd.overlap（重叠）：{0} 埃。
+Warning: use get_color_index instead of get_color_tuple(mode=3)	警告：请使用 get_color_index，替代 get_color_tuple(mode=3)。
+cmd.get_atom_coords: [%8.3f,%8.3f,%8.3f]	cmd.get_atom_coords（原子坐标）：[{0},{1},{2}]
+cmd-Error: atom %s not found by id_atom.	命令错误：id_atom 未找到原子 {0}。
+count_discrete: %d	count_discrete（离散对象计数）：{0}
+TTT %8.2f %8.2f %8.2f | %8.2f	TTT {0} {1} {2} | {3}
+get_object_list:  %s	get_object_list（对象列表）：{0}
+cmd-Error: The 'pk1' selection is undefined.	命令错误：未定义 pk1 选择。
+cmd-Error: The 'pk2' selection is undefined.	命令错误：未定义 pk2 选择。
+cmd-Error: The 'pk3' selection is undefined.	命令错误：未定义 pk3 选择。
+cmd-Error: The 'pk4' selection is undefined.	命令错误：未定义 pk4 选择。
+cmd-Error: Unknown color '%s'.	命令错误：未知颜色“{0}”。
+cmd-Error: multiple atoms %s found by id_atom.	命令错误：id_atom 找到了多个原子 {0}。
+TTT ---------------------------+---------	TTT ---------------------------+---------
+build date: %s	构建日期：{0}
+git sha: %s	Git 提交：{0}
+cmd.id_atom: (%s and id %d)	cmd.id_atom: ({0} and id {1})
+cmd.id_atom: (id %d)	cmd.id_atom: (id {0})
+cmd.index: (%s`%d)	cmd.index: ({0}`{1})
+cmd.identify: (%s and id %d)	cmd.identify: ({0} and id {1})
+cmd.identify: (id %d)	cmd.identify: (id {0})
+unknown type: '%s'	未知类型：“{0}”。
+xml-rpc server running on host %s, port %d	XML-RPC 服务正在主机 {0} 的端口 {1} 运行。
+xml-rpc server could not be started	无法启动 XML-RPC 服务。
+Saved shortcuts to file  %s	快捷键已保存到文件 {0}。
+Unable to save to file.	无法保存到文件。
+No shortcut save file has been loaded.	尚未加载快捷键保存文件。
+Failed to map alignment to objects	无法将比对结果映射到对象。
+Warning: no atoms for object '%s'	警告：对象“{0}”没有原子。
+%s = %s for object %s	对象 {2} 的 {0} = {1}
+get: %s = %s	读取：{0} = {1}
+%s = %s between (%s`%d)-(%s`%d%s)	{0} = {1}，位于 ({2}`{3})-({4}`{5}{6}) 之间
+get: %s = %s in object %s	读取：对象 {2} 的 {0} = {1}
+get: %s = %s in object %s state %d	读取：对象 {2} 状态 {3} 的 {0} = {1}
+Setting: %s unset failed	设置：取消 {0} 失败。
+Restored default keybindings	已恢复默认按键绑定。
+Assigning  %s  to  %s	正在将 {0} 分配给 {1}。
+This key is reserved.	此按键为保留键。
+This cannot be bound.	无法绑定此项。
+Incorrect type found when resetting defaults	重置默认值时发现类型不正确。
+Util: Fixing termini and assigning formal charges...	工具：正在修复末端并分配形式电荷……
+Util: Assigning Amber 99 charges and radii...	工具：正在分配 Amber 99 电荷和半径……
+Util: Calculating electrostatic potential...	工具：正在计算静电势……
+util.color_deep: Deprecated, use cmd.color_deep() instead	util.color_deep 已弃用，请使用 cmd.color_deep()。
+util.rainbow: Deprecated, use cmd.spectrum() instead	util.rainbow 已弃用，请使用 cmd.spectrum()。
+util.ss: Deprecated, use cmd.dss() instead	util.ss 已弃用，请使用 cmd.dss()。
+color_by_area failed	按面积着色失败。
+util.sum_formal_charges: %d	util.sum_formal_charges（形式电荷总和）：{0}
+util.sum_partial_charges: sum = %0.4f	util.sum_partial_charges（部分电荷总和）：{0}
+util.compute_mass: mass = %0.4f u	util.compute_mass（质量）：{0} u
+WARNING: unrecognized or incomplete residues are being deleted:	警告：正在删除无法识别或不完整的残基：
+WARNING: some unassigned atoms are being deleted:	警告：正在删除部分未分配的原子：
+WARNING: formal and partial charge sums don't match -- there is a problem!	警告：形式电荷总和与部分电荷总和不一致，存在问题。
+Error: must provide an object name	错误：必须提供对象名称。
+Warning: No atoms in state %d for object %s	警告：对象 {1} 的状态 {0} 中没有原子。
+util.cbc: color %s, (chain %s)	util.cbc：链 {1} 的颜色为 {0}。
+Written results to %s	结果已写入 {0}。
+bad view argument; should be a sequence of 18 floats	视图参数无效，应为含 18 个浮点数的序列。
+please provide at least 2 colors	请提供至少 2 种颜色。
+unknown color	未知颜色。
+color specification must be a list such as [ 1.0, 0.0, 0.0 ]	颜色必须以列表指定，例如 [ 1.0, 0.0, 0.0 ]。
+viewport %4d, %4d	viewport {0}, {1}
+Warning: get_viewport(3) is deprecated	警告：get_viewport(3) 已弃用。
+interpolation must be one of %s	插值方式必须为以下之一：{0}
+Spectrum: range (%.5f to %.5f)	光谱着色：范围（{0} 至 {1}）。
+view: stored views:	视图：已存储的视图：
+get_viewport: data written to log file.	视口获取：数据已写入日志文件。
+message %s	消息：{0}
+Warning: Tuple-syntax (parentheses) for viewport is deprecated	警告：viewport 的元组语法（括号）已弃用。
+set_view (\\	set_view (\\
+view: "%s" recalled.	视图：已调用“{0}”。
+update not supported	不支持更新。
+Spectrum: Expression is non-numeric, enumerating values	光谱着色：表达式不是数值类型，将枚举各个值。
+get_view: matrix written to log file.	视图获取：矩阵已写入日志文件。
+view: view %sd as "%s".	视图：已执行 {0} 操作，名称“{1}”。
+view: '%s' deleted.	视图：已删除“{0}”。
+Error: Sorry, couldn't import the '%s' wizard.	错误：无法导入“{0}”向导。
+Error: Sorry, couldn't find the '%s' class.	错误：找不到“{0}”类。
+Session-Warning: unable to restore wizard.	会话警告：无法恢复向导。
+Symmetry-Error: Unrecognized space group symbol '%s'.	对称性错误：无法识别空间群符号“{0}”。
+Warning: failed to connect to recent DB: %s	警告：连接最近使用数据库失败：{0:message}
+import socket failed	导入 socket 失败。
+Error: Argument processing aborted due to exception (above).	错误：因上述异常，参数处理已中止。
+Adapting to Quadro hardware.	正在适配 Quadro 硬件。
+Detected %d CPU cores.	检测到 {0} 个 CPU 核心。
+Enabled multithreaded rendering.	已启用多线程渲染。
+Qt not available (%s), using GLUT/Tk interface	Qt 不可用（{0}），将使用 GLUT/Tk 界面。
+Adapting to FireGL hardware.	正在适配 FireGL 硬件。
+Adjusting settings to improve performance for ATI cards.	正在调整设置以提高 ATI 显卡性能。
+Disabling shaders for Intel Express graphics	正在为 Intel Express 显卡禁用着色器。
+Detected blacklisted graphics driver.  Disabling shaders.	检测到黑名单中的显卡驱动，正在禁用着色器。
+warning: unmatched quotes	警告：引号不匹配。
+unhandled style: %s	未处理的样式：{0}
+Not a valid plugin filename (%s).	插件文件名无效（{0}）。
+name must not contain dots (%s).	名称不能含点号（{0}）。
+Archive empty.	压缩包为空。
+Missing __init__.py	缺少 __init__.py。
+Archive must contain a single package.	压缩包必须仅包含一个包。
+ZIP file contains absolute path names	ZIP 文件含有绝对路径名称。
+Warning: Version parsing failed for %s and/or %s	警告：{0} 或 {1} 的版本解析失败。
+will not overwrite "%s"	不会覆盖“{0}”。
+this should never happen	出现不应发生的情况。
+cannot guess repository type	无法推定仓库类型。
+cannot parse github.com url	无法解析 github.com URL。
+File "%s" exists, will not redownload	文件“{0}”已存在，不会重新下载。
+No <source> or <syntaxhighlight> block with cmd.extend found	未找到含 cmd.extend 的 <source> 或 <syntaxhighlight> 区块。
+Warning: %d chunks found, only saving first	警告：找到 {0} 个区块，仅保存第一个。
+Failed to parse URL: %s	URL 解析失败：{0}
+Warning: Infobox filename found, but download failed	警告：已找到信息框中的文件名，但下载失败。
+no such plugin	没有该插件。
+Error: set_startup_path failed	错误：set_startup_path 失败。
+Plugin settings saved!	插件设置已保存。
+not loaded	未加载。
+Scanning for modules took %.4f seconds	扫描模块用时 {0} 秒。
+Plugin-Error: Cannot write Plugins resource file to %s	插件错误：无法将插件资源文件写入 {0}。
+info: plugin already loaded	信息：插件已经加载。
+Plugin "%s" loaded in %.2f seconds	插件“{0}”已加载，用时 {1} 秒。
+Plugin '%s' only available with PyQt GUI.	插件“{0}”仅适用于 PyQt 图形界面。
+Unable to initialize plugin '%s' (%s).	无法初始化插件“{0}”（{1:message}）。
+Please install XQuartz (https://www.xquartz.org/)	请安装 XQuartz（https://www.xquartz.org/）。
+warning: multiple plugins named %s	警告：多个插件名为 {0}。
+uic not found	找不到 uic。
+%s: result was not ready	{0}：结果尚未就绪。
+import _Qt_pre failed	导入 _Qt_pre 失败。
+import PyQt5 failed	导入 PyQt5 失败。
+import PySide2 failed	导入 PySide2 失败。
+import PyQt6 failed	导入 PyQt6 失败。
+import PySide6 failed	导入 PySide6 失败。
+PyMOL %s benchmark: %30s = %10.5f	PyMOL {0} 基准测试：{1} = {2}
+Error: please select a single atom	错误：请选择一个原子。
+cannot find "szybki" executable, please set OE_DIR environment variable	找不到 szybki 可执行文件，请设置 OE_DIR 环境变量。
+Warning: invalid key	警告：无效的键。
+Density-Wizard: Please pick an atom first.	密度图向导：请先拾取一个原子。
+Current residue is the end of a chain.	当前残基位于链的末端。
+Wizard: No neighbors found.	向导：未找到相邻原子。
+Dragging %s atoms in object "%s".	正在拖动对象“{1}”中的 {0} 个原子。
+Dragging whole object "%s".	正在拖动整个对象“{0}”。
+Filter: Browsing all compounds.	筛选：正在浏览全部化合物。
+Filter-Error: Please choose an object first	筛选错误：请先选择一个对象。
+Filter: Accepting '%s'	筛选：接受“{0}”。
+Filter: Rejecting '%s'	筛选：拒绝“{0}”。
+Filter: Deferring '%s'	筛选：暂缓“{0}”。
+Filter-Error: please choose an object first	筛选错误：请先选择一个对象。
+Filter: Wrote '%s'.	筛选：已写入“{0}”。
+Filter: Browsing accepted compounds.	筛选：正在浏览已接受的化合物。
+Filter: Browsing remaining compounds	筛选：正在浏览剩余化合物。
+Filter-Error: No matching compounds.	筛选错误：没有匹配的化合物。
+Filter-Warning: '%s' in current directory is not writable.	筛选警告：当前目录中的“{0}”不可写。
+Filter-Warning: attempting to write in home directory.	筛选警告：正在尝试写入用户主目录。
+Filter-Error: Unable to write '%s'.	筛选错误：无法写入“{0}”。
+Filter: Browsing rejected compounds.	筛选：正在浏览已拒绝的化合物。
+Filter: Browsing deferred compounds.	筛选：正在浏览暂缓的化合物。
+Mutagenesis Wizard cannot be used with Movie	突变向导不能与动画同时使用。
+Mutagenesis: %d rotamers loaded.	突变：已加载 {0} 个旋转异构体。
+Mutagenesis: no rotamers found in library.	突变：库中未找到旋转异构体。
+Rotamer %d/%d, strain=%.2f	旋转异构体 {0}/{1}，应变={2}
+Mutagenesis: no phi/psi, using backbone-independent rotamers.	突变：没有 φ/ψ，正在使用与主链无关的旋转异构体。
+Mutagenesis: object not found.	突变：找不到对象。
+Improper selection of nucleic acid.	核酸选择不正确。
+Improper Nucleic Acid	核酸不正确。
+Improper Auto Center setting. 'ON' or 'OFF' accepted only	自动居中设置不正确，只接受 ON 或 OFF。
+reduced to: %s	已归约为：{0}
+CSFF: Chemical Python Simplified Force Field by Warren L. DeLano	CSFF：Warren L. DeLano 编写的 Chemical Python 简化力场
+no such script: %s	没有该脚本：{0}
+pdb2pqr: done	pdb2pqr：已完成。
+pdb2pqr terminated	pdb2pqr 已终止。
+%s failed with exit status %d	{0} 失败，退出状态 {1}。
+Cannot execute "%s"	无法执行“{0}”。
+prepwizard terminated	prepwizard 已终止。
+prepwizard: done	prepwizard：已完成。
+Warning: SCHRODINGER environment variable not set	警告：未设置 SCHRODINGER 环境变量。
+Notice: not deleting %s	通知：不删除 {0}。
+Broken executable: %s	可执行文件损坏：{0}
+Cannot execute: %s	无法执行：{0}
+Tempdir: %s	临时目录：{0}
+apbs failed with code %s	APBS 失败，代码 {0}。
+dx file missing	缺少 DX 文件。
+apbs terminated	APBS 已终止。
+Warning: retry with grid = %s	警告：使用网格 {0} 重试。
+missing map	缺少密度图。
+unknown method: %s	未知方法：{0}
+prot: net partial charge on protein is %8.4f	蛋白质：净部分电荷为 {0}。
+prot: (this should be integral)!	蛋白质：（此值应为整数。）
+prot: net partial charge on protein is %8.3f	蛋白质：净部分电荷为 {0}。
+warning: %s not found.	警告：找不到 {0}。
+warning: %s not valid.	警告：{0} 无效。
+fetched: %s	已获取：{0}
+error: '%s' is not defined.	错误：未定义“{0}”。
+error: '%s' contains no atoms.	错误：“{0}”不含原子。
+%s error: '%s' must only span one object.'	{0} 错误：“{1}”只能跨越一个对象。
+Atoms Clicked (in order):	点击的原子（按顺序）：
+Atom %d: %s	原子 {0}：{1}
+(%s) contains %d molecules total.	（{0}）共包含 {1} 个分子。
+molecule %d contains %d atoms	分子 {0} 含有 {1} 个原子。
+I am coloring %s all atoms in selection: %s	正在将选择 {1} 中的所有原子着为 {0}。
+Now start my custom gui here...	现在在此启动自定义图形界面……
+The surface area is: %8.3f	表面积为：{0}
+syncmol: writing to %s:%d	分子同步：正在写入 {0}:{1}。
+syncmol: reading from port %d	分子同步：正在从端口 {0} 读取。
+started httpserver...	HTTP 服务已启动……
+filecontent %s	文件内容 {0}
+^C received, shutting down server	收到 Ctrl+C，正在关闭服务。
+this script must be run from within PyMOL	此脚本必须在 PyMOL 内运行。
+connected to PyMol rpc-server on port %d	已连接到端口 {0} 上的 PyMOL RPC 服务。
+unable to connect to PyMol	无法连接到 PyMOL。
+Failed on port %d, trying another	端口 {0} 连接失败，正在尝试其他端口。
+Area of sphere does not sum to 4*pi!	球面积之和不等于 4π。
+Invalid triangle - s01 negative	三角形无效：s01 为负。
+Invalid triangle - s02 negative	三角形无效：s02 为负。
+Invalid triangle - s12 negative	三角形无效：s12 为负。
+used too many extra vertices (this indicates a bug)...	使用了过多的额外顶点，这表明程序可能存在错误……
+can't find 'chempy.bonds.bonds'	找不到 chempy.bonds.bonds。
+Aborting on error. Labels may be incomplete.	因错误而中止，标签可能不完整。
+can't find globals for 'pymol'	找不到 pymol 的全局变量。
+can't create 'parse' function closure	无法创建 parse 函数闭包。
+can't create 'complete' function closure	无法创建 complete 函数闭包。
+Threading error detected.  Terminating...	检测到线程错误，正在终止……
+invalid clip mode	裁剪模式无效。
+Missing space group symbol	缺少空间群符号。
+Unable to get matrices.	无法获取矩阵。
+loading mmCIF into existing object not supported, please use 'create' to append to an existing object.	不支持将 mmCIF 加载到已有对象中，请使用 create 追加到已有对象。
+loading mmCIF with multiplex=1 not supported, please use 'split_states' after loading the object.	mmCIF 加载不支持 multiplex=1，请先加载对象，再使用 split_states。
+loading BCIF into existing object not supported, please use 'create' to append to an existing object.	不支持将 BCIF 加载到已有对象中，请使用 create 追加到已有对象。
+loading BCIF with multiplex=1 not supported, please use 'split_states' after loading the object.	BCIF 加载不支持 multiplex=1，请先加载对象，再使用 split_states。
+can't create atom	无法创建原子。
+missing chemical geometry information.	缺少化学几何信息。
+could not parse CGO List.	无法解析 CGO 列表。
+could not parse CGO.	无法解析 CGO。
+Unable to create map	无法创建密度图。
+wrong format	格式不正确。
+Error reading map	读取密度图出错。
+Unable to open file!	无法打开文件。
+gzipped data not supported	不支持 gzip 压缩数据。
+missing 'object 1 class gridpositions count' line	缺少 object 1 class gridpositions count 行。
+missing 'origin'	缺少 origin。
+expected 3 floats	预期为 3 个浮点数。
+missing 'delta'	缺少 delta。
+missing 'object . class array'	缺少 object . class array。
+missing numpy support, required for chempy.brick	缺少 NumPy 支持，chempy.brick 需要 NumPy。
+missing brick origin.	缺少 brick 原点。
+missing brick dimension.	缺少 brick 维度。
+missing brick range.	缺少 brick 范围。
+missing brick grid.	缺少 brick 网格。
+missing brick density.	缺少 brick 密度。
+missing any brick attribute.	缺少 brick 属性。
+bad 'format' parameter.	format 参数无效。
+bad 'cell_dim' parameter.	cell_dim 参数无效。
+bad 'cell_ang' parameter.	cell_ang 参数无效。
+bad 'cell_div' parameter.	cell_div 参数无效。
+bad 'first' parameter.	first 参数无效。
+bad 'last' parameter.	last 参数无效。
+pymol::CObject unreadable.	无法读取 pymol::CObject。
+unsupported format.	不支持此格式。
+state out of range	状态超出范围。
+can't open file for writing	无法打开文件进行写入。
+unknown field type	未知数据场类型。
+need atom information record!	需要原子信息记录。
+Error reading counts lines	读取计数行出错。
+Error reading atom names	读取原子名称出错。
+Error reading charges	读取电荷出错。
+Error LJ atom types	读取 Lennard-Jones 原子类型出错。
+Error reading residue labels	读取残基标签出错。
+Error reading residues	读取残基出错。
+Error hydrogen containing bonds	读取含氢化学键出错。
+Error hydrogen free bonds	读取不含氢的化学键出错。
+Error reading atom types	读取原子类型出错。
+failed	失败。
+no source coordset	没有源坐标集。
+no coordinate for source anchor atom	源锚定原子没有坐标。
+no source attachment vector found	未找到源连接向量。
+no target attachment vector found	未找到目标连接向量。
+can't get atom list	无法获取原子列表。
+can't get atom	无法获取原子。
+can't get coordinates	无法获取坐标。
+can't read coordinates	无法读取坐标。
+can't read atom identifier	无法读取原子标识。
+can't read name	无法读取名称。
+can't read text_type	无法读取文本类型 text_type。
+can't read custom	无法读取自定义字段 custom。
+can't read vdw radius	无法读取范德华半径 vdw。
+can't read elec. radius	无法读取静电半径。
+can't read stereo	无法读取立体化学 stereo。
+can't read numeric_type	无法读取数值类型 numeric_type。
+can't read formal_charge	无法读取形式电荷 formal_charge。
+can't read partial_charge	无法读取部分电荷 partial_charge。
+can't read flags	无法读取标记 flags。
+can't read resn	无法读取残基名称 resn。
+can't read ins_code	无法读取插入码 ins_code。
+can't read resi_number	无法读取残基编号 resi_number。
+can't read segi	无法读取片段标识 segi。
+can't read b value	无法读取 B 因子。
+can't read u value	无法读取各向异性位移 u 值。
+can't read occupancy	无法读取占有率。
+can't read chain	无法读取链标识。
+can't read hetatm	无法读取 hetatm 标记。
+can't read alternate conformation	无法读取替代构象。
+can't read symbol	无法读取元素符号。
+can't read secondary structure	无法读取二级结构。
+bad cartoon color info	卡通颜色信息无效。
+bad alpha value	透明度 alpha 值无效。
+bad label color info	标签颜色信息无效。
+bad ribbon color info	丝带颜色信息无效。
+bad visibility info	可见性信息无效。
+bad color info	颜色信息无效。
+can't get bond list	无法获取化学键列表。
+can't get bond	无法获取化学键。
+can't get bond indices	无法获取化学键索引。
+can't read bond order	无法读取键级。
+atom count mismatch	原子数不匹配。
+named object molecule not found.	找不到指定名称的分子对象。
+passed argument is not a sequence	传入的参数不是序列。
+bad atom count	原子数无效。
+bad bond count	化学键数无效。
+bad coordinate	坐标无效。
+bad bond atom	化学键中的原子无效。
+bad bond order	键级无效。
+@ATOM before @MOLECULE!	@ATOM 出现在 @MOLECULE 之前。
+bad atom id	原子标识无效。
+bad atom name	原子名称无效。
+bad x coordinate	x 坐标无效。
+bad y coordinate	y 坐标无效。
+bad z coordinate	z 坐标无效。
+bad atom type	原子类型无效。
+bad atom charge	原子电荷无效。
+@SET before @MOLECULE!	@SET 出现在 @MOLECULE 之前。
+bad member count	成员数无效。
+bad member	成员无效。
+@BOND before @MOLECULE!	@BOND 出现在 @MOLECULE 之前。
+bad source atom id	源原子标识无效。
+bad target atom id	目标原子标识无效。
+bad bond type	化学键类型无效。
+@SUBSTSRUCTURE before @MOLECULE!	@SUBSTSRUCTURE 出现在 @MOLECULE 之前。
+bad substructure id	子结构标识无效。
+bad substructure name	子结构名称无效。
+bad target root atom id	目标根原子标识无效。
+failed to compile expression	表达式编译失败。
+bad bond record	化学键记录无效。
+bad charge	电荷无效。
+Error reading CRYST1 record	读取 CRYST1 记录出错。
+Must pick an atom to invert	必须拾取一个要反转的原子。
+Must pick atom to invert as pk1	必须将要反转的原子拾取为 pk1。
+Must pick immobile atom in pk2	必须在 pk2 中拾取不动原子。
+Must pick immobile atom in pk3	必须在 pk3 中拾取不动原子。
+Must pick three atoms in the same object	必须在同一对象中拾取三个原子。
+No free fragments found for inversion	未找到可用于反转的自由片段。
+Must specify a bond first.	必须先指定一个化学键。
+Error occurred.	发生错误。
+Invalid input selection(s)	输入选择无效。
+Nothing picked.	尚未拾取。
+Editor not active.	编辑器未激活。
+No valid selection and active editor.	没有有效选择及活动编辑器。
+This should not happen - PyMOL may have a bug	出现不应发生的情况，PyMOL 可能存在程序错误。
+Invalid selection	选择无效。
+Empty Selection	选择为空。
+More than one atom found	找到多个原子。
+content is nullptr	content 为空指针 nullptr。
+This format requires a filename to load	加载此格式需要文件名。
+must load object topology before loading trajectory!	加载轨迹前必须先加载对象拓扑。
+must load object topology before loading coordinate file!	加载坐标文件前必须先加载对象拓扑。
+must load object topology before loading restart file!	加载重启文件前必须先加载对象拓扑。
+PMO format no longer supported.	已不再支持 PMO 格式。
+no object selected	未选择对象。
+source object not found	找不到源对象。
+target object not found	找不到目标对象。
+window must be at least size 2	窗口大小必须至少为 2。
+Selection must be within a single object	选择必须位于同一对象内。
+Invalid state	状态无效。
+Can't get dot representation.	无法获取点表示。
+object not found	找不到对象。
+invalid alignment object name.	比对对象名称无效。
+alignment object not found.	找不到比对对象。
+invalid object type.	对象类型无效。
+invalid mode	模式无效。
+ExecutiveRMS	执行 RMS 比较（ExecutiveRMS）。
+No atoms selected.	未选中原子。
+Unknown color.	未知颜色。
+Invalid object	对象无效。
+No symmetry loaded!	尚未加载对称性。
+unknown space group	未知空间群。
+No atoms indicated!	尚未指示原子。
+map is nullptr	密度图为空指针 nullptr。
+Invalid object type for this operation.	此操作不支持该对象类型。
+Object not found.	找不到对象。
+Not found	未找到。
+Invalid Atom	原子无效。
+Python unavailable.	Python 不可用。
+Passed argument is not a sequence	传入的参数不是序列。
+Atom count mismatch	原子数不匹配。
+Numpy array shape mismatch	NumPy 数组形状不匹配。
+Load Coords error occurred.	加载坐标时出错。
+inconsistent selection.	选择不一致。
+Invalid distance.	距离无效。
+Invalid bond count.	化学键数无效。
+Invalid Number	数值无效。
+Invalid Operator.	运算符无效。
+Malformed selection.	选择表达式格式错误。
+Invalid selection.	选择无效。
+Empty expression	表达式为空。
+named object not found.	找不到指定名称的对象。
+not an integer list.	不是整数列表。
+Bad color name.	颜色名称无效。
+Detected OpenGL version %s. Shaders available.	检测到 OpenGL 版本 {0}，着色器可用。
+Detected GLSL version %s.	检测到 GLSL 版本 {0}。
+Incentive-Only-Error: %s	开源版功能限制：{0:message}
+"%s" is not available in Open-Source PyMOL	开源版 PyMOL 不支持“{0}”。
+Not available in Open-Source PyMOL	开源版 PyMOL 不支持此功能。
+Please visit http://pymol.org if you are interested in the	如需了解功能完整的商业版 PyMOL，
+full featured "Incentive PyMOL" version.	请访问 http://pymol.org。

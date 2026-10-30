@@ -1,0 +1,780 @@
+# PyMOL setting key	Chinese display name	Chinese explanation
+active_selections	活动选区高亮	控制活动选区的拾取标记是否可见。
+alignment_as_cylinders	比对连线使用圆柱	控制比对连线是否以圆柱表示。
+all_states	显示全部状态	控制是否同时显示多状态对象的全部状态。
+ambient	环境光	调整环境光对物体亮度的贡献。
+ambient_occlusion_mode	环境遮蔽模式	选择环境遮蔽的计算模式。
+ambient_occlusion_scale	环境遮蔽强度	调整环境遮蔽对明暗的影响。
+ambient_occlusion_smooth	环境遮蔽平滑	调整环境遮蔽的平滑程度。
+anaglyph_mode	红蓝立体模式	选择红蓝眼镜立体显示的颜色编码。
+angle_color	角度测量颜色	设置角度测量标记的颜色。
+angle_label_position	角度标签位置	调整角度测量标签的位置。
+angle_size	角度标记大小	调整角度测量弧线的大小。
+animation	视图过渡动画	控制视图改变时是否使用平滑动画。
+animation_duration	视图过渡时长	设置视图过渡动画的时长，单位为秒。
+antialias	抗锯齿	控制光线追踪图像的抗锯齿采样。
+auto_defer_builds	自动延后构建	控制是否延后生成对象的显示几何。
+auto_hide_selections	自动隐藏选区	控制选区标记的自动隐藏行为。
+auto_remove_hydrogens	自动移除氢原子	控制加载结构时是否自动去除氢原子。
+auto_show_lines	自动显示线	控制新加载分子是否自动显示线状表示。
+auto_show_nonbonded	自动显示非成键原子	控制新对象中非成键原子的自动显示。
+auto_show_selections	自动显示选区	控制新建选区的标记是否自动显示。
+auto_show_spheres	自动显示原子球	控制新对象是否自动显示为原子球。
+auto_zoom	自动缩放	控制加载或创建对象时的自动视图调整。
+bg_rgb	背景颜色	设置三维绘图区的背景颜色。
+button_mode	鼠标模式编号	记录当前鼠标配置环中的模式。
+button_mode_name	鼠标模式名称	显示当前鼠标模式的原始名称。
+cartoon_color	二级结构示意颜色	设置 cartoon 表示使用的颜色。
+cartoon_fancy_helices	精细螺旋	控制 cartoon 螺旋的显示样式。
+cartoon_flat_sheets	平面折叠箭头	控制 cartoon 折叠部分的显示样式。
+cartoon_sampling	示意图采样	设置二级结构示意曲线的采样密度。
+cartoon_smooth_loops	平滑环区	控制二级结构示意图中的环区平滑。
+cartoon_transparency	二级结构示意透明度	设置 cartoon 表示的透明度。
+cgo_line_width	图形对象线宽	设置 CGO 图形对象的线宽。
+dash_color	测量虚线颜色	设置测量虚线使用的颜色。
+dash_gap	测量虚线间距	设置测量虚线中线段之间的间隔。
+dash_length	测量虚线段长度	设置测量虚线每段线条的长度。
+dash_radius	测量虚线半径	设置测量虚线圆柱的半径。
+dash_width	测量虚线宽度	设置距离等测量虚线的宽度。
+depth_cue	深度雾化	控制随深度变化的雾化显示。
+dihedral_color	二面角颜色	设置二面角测量标记的颜色。
+direct	直射光	调整直射光对物体亮度的贡献。
+field_of_view	视场角	调整透视投影的视场角。
+fog	雾效	控制深度雾效的强度。
+internal_gui	内部侧栏	控制绘图区原生对象侧栏是否显示。
+internal_gui_width	内部侧栏宽度	控制绘图区原生对象侧栏的宽度。
+label_color	标签颜色	设置原子标签使用的颜色。
+label_font_id	标签字体编号	选择原子标签使用的字体。
+label_outline_color	标签轮廓颜色	设置原子标签的轮廓颜色。
+label_size	标签字号	控制原子标签的显示尺寸。
+light_count	光源数量	设置渲染使用的光源数量。
+line_color	线颜色	设置线状表示的颜色。
+line_width	线宽	设置线状表示的宽度。
+mesh_color	网格颜色	设置网格表示使用的颜色。
+mesh_width	网格线宽	设置网格表示的线宽。
+mouse_selection_mode	鼠标选择粒度	控制鼠标选择原子、残基、链、片段、对象等的粒度。
+movie_fps	动画帧率	设置动画播放的目标帧率。
+nonbonded_size	非成键标记大小	设置非成键原子标记的大小。
+orthoscopic	正交投影	在正交投影和透视投影之间切换。
+ray_opaque_background	光追不透明背景	关闭时可输出带透明背景的光追图像。
+ray_trace_disco_factor	光追色彩扰动	调整光线追踪的色彩扰动效果。
+ray_trace_fog	光追雾效	控制光线追踪图像中的深度雾化效果。
+ray_trace_gain	光追轮廓强度	调整光线追踪轮廓效果的强度。
+ray_trace_mode	光追轮廓模式	控制光线追踪图像的轮廓与着色风格。
+ribbon_color	带状表示颜色	设置 ribbon 表示的颜色。
+ribbon_width	带状表示宽度	设置 ribbon 表示的线宽。
+seq_view	序列视图	控制序列视图是否显示。
+seq_view_label_mode	序列标签模式	选择序列视图的标签显示模式。
+shininess	高光锐度	调整镜面高光的集中程度。
+solvent_radius	溶剂探针半径	设置表面计算采用的溶剂探针半径，单位为 Å。
+specular	镜面高光	控制表面的镜面高光。
+sphere_quality	原子球质量	设置球体表示的细分质量。
+sphere_scale	原子球缩放	设置原子球半径相对范德华半径的缩放系数。
+sphere_transparency	原子球透明度	设置球体透明度；0 为不透明，1 为完全透明。
+state	当前状态	控制显示的分子状态。
+stereo	立体显示	控制是否启用立体显示。
+stereo_mode	立体显示模式	选择立体显示的输出方式。
+stick_color	棒颜色	设置棒状表示使用的颜色。
+stick_quality	棒质量	设置棒状表示圆柱的细分质量。
+stick_radius	棒半径	设置棒状表示的半径。
+stick_transparency	棒透明度	设置棒状表示的透明度。
+surface_color	表面颜色	设置分子表面使用的颜色。
+surface_quality	表面质量	调整分子表面的细分质量。
+surface_solvent	溶剂可及表面	控制是否采用溶剂可及表面。
+transparency	表面透明度	设置分子表面透明度；0 为不透明，1 为完全透明。
+two_sided_lighting	双面光照	控制表面正反两面的光照。
+valence	显示键级	控制多重键的显示。
+antialias_shader	着色器抗锯齿	控制着色器渲染时的抗锯齿方式。
+assembly	生物学组装体	加载 mmCIF 时选择生物学组装体，替代不对称单元。
+async_builds	并行构建显示几何	在多核机器上并行生成几何；此选项可能导致不稳定。
+ati_bugs	ATI 显卡兼容处理	避开已知 ATI 驱动渲染问题。
+atom_name_wildcard	原子名称通配符	指定匹配原子名的通配符；空值沿用 wildcard。可避免把原子名中的星号当作通配符。
+atom_type_format	原子类型格式	选择原子类型的命名格式：mol2、sybyl、macromodel、mmd 或 sdf。
+auto_classify_atoms	自动分类原子	自动识别聚合物、有机物、溶剂、无机物及各残基引导原子。
+auto_color	自动分配对象颜色	为新对象的碳原子分配不同颜色。
+auto_color_next	下一自动颜色编号	保存自动配色下一次使用的颜色序号。
+auto_copy_images	自动复制图像	自动把 OpenGL 绘图区图像复制到系统剪贴板。
+auto_defer_atom_count	自动延后构建原子数阈值	与 auto_defer_builds 配合，根据原子数决定是否延后构建显示几何。
+auto_dss	自动指认二级结构	对缺少二级结构定义的分子自动计算二级结构。
+auto_indicate_flags	自动指示标志原子	执行 flag 命令时自动标示带有相应标志的原子。
+auto_number_selections	自动编号选区	为新建的未命名选区分配唯一编号；关闭时使用 sele。
+auto_overlay	自动显示叠加文字	根据用户操作自动显示或隐藏叠加文字。
+auto_rename_duplicate_objects	自动重命名同名对象	开启时为同名新对象改名；关闭时允许覆盖已有对象。
+auto_sculpt	移动原子时自动塑形	移动原子后自动启用分子塑形。
+auto_show_classified	自动显示已分类结构	控制新加载结构按原子分类自动选择显示方式。
+autoclose_dialogs	自动关闭对话框	保留的历史设置；官方说明标记为未使用。
+backface_cull	剔除背面	控制光线追踪时对背向观察者三角面的处理。
+batch_prefix	批处理临时文件前缀	指定批处理临时文件使用的文件名前缀。
+bg_gradient	渐变背景	使用渐变背景；上下颜色由 bg_rgb_top 和 bg_rgb_bottom 指定。
+bg_image_filename	背景图像文件	指定绘图区背景使用的图像文件。
+bg_image_linear	背景图像线性采样	开启时使用线性插值；关闭时使用最近邻采样。
+bg_image_mode	背景图像布局	0：拉伸；1：居中；2：平铺；3：居中并重复。
+bg_image_tilesize	背景图像平铺尺寸	背景模式为 3 时设置图块的 X、Y 尺寸；Z 分量不使用。
+bg_rgb_bottom	背景底部颜色	设置渐变背景的下端颜色。
+bg_rgb_top	背景顶部颜色	设置渐变背景的上端颜色。
+cache_display	缓存绘图区	缓存当前画面，以加快菜单等界面更新。
+cache_frames	缓存动画帧	将动画帧缓存在内存中以加快预览；mclear 可清空缓存。
+cache_max	几何缓存上限	限制几何缓存保留的基本数据元素数量。
+cache_memory	内存缓存保留项	特殊历史设置；官方说明标记为当前不支持。
+cache_mode	几何缓存模式	0：关闭；1：只读；2：保留新计算的几何数据，可随会话保存。
+cartoon_all_alt	示意图显示替代构象	控制二级结构示意图是否纳入替代构象。
+cartoon_cylindrical_helices	圆柱螺旋	将螺旋显示为圆柱，替代逐残基的示意表示。
+cartoon_debug	示意图调试模式	供开发调试二级结构示意几何使用，通常保留默认值。
+cartoon_discrete_colors	示意图离散颜色	控制残基颜色是在 Cα 位置还是相邻 Cα 中点切换。
+cartoon_dumbbell_length	哑铃截面长度	调整二级结构示意图哑铃形截面的长度。
+cartoon_dumbbell_radius	哑铃截面半径	调整二级结构示意图哑铃形截面的端部半径。
+cartoon_dumbbell_width	哑铃截面宽度	调整二级结构示意图哑铃形截面的宽度。
+cartoon_fancy_sheets	折叠箭头	控制 β 折叠末端是否绘制箭头。
+cartoon_flat_cycles	折叠平面化循环数	设置开启平面折叠显示后执行平面化的循环次数。
+cartoon_gap_cutoff	示意图缺口连接阈值	控制跨缺失残基绘制虚线环区的范围；缺失一个残基通常需设为至少 2。
+cartoon_helix_radius	示意螺旋半径	设置圆柱螺旋表示的半径。
+cartoon_highlight_color	示意图强调色	设置二级结构示意图的强调颜色。
+cartoon_ladder_color	核酸梯形表示颜色	设置核酸梯形表示的颜色。
+cartoon_ladder_mode	核酸梯形表示模式	选择核酸梯形结构的绘制方式。
+cartoon_ladder_radius	核酸梯形表示半径	设置核酸梯形连杆的半径。
+cartoon_loop_cap	环区端帽	0：无端帽；1：圆端帽；2：平端帽。
+cartoon_loop_quality	环区截面质量	设置环区横截面使用的多边形面数。
+cartoon_loop_radius	环区半径	设置二级结构示意图环区管线的半径。
+cartoon_nucleic_acid_as_cylinders	核酸骨架使用圆柱	控制核酸示意骨架是否使用高质量圆柱。
+cartoon_nucleic_acid_color	核酸骨架颜色	设置核酸二级结构示意骨架的颜色。
+cartoon_nucleic_acid_mode	核酸骨架取点模式	0：P；1：C1*；2：P 与末端 3′OH；3：P 与末端 5′OH；4：P 与两端 OH。
+cartoon_oval_length	椭圆截面长轴	设置椭圆形示意截面的长度。
+cartoon_oval_quality	椭圆截面质量	设置椭圆横截面使用的多边形面数。
+cartoon_oval_width	椭圆截面短轴	设置椭圆形示意截面的宽度。
+cartoon_power	示意曲线形状指数	调整二级结构示意曲线的形状参数。
+cartoon_power_b	示意曲线辅助指数	调整二级结构示意曲线的第二个形状参数。
+cartoon_putty_quality	粗细管线截面质量	设置 putty 粗细管线的截面面数。
+cartoon_putty_radius	粗细管线基础半径	设置 putty 表示的默认半径。
+cartoon_putty_range	粗细管线缩放范围	调整 putty 表示对原子属性值的缩放范围。
+cartoon_putty_scale_max	粗细管线缩放上限	限制 putty 管线的最大缩放系数。
+cartoon_putty_scale_min	粗细管线缩放下限	限制 putty 管线的最小缩放系数。
+cartoon_putty_scale_power	粗细管线缩放指数	设置 putty 非线性缩放使用的指数。
+cartoon_putty_transform	粗细管线变换模式	0–3：归一化、相对、缩放、绝对非线性变换；4–7：对应线性变换；8：隐含 RMS 缩放。
+cartoon_rect_length	矩形截面长度	设置二级结构示意图矩形截面的长度。
+cartoon_rect_width	矩形截面宽度	设置二级结构示意图矩形截面的宽度。
+cartoon_refine	示意坐标细化	调整示意图中间坐标的细化程度。
+cartoon_refine_normals	细化示意图法向	控制法向量细化；-1 表示自动选择。
+cartoon_refine_tips	折叠箭头尖端细化	调整 β 折叠尖端的拉直与细化程度。
+cartoon_ring_color	环结构颜色	设置核酸碱基等环结构表示的颜色。
+cartoon_ring_finder	环结构识别方式	选择环识别规则；模式 1 识别包含 C4* 或 C4 原子的环。
+cartoon_ring_mode	环结构显示方式	0：不画环；1：圆边；2：方边；3：带边界；4：近似大小球体；5：环心小球。
+cartoon_ring_radius	环结构球体半径	设置环结构球体半径；-1 表示根据环几何自动计算。
+cartoon_ring_transparency	环结构透明度	负值沿用 cartoon_transparency；非负值单独设置环透明度。
+cartoon_ring_width	环结构厚度	设置环结构表示的厚度。
+cartoon_round_helices	圆化螺旋	使取向向量沿螺旋轴排列，从而获得圆形螺旋。
+cartoon_side_chain_helper	示意图侧链辅助	显示示意图时隐藏骨架线和棒；对可见侧链残基的 Cα 关闭平滑。
+cartoon_smooth_cycles	示意图平滑循环数	设置整段二级结构示意图的平滑次数。
+cartoon_smooth_cylinder_cycles	圆柱螺旋平滑循环数	设置用于圆柱螺旋骨架平滑的循环次数。
+cartoon_smooth_cylinder_window	圆柱螺旋平滑窗口	设置圆柱螺旋骨架平滑时采用的邻域窗口。
+cartoon_smooth_first	示意图平滑起点	设置每段示意结构开始平滑的位置。
+cartoon_smooth_last	示意图平滑终点	设置每段示意结构结束平滑的位置。
+cartoon_throw	示意图几何偏移	调整二级结构示意图的几何形状参数。
+cartoon_trace_atoms	沿全部原子绘制示意图	示意曲线经过全部原子；主要适用于环区与管状表示。
+cartoon_tube_cap	管状表示端帽	设置管状示意的端帽：0 无、1 圆形、2 平面。
+cartoon_tube_quality	管状截面质量	设置管状示意图横截面的多边形面数。
+cartoon_tube_radius	管状表示半径	设置管状示意图线段的半径。
+cartoon_use_shader	示意图使用着色器	开启时采用 GLSL 渲染示意图；关闭时使用旧版 OpenGL 路径。
+cavity_cull	表面内腔点簇剔除阈值	从分子表面排除小于该阈值的孤立点簇，通常对应蛋白内部小孔穴。
+cell_centered	晶胞居中	将晶胞边框相对于原点居中显示，而非从原点向正方向展开。
+cell_color	晶胞颜色	设置晶胞边框的颜色。
+cgo_debug	图形对象调试显示	显示 CGO 对象相关的调试图形。
+cgo_dot_radius	图形对象点半径	光追时使用的 CGO 点半径；非正值时由点宽计算。
+cgo_dot_width	图形对象点宽	设置 CGO 点的显示宽度。
+cgo_ellipsoid_quality	图形对象椭球质量	设置 CGO 椭球表示的细分质量。
+cgo_lighting	图形对象光照	控制 CGO 对象是否接受光照。
+cgo_line_radius	图形对象线半径	光追时使用的 CGO 线半径；非正值时由线宽计算。
+cgo_ray_width_scale	图形对象光追宽度缩放	调整 CGO 线和点从屏幕宽度转换为光追半径时的比例。
+cgo_shader_ub_color	图形对象使用字节颜色	以无符号字节向显卡传送颜色数据，可减少传输体积。
+cgo_shader_ub_flags	图形对象使用字节标志	控制 CGO 着色器标志是否使用无符号字节传送。
+cgo_shader_ub_normal	图形对象使用字节法向	以无符号字节向显卡传送法向量数据。
+cgo_sphere_quality	图形对象球体质量	设置加载 CGO 球体时使用的细分质量。
+cgo_transparency	图形对象透明度	设置 CGO 几何对象的默认透明度。
+cgo_use_shader	图形对象使用着色器	开启时采用 GLSL 渲染 CGO；关闭时使用旧版 OpenGL 路径。
+chem_comp_cartn_use	化学组分坐标来源	按位选择化学组分坐标列：1 为理想坐标，2 为模型坐标，4 为普通坐标；0 允许全部来源。
+chromadepth	色深立体显示	启用以颜色编码深度的 ChromaDepth 显示方式。
+cif_keepinmemory	保留解析后的 CIF 数据	实验功能：保留 CIF 解析数据，供 cif_get_array 等查询使用。
+cif_metalc_as_zero_order_bonds	金属配位作为零级键	控制 mmCIF 中金属配位连接是否作为零级键加载。
+cif_use_auth	使用 CIF 作者标识	优先使用 auth_* 标识，缺失时回退到 label_*；label_asym_id 仍用于片段标识 segi。
+clamp_colors	限制颜色范围	将颜色限制在当前颜色表允许的范围内。
+clean_electro_mode	清理静电计算模式	选择结构清理过程中的静电处理模式。
+collada_background_box	COLLADA 背景盒	控制 COLLADA 导出中是否生成背景盒几何。
+collada_export_lighting	COLLADA 导出光照	控制 COLLADA 文件是否包含场景光源。
+collada_geometry_mode	COLLADA 几何模式	选择 COLLADA 导出使用的几何组织方式。
+colored_feedback	彩色反馈文字	控制控制台反馈是否使用颜色编码。
+cone_quality	圆锥质量	设置 CGO 圆锥截面的分段数量。
+connect_bonded	显式成键原子自动连键	控制已具有 PDB 显式键记录的原子是否继续参与自动键识别。
+connect_cutoff	自动连键距离阈值	调整自动识别化学键时允许的原子间距。
+connect_mode	加载时连键模式	0：自动连键并使用显式键级；1：只使用显式连接；2：保留模式。
+coulomb_cutoff	库仑计算截断距离	设置库仑静电计算采用的距离截断值。
+coulomb_dielectric	库仑计算介电常数	设置库仑静电计算使用的介电常数。
+coulomb_units_factor	库仑结果单位换算系数	将静电计算结果换算到目标单位，例如 kT/e。
+dash_as_cylinders	测量虚线使用圆柱	将测量虚线绘制为高质量圆柱，而非普通线段。
+dash_round_ends	测量虚线圆端帽	控制虚线线段的末端是否圆化。
+dash_transparency	测量虚线透明度	设置距离等测量虚线的透明度。
+dash_use_shader	测量虚线使用着色器	开启时采用 GLSL 渲染测量虚线；关闭时使用旧版 OpenGL 路径。
+debug_pick	拾取调试模式	供调试鼠标拾取问题使用。
+default_2fofc_map_rep	2FoFc 密度图默认表示	设置从 MTZ 加载 2FoFc 密度图时的默认显示方式。
+default_buster_names	Buster 默认数据列名	指定自动加载 Buster 密度图时查找的数据列名称列表。
+default_fofc_map_rep	FoFc 密度图默认表示	设置从 MTZ 加载 FoFc 差值密度图时的默认显示方式。
+default_phenix_names	Phenix 默认数据列名	指定自动加载 Phenix 密度图时查找的数据列名称列表。
+default_phenix_no_fill_names	Phenix 未填充图默认列名	指定自动加载 Phenix 未填充密度图时查找的数据列名称列表。
+default_refmac_names	Refmac 默认数据列名	指定自动加载 Refmac 密度图时查找的数据列名称列表。
+defer_builds_mode	延后构建模式	0：预建全部可见状态；1：按需构建并缓存；2：只缓存当前状态，含禁用对象；3：只缓存启用对象的当前状态，最省内存。
+defer_updates	延后界面更新	控制是否将更新推迟到后续刷新周期。
+dihedral_label_position	二面角标签位置	调整二面角测量标签与测量中心的相对位置。
+dihedral_size	二面角标记大小	设置二面角指示弧线向外伸出的距离。
+display_scale_factor	显示缩放系数	记录高分辨率屏幕的显示缩放系数。
+dist_counter	测量对象名称计数器	记录自动生成距离等测量对象名称的编号。
+distance_exclusion	测量排除键距	distance 使用模式 3 时，排除键连接距离不足该阈值的原子对。
+dot_as_spheres	点使用球体绘制	控制点状表示是否采用球体渲染。
+dot_color	点状表示颜色	设置点的颜色；默认沿用所属原子的颜色。
+dot_density	点状表示密度	设置原子球表面采样点的密度。
+dot_hydrogens	氢原子显示表面点	控制氢原子上是否绘制点状表示。
+dot_lighting	点状表示光照	按表面法向量对点进行明暗着色；不影响光追。
+dot_mode	点状表示模式	原版保留的点状表面模式参数；当前源码未提供独立模式说明。
+dot_normals	点状表示法向量	为点状表示使用法向量，改善屏幕光照；不影响光追。
+dot_radius	点半径	正值直接指定半径；非正值由 dot_width 和当前视口像素大小计算。
+dot_solvent	点表示溶剂可及表面	选择在原子表面还是溶剂可及表面生成点。
+dot_use_shader	点状表示使用着色器	开启时采用 GLSL 渲染点；关闭时使用旧版 OpenGL 路径。
+dot_width	点像素宽度	设置点在绘图区中的像素宽度。
+draw_frames	绘制动画帧	控制动画各帧是否通过 draw 命令渲染。
+draw_mode	绘制模式	0：普通 OpenGL；1：抗锯齿 OpenGL；2：无阴影光追；3：带阴影光追。
+dynamic_measures	动态更新测量	组成测量的原子移动时，自动更新测量对象。
+dynamic_width	动态线宽	根据视图调整线宽，提高可见性。
+dynamic_width_factor	动态线宽比例	设置动态线宽的缩放系数。
+dynamic_width_max	动态线宽上限	限制动态调整后的最大线宽。
+dynamic_width_min	动态线宽下限	限制动态调整后的最小线宽。
+edit_light	鼠标编辑光源编号	指定可用鼠标移动的光源编号，通常为 1–8。
+editor_auto_dihedral	编辑时自动显示二面角	修改扭转角时自动显示对应二面角数值。
+editor_auto_measure	编辑时自动测量	控制编辑器是否自动生成相关几何测量。
+editor_auto_origin	编辑时自动设旋转中心	旋转分子时自动设置旋转中心。
+editor_bond_cycle_mode	编辑器键级循环模式	控制编辑化学键时的键级切换顺序。
+editor_label_fragments	编辑器片段标签	历史保留设置；官方说明标记为当前未实现。
+ellipsoid_color	椭球颜色	设置椭球表示使用的颜色。
+ellipsoid_probability	椭球概率水平	设置热振动椭球包围的概率水平。
+ellipsoid_quality	椭球质量	设置椭球表示的细分质量。
+ellipsoid_scale	椭球缩放	按比例缩放椭球表示的尺寸。
+ellipsoid_transparency	椭球透明度	0 为不透明，1 为完全透明。
+fast_idle	快速空闲周期	调整快速空闲循环的调度间隔，通常无需修改。
+fetch_host	结构下载服务器	选择 fetch 使用的服务器；pdbe 为欧洲，pdbj 为日本，默认使用美国服务器。
+fetch_path	结构下载目录	设置 fetch 命令下载文件的默认保存目录。
+fetch_type_default	默认下载文件类型	设置 fetch 未指定类型时采用的文件格式。
+fit_iterations	拟合迭代上限	设置拟合过程允许的最大迭代次数。
+fit_kabsch	使用 Kabsch 拟合算法	选择公开的 Kabsch 拟合算法或原版提供的快速实现。
+fit_tolerance	拟合收敛容差	设置拟合过程判断收敛所用的残差容差。
+float_labels	标签置于最上层	最后绘制标签并绕过深度缓冲，使其浮于画面之上；不影响光追。
+fog_start	雾效起始位置	以相对深度指定开始产生雾化的位置，通常为 0–1。
+frame	当前动画帧	记录当前显示的动画帧编号。
+gamma	伽马校正	设置应用于图像像素的伽马校正水平。
+gaussian_b_adjust	高斯密度图 B 因子修正	计算高斯密度图前，对温度因子应用此修正。
+gaussian_b_floor	高斯密度图 B 因子下限	设置高斯密度计算允许的最小温度因子。
+gaussian_resolution	高斯密度图分辨率	设置高斯密度图计算的默认分辨率。
+geometry_export_mode	三维几何导出模式	控制三维几何导出路径；官方未完整记录其模式含义。
+gradient_max_length	梯度流线最大长度	限制梯度流线允许的最大长度。
+gradient_min_length	梯度流线最小长度	限制保留的梯度流线的最小长度。
+gradient_min_slope	梯度最小斜率	设置梯度流线追踪的斜率阈值。
+gradient_normal_min_dot	梯度法向点积阈值	设置梯度流线计算采用的法向量点积阈值。
+gradient_spacing	梯度流线间距	调整梯度流线的采样间距。
+gradient_step_size	梯度流线步长	设置沿梯度追踪流线时的积分步长。
+gradient_symmetry	梯度对称扩展	控制梯度表示的对称扩展参数。
+grid_max	网格视图数量上限	设置网格布局允许的最大窗口槽位数。
+grid_mode	网格布局模式	将对象或状态分别绘制在独立子窗口中。
+grid_slot	网格窗口槽位	指定对象显示在哪个网格子窗口。
+group_arrow_prefix	组成员上级箭头	控制组成员前是否显示指向上级的箭头。
+group_auto_mode	自动分组模式	以对象名中的点作为分组分隔符；0：关闭；1：加入已有组；2：自动建立缺失的组。
+group_full_member_names	显示完整组成员名称	开启时保留成员全名；关闭时在组内隐藏组名前缀。
+h_bond_cone	氢键几何圆锥参数	调整氢键判定所用的方向性几何参数。
+h_bond_cutoff_center	理想氢键距离上限	设置理想氢键几何条件下允许的最大距离。
+h_bond_cutoff_edge	边缘氢键距离上限	设置边缘氢键几何条件下允许的最大距离。
+h_bond_exclusion	氢键相邻原子排除	排除连接关系过近的原子之间的氢键。
+h_bond_from_proton	从氢原子绘制氢键	选择氢键虚线起自氢原子还是对应重原子。
+h_bond_max_angle	氢键最大偏离角	设置边缘氢键判定允许的最大角度。
+h_bond_power_a	氢键几何指数 A	调整氢键方向性判定的第一项几何指数。
+h_bond_power_b	氢键几何指数 B	调整氢键方向性判定的第二项几何指数。
+half_bonds	显示半键	仅有一个端点原子可见时，控制是否绘制半条化学键。
+halogen_bond_as_acceptor_max_acceptor_angle	卤键受体最大受体角	设置以受体身份判定卤键时的最大受体角。
+halogen_bond_as_acceptor_min_acceptor_angle	卤键受体最小受体角	设置以受体身份判定卤键时的最小受体角。
+halogen_bond_as_acceptor_min_donor_angle	卤键受体最小供体角	设置以受体身份判定卤键时的最小供体角。
+halogen_bond_as_donor_min_acceptor_angle	卤键供体最小受体角	设置以供体身份判定卤键时的最小受体角。
+halogen_bond_as_donor_min_donor_angle	卤键供体最小供体角	设置以供体身份判定卤键时的最小供体角。
+halogen_bond_distance	卤键最大距离	设置卤键识别允许的最大原子间距离。
+hash_max	空间哈希内存上限	限制几何生成和光追过程中临时三维哈希表的内存占用。
+heavy_neighbor_cutoff	重原子邻近阈值	设置测量向导查找邻近重原子的距离阈值。
+hide_long_bonds	隐藏过长化学键	隐藏长度超过两端原子范德华半径之和约 90% 的化学键。
+hide_underscore_names	隐藏下划线对象名	在用户界面中隐藏名称以下划线开头的内部对象或选区。
+idle_delay	空闲延迟	调整空闲状态的调度延迟，通常无需修改。
+ignore_case	选择语言忽略大小写	控制选择表达式的大小写匹配；链和片段标识另由 ignore_case_chain 控制。
+ignore_case_chain	链与片段匹配忽略大小写	控制选择表达式中链和片段标识是否区分大小写。
+ignore_pdb_segi	忽略 PDB 片段标识	加载 PDB 时忽略文件中的 segi 片段标识。
+image_copy_always	始终复制图像	控制图像复制操作是否始终生成可复制的图像内容。
+image_dots_per_inch	输出图像 DPI	非零时指定输出图像文件记录的每英寸点数。
+internal_feedback	内部反馈行数	设置三维绘图区内部显示的反馈文字行数。
+internal_gui_control_size	内部侧栏控件高度	设置原生内部侧栏中控件的高度。
+internal_gui_mode	内部侧栏模式	原生内部侧栏的历史模式参数；官方未说明其具体模式含义。
+internal_gui_name_color_mode	内部侧栏名称颜色来源	0：默认白色；1：第一个碳原子的颜色；2：对象颜色。
+internal_prompt	内部命令提示符	控制三维绘图区内显示交互命令提示符还是仅显示输出日志。
+isomesh_auto_state	等值网格自动状态	控制等值网格是否自动选择相应的密度图状态。
+isosurface_algorithm	等值面算法	选择生成等值面的计算算法。
+keep_alive	无图形界面时保持运行	无 GUI 模式下，输入处理完毕后仍保持进程运行。
+label_anchor	默认标签锚定原子	设置默认标签附着的原子名称，例如 CA 或 CB。
+label_angle_digits	角度标签小数位数	指定角度测量的小数位数；-1 沿用 label_digits。
+label_bg_color	标签背景颜色	设置标签背景色；默认值 -1 不绘制背景。
+label_bg_outline	标签背景边框	绘制标签背景边框，颜色沿用标签连接线颜色。
+label_bg_transparency	标签背景透明度	设置标签背景的透明度。
+label_connector	标签连接线	控制标签与目标原子之间是否绘制连接线。
+label_connector_color	标签连接线颜色	设置连接线颜色；默认采用与背景有明显对比的前景色。
+label_connector_ext_length	标签连接线折角距离	设置连接模式 2、4 的折角到标签的距离，以标签尺寸为单位。
+label_connector_mode	标签连接线模式	0：近角或中点；1：中心；2：折线至下角；3：近角或边；4：按位置采用折线或垂线。
+label_connector_width	标签连接线宽	设置标签连接线和背景边框的宽度。
+label_digits	标签小数位数	设置测量标签默认显示的小数位数。
+label_dihedral_digits	二面角标签小数位数	指定二面角测量的小数位数；-1 沿用 label_digits。
+label_distance_digits	距离标签小数位数	指定距离测量的小数位数；-1 沿用 label_digits。
+label_multiline_justification	多行标签水平对齐	1：左对齐；0：居中；-1：右对齐；支持中间浮点值。
+label_multiline_spacing	多行标签行距	以标签字号为尺度设置行距，例如 1.2 对应额外 0.2 倍字号的间隔。
+label_padding	标签背景留白	设置文字与背景边框的 X、Y 留白，按标签字号缩放；第三分量不使用。
+label_placement_offset	标签拖动位置偏移	在相机 X、Y、Z 方向移动标签；拖动标签时修改此原子状态级偏移。
+label_position	标签位置与对齐	X、Y 在 -1 到 1 间用于对齐，超出范围用于位移；Z 超出 ±1 的部分表示世界坐标偏移。
+label_relative_mode	标签相对坐标模式	选择标签位置相对于世界坐标还是屏幕坐标。
+label_screen_point	标签屏幕位置	相对模式为 1、2 时指定屏幕位置；未指定 Z 目标时，第三分量为裁剪面间归一化深度。
+label_shadow_mode	标签阴影模式	0：不投射也不接收；1：接收；2：投射；3：同时投射与接收阴影。
+label_z_target	标签深度目标	设置标签用于确定深度位置的目标参数。
+legacy_mouse_zoom	旧版鼠标缩放方向	控制鼠标缩放轴是否使用旧版反向行为。
+light	光源 1 方向	设置第一个可移动光源的方向向量。
+light2	光源 2 方向	设置第二个可移动光源的方向向量。
+light3	光源 3 方向	设置第三个可移动光源的方向向量。
+light4	光源 4 方向	设置第四个可移动光源的方向向量。
+light5	光源 5 方向	设置第五个可移动光源的方向向量。
+light6	光源 6 方向	设置第六个可移动光源的方向向量。
+light7	光源 7 方向	设置第七个可移动光源的方向向量。
+light8	光源 8 方向	设置第八个可移动光源的方向向量。
+light9	光源 9 方向	设置第九个可移动光源的方向向量。
+line_as_cylinders	线状表示使用圆柱	使用着色器将线绘制为较粗的圆柱；关闭时使用普通 OpenGL 线。
+line_radius	光追线半径	以 Å 指定光追线半径；0 时根据 line_width 和当前视口像素大小计算。
+line_smooth	平滑线条	控制线状表示是否使用抗锯齿。
+line_stick_helper	线与棒显示辅助	显示不透明棒状表示时，自动隐藏重叠的线状表示。
+line_use_shader	线状表示使用着色器	开启时采用 GLSL 渲染线；关闭时使用旧版 OpenGL 路径。
+load_atom_props_default	默认加载原子属性	指定加载文件时默认读取的原子属性列表。
+load_object_props_default	默认加载对象属性	指定加载文件时默认读取的对象属性列表。
+log_box_selections	记录框选操作	控制是否将矩形框选操作写入命令日志。
+log_conformations	记录构象变化	控制是否将构象编辑操作写入命令日志。
+logging	命令日志状态	记录当前是否启用命令日志。
+map_auto_expand_sym	密度图自动对称扩展	控制加载密度图时是否按晶体对称性自动扩展。
+matrix_mode	对象变换模式	选择通过原子坐标还是变换矩阵移动与旋转对象；0 为坐标，1 为矩阵。
+max_threads	最大工作线程数	设置光线追踪等任务使用的线程数上限，通常由程序自动配置。
+max_ups	每秒更新次数上限	限制界面更新频率；0 表示尽可能快地更新。
+mesh_as_cylinders	网格线使用圆柱	使用着色器把网格线绘制为圆柱；关闭时使用普通 OpenGL 线。
+mesh_carve_cutoff	网格局部保留距离	保留 mesh_carve_selection 指定原子附近、该距离以内的网格。
+mesh_carve_selection	网格局部保留选区	指定用于限定网格局部显示范围的原子选择。
+mesh_carve_state	网格局部保留状态	指定局部保留计算使用的选区状态。
+mesh_clear_cutoff	网格局部清除距离	设置 mesh_clear_selection 附近需要清除网格的距离范围。
+mesh_clear_selection	网格局部清除选区	指定用于清除附近网格的原子选择。
+mesh_clear_state	网格局部清除状态	指定局部清除计算使用的选区状态。
+mesh_cutoff	网格截断阈值	控制密度网格生成使用的截断阈值。
+mesh_grid_max	网格采样规模上限	限制网格表示计算使用的网格规模。
+mesh_lighting	网格光照	控制网格表示是否接受光照。
+mesh_mode	分子网格原子范围	0：遵循 ignore/exfoliate 标志；1：全部原子；2：只使用非氢原子。
+mesh_negative_color	负等值网格颜色	设置负值或内侧网格表示的颜色。
+mesh_negative_visible	显示负等值网格	控制负值或内侧网格是否可见。
+mesh_normals	网格法向量	控制网格表示的法向量处理。
+mesh_quality	网格质量调优	网格生成的内部质量调优参数，通常无需修改。
+mesh_radius	光追网格线半径	正值指定光追网格线半径；非正值由 mesh_width 计算。
+mesh_skip	网格跳采样	设置网格绘制的采样跳过参数。
+mesh_solvent	网格显示溶剂可及表面	选择生成溶剂可及表面网格，而非默认分子表面网格。
+mesh_type	网格表示类型	0：线框；1：点。
+mesh_use_shader	网格使用着色器	开启时采用 GLSL 渲染网格；关闭时使用旧版 OpenGL 路径。
+min_mesh_spacing	最小网格间距	设置网格生成允许的最小采样间距。
+moe_separate_chains	MOE 加载时分离链	读取 MOE 文件时将不同链分开处理。
+motion_bias	关键帧运动偏置	大于 1 时，运动会在关键帧附近停留更多帧。
+motion_hand	半周旋转方向	设置完整 180° 旋转采用的方向。
+motion_linear	运动线性混合	调整关键帧运动插值中的线性成分。
+motion_power	运动速度指数	小于 1 时在关键帧处减速；等于 1 时不改变该处速度。
+motion_simple	简化运动插值	控制是否采用简化的运动插值方式。
+mouse_grid	显示鼠标操作表	在鼠标模式面板中显示键位与动作对照表。
+mouse_limit	鼠标内部限制	供原生鼠标交互逻辑使用的内部设置。
+mouse_restart_movie_delay	鼠标操作后重置动画延迟	鼠标移动后重新开始计算动画帧延迟。
+mouse_scale	鼠标旋转灵敏度	调整鼠标移动对旋转角度的影响。
+mouse_wheel_scale	滚轮裁剪步长	设置滚轮调整裁剪厚度时的步长。
+mouse_z_scale	鼠标纵深灵敏度	调整鼠标沿 Z 轴交互的灵敏度。
+movie_animate_by_frame	按帧计算摆动动画	动画播放期间根据帧数和 movie_fps 计算摆动进度，而非实际经过时间。
+movie_auto_interpolate	自动重算动画插值	保存关键帧后自动更新相机与对象运动插值。
+movie_auto_store	拖动时自动保存关键帧	拖动对象时自动存储动画关键帧。
+movie_delay	动画帧间延迟	设置播放下一帧前的等待时间。
+movie_loop	循环播放动画	控制动画连续循环播放还是只播放一次。
+movie_panel	显示动画时间轴	控制动画时间轴面板是否显示。
+movie_panel_row_height	动画时间轴行高	设置动画面板各行的像素高度。
+movie_quality	动画压缩质量	值越大，压缩后的动画质量越高，文件通常也越大。
+movie_rock	动画播放时摆动	设为 0 或 1 时，在动画播放期间覆盖 rock 设置。
+multiplex	多状态加载方式	控制将多个状态加载到同一对象还是多个独立对象。
+nb_spheres_quality	非成键球体质量	设置不使用着色器时，非成键球体采用的三角面数量。
+nb_spheres_size	非成键球体大小	设置非成键球体表示的半径。
+nb_spheres_use_shader	非成键球体着色器	0：关闭；1：默认着色器；2：球体着色器。
+neighbor_cutoff	邻近原子阈值	设置测量向导查找邻近原子的距离阈值。
+no_idle	非空闲调度周期	调整非空闲状态的内部调度行为，通常无需修改。
+nonbonded_as_cylinders	非成键十字使用圆柱	将非成键原子十字标记绘制为圆柱，而非普通线条。
+nonbonded_transparency	非成键表示透明度	设置非成键十字和非成键球体的透明度。
+nonbonded_use_shader	非成键十字使用着色器	开启时采用 GLSL 渲染非成键十字；关闭时使用旧版 OpenGL 路径。
+normal_workaround	法向量兼容处理	修正部分显卡绘制线条时法向量变换不正确的问题。
+normalize_ccp4_maps	归一化 CCP4 密度图	加载 CCP4 密度图时自动归一化数据。
+normalize_grd_maps	归一化 GRD 密度图	加载 GRD 密度图时自动归一化数据。
+normalize_o_maps	归一化 O 密度图	加载 O 格式密度图时自动归一化数据。
+nvidia_bugs	NVIDIA 驱动兼容处理	规避部分旧 NVIDIA 显卡驱动的已知问题。
+opaque_background	不透明背景	控制输出图像的背景是否不透明。
+openvr_cut_laser	VR 激光裁切	控制 OpenVR 控制器激光的裁切行为。
+openvr_disable_clipping	VR 禁用裁剪	控制 OpenVR 显示中是否关闭场景裁剪。
+openvr_far_plane	VR 远裁剪面	设置 OpenVR 视图远裁剪面的位置。
+openvr_gui_alpha	VR 界面透明度	设置 OpenVR 界面的整体不透明度系数。
+openvr_gui_back_alpha	VR 界面背景不透明度	设置 OpenVR 界面背景的不透明度系数。
+openvr_gui_back_color	VR 界面背景颜色	设置 OpenVR 界面的背景颜色。
+openvr_gui_distance	VR 界面距离	设置 OpenVR 界面面板相对于观察者的距离。
+openvr_gui_fov	VR 界面视场角	设置 OpenVR 界面面板采用的视场角。
+openvr_gui_overlay	VR 界面叠加模式	控制 OpenVR 界面是否使用叠加显示。
+openvr_gui_scene_alpha	VR 场景按钮不透明度	设置 OpenVR 场景界面区域的不透明度系数。
+openvr_gui_scene_color	VR 场景按钮颜色	设置 OpenVR 场景界面区域的颜色。
+openvr_gui_text	VR 界面文字	控制 OpenVR 界面中的文字显示。
+openvr_gui_use_alpha	VR 界面启用透明混合	控制 OpenVR 界面是否使用透明度通道。
+openvr_gui_use_backdrop	VR 界面显示背景板	控制 OpenVR 界面是否绘制背景衬板。
+openvr_laser_width	VR 激光宽度	设置 OpenVR 控制器指示激光的宽度。
+openvr_near_plane	VR 近裁剪面	设置 OpenVR 视图近裁剪面的位置。
+overlay	绘图区叠加文字	控制输出文字是否叠加在三维绘图区上方。
+overlay_lines	叠加文字行数上限	限制三维绘图区中叠加显示的文字行数。
+pdb_conect_all	PDB 写出全部连接记录	保存 PDB 时为全部原子连接生成 CONECT 记录。
+pdb_conect_nodup	PDB 连接记录不重复	关闭时通过重复 CONECT 记录编码键级；开启时不重复这些记录。
+pdb_discrete_chains	PDB 链独立连键	控制读取 PDB 时是否允许不同链之间形成化学键。
+pdb_echo_tags	PDB 回显记录类型	指定读取 PDB 时回显到控制台的记录类型。
+pdb_formal_charges	PDB 形式电荷处理	控制 PDB 文件形式电荷字段的处理。
+pdb_hetatm_guess_valences	推断异源原子键级	加载 HETATM 原子时自动猜测其价态和键级。
+pdb_hetatm_sort	PDB 异源原子分组排序	控制是否将 HETATM 原子与普通原子分开排列。
+pdb_honor_model_number	保留 PDB 模型编号	使用 PDB MODEL 记录中的编号作为状态索引。
+pdb_ignore_conect	忽略 PDB 连接记录	忽略 CONECT 记录，改用结构知识自动判断原子连接。
+pdb_insertions_go_first	插入残基优先排序	控制带插入码残基相对于其他残基的排序方式。
+pdb_insure_orthogonal	确保 PDB 正交坐标	控制是否忽略可疑的 PDB SCALEn 坐标变换矩阵。
+pdb_literal_names	原样保留 PDB 名称	控制是否逐字保留文件中的名称字段。
+pdb_no_end_record	PDB 省略结束记录	保存 PDB 时不写出 END 记录。
+pdb_reformat_names_mode	PDB 原子名重排模式	选择是否及如何重排 PDB 原子名称，以符合不同命名约定。
+pdb_retain_ids	PDB 保留原子编号	保存 PDB 时保留原始原子标识编号。
+pdb_standard_order	PDB 标准原子排序	按照 PDB 标准约定排列原子。
+pdb_truncate_residue_name	PDB 残基名限制三字符	将 PDB 残基名称截断为三个字符。
+pdb_unbond_cations	阳离子不自动成键	自动连键时，即使阳离子处于成键距离内也保持不连接。
+pdb_use_ter_records	PDB 写出链终止记录	保存 PDB 时写出 TER 记录。
+pick32bit	32 位拾取编码	控制拾取缓冲区是否使用 32 位编码。
+pick_labels	标签拾取模式	0：不拾取标签；1：允许拾取标签；2：只拾取标签，不拾取其他几何。
+pick_shading	拾取着色模式	控制拾取过程中采用的着色处理。
+pick_surface	拾取分子表面	控制是否允许通过表面进行拾取。
+pickable	允许鼠标拾取	控制对象是否生成供鼠标拾取使用的几何信息。
+png_file_gamma	PNG 文件伽马值	设置写入 PNG 输出文件的伽马值。
+png_screen_gamma	PNG 屏幕伽马值	设置 PNG 输出使用的屏幕伽马校正值。
+polar_neighbor_cutoff	极性邻近原子阈值	设置测量向导查找极性邻近原子的距离阈值。
+power	光照散射指数	调整光照在表面上的散射分布。
+pqr_no_chain_id	PQR 不写链标识	保存 PQR 文件时省略链标识。
+precomputed_lighting	预计算光照	使用着色器的替代光照实现，可能提高渲染性能。
+presentation	演示状态	记录当前是否处于演示模式。
+presentation_auto_quit	演示结束自动退出	控制演示模式播放结束后的自动退出行为。
+presentation_auto_start	演示自动开始	进入演示模式时自动显示第一个场景。
+presentation_mode	演示模式保留项	原版保留的演示模式设置。
+preserve_chempy_ids	保留 ChemPy 原子编号	加载 ChemPy 对象时保留其原子标识编号。
+pse_binary_dump	PSE 二进制保存	实验性或不受支持的二进制会话保存方式，可减小文件并加快加载。
+pse_export_version	PSE 兼容目标版本	指定会话文件的目标 PyMOL 版本；较旧版本对场景、体积等功能有限制。
+pymol_space_max_blue	PyMOL 色域蓝色上限	设置可选 PyMOL 色彩空间的蓝色上限。
+pymol_space_max_green	PyMOL 色域绿色上限	设置可选 PyMOL 色彩空间的绿色上限。
+pymol_space_max_red	PyMOL 色域红色上限	设置可选 PyMOL 色彩空间的红色上限。
+pymol_space_min_factor	PyMOL 色域下限系数	调整可选 PyMOL 色彩空间的最小分量比例。
+ramp_blend_nearby_colors	颜色渐变混合邻近颜色	控制颜色渐变映射是否混合邻近原子的颜色。
+rank_assisted_sorts	排序参考输入顺序	在原子排序时参考原子在输入文件中的原始位置。
+ray_blend_blue	光追蓝色混合权重	设置光追混合过饱和颜色时蓝色分量的权重。
+ray_blend_colors	光追混合过饱和颜色	控制光线追踪是否混合超出范围的颜色分量。
+ray_blend_green	光追绿色混合权重	设置光追混合过饱和颜色时绿色分量的权重。
+ray_blend_red	光追红色混合权重	设置光追混合过饱和颜色时红色分量的权重。
+ray_clip_shadows	阴影遵循近裁剪面	控制光追阴影是否考虑前方裁剪面。
+ray_color_ramps	光追逐像素渐变着色	对表面逐像素采样颜色渐变，而非仅按顶点采样。
+ray_default_renderer	默认光追渲染器	0：PyMOL 内置；1：POV-Ray（需可用）；2：仅统计几何数量，不生成图像。
+ray_direct_shade	阴影区域相机直射光	控制阴影区域是否仍接受来自相机方向的直射光。
+ray_hint_camera	相机光线哈希优化	根据输入几何的平均尺寸优化相机光线的哈希表大小。
+ray_hint_shadow	阴影光线哈希优化	根据输入几何的平均尺寸优化阴影光线的哈希表大小。
+ray_improve_shadows	改善三角面阴影	调整通过外推三角面坐标改善阴影外观的程度。
+ray_interior_color	光追内表面颜色	设置光线追踪时内部面的颜色。
+ray_interior_mode	光追内表面模式	模式 2 忽略三角网格内表面，但保留原子球和化学键圆柱的内部面。
+ray_interior_reflect	光追内表面反射	设置内部面的反射强度。
+ray_interior_shadows	光追内表面阴影	控制近裁剪面以外的几何是否能在内部面上产生阴影。
+ray_interior_texture	光追内表面纹理	选择内部面采用的内置纹理；-1 表示沿用默认处理。
+ray_label_connector_flat	光追标签连接线平面化	开启时以平面几何绘制标签连接线和边框；关闭时使用圆柱。
+ray_label_specular	光追标签高光	控制标签是否产生镜面反射高光。
+ray_legacy_lighting	旧版光照混合比例	在光追光照中混合旧版 PyMOL 光照模型，范围通常为 0–1。
+ray_max_passes	光追透明穿透次数上限	限制光线穿过透明几何时允许的追踪次数。
+ray_orthoscopic	光追正交投影	控制光追是否使用正交投影；-1 沿用 orthoscopic。
+ray_oversample_cutoff	光追超采样触发阈值	抗锯齿启用时，控制相邻像素差异达到何种程度才触发超采样。
+ray_pixel_scale	光追像素尺度	设置屏幕像素尺寸换算为光追空间距离的比例。
+ray_scatter	光追散射	调整光线追踪中的散射处理。
+ray_shadow	光追阴影	控制光线追踪时是否计算投射阴影。
+ray_shadow_decay_factor	光追阴影衰减系数	设置阴影随距离衰减的速度；0 表示不衰减。
+ray_shadow_decay_range	光追阴影衰减起始距离	设置阴影延伸到多远后开始衰减。
+ray_shadow_fudge	光追阴影数值修正	用于阴影计算的内部数值调优参数，通常无需修改。
+ray_spec_local	光追局部镜面反射	控制光线追踪中局部镜面反射的计算方式。
+ray_texture	光追纹理	选择光线追踪采用的内置纹理，模式通常为 0–5。
+ray_texture_settings	光追纹理参数	调整所选内置纹理的外观参数。
+ray_trace_color	光追轮廓颜色	设置轮廓光追模式使用的增强颜色，适用于 ray_trace_mode 为 1 的情况。
+ray_trace_depth_factor	光追轮廓深度系数	调整轮廓光追模式 1–3 对深度变化的响应。
+ray_trace_fog_start	光追雾效起点	设置光追雾化起始深度；-1 沿用 fog_start。
+ray_trace_frames	动画帧使用光追	对动画帧执行光线追踪，提高画质但增加渲染时间。
+ray_trace_persist_cutoff	光追轮廓持续阈值	调整轮廓光追中边缘持续性的判定阈值。
+ray_trace_slope_factor	光追轮廓斜率系数	调整轮廓光追模式 1–3 对表面斜率的响应。
+ray_trace_trans_cutoff	光追透明度阈值	设置轮廓光追处理中采用的透明度判定阈值。
+ray_transparency_contrast	透明表面下方对比度	增强透明表面后方对象的对比度，常用范围为 1–3。
+ray_transparency_oblique	光追倾角相关透明度	根据表面法向与观察方向的关系调整表面透明度。
+ray_transparency_oblique_power	光追倾角透明度指数	调整倾角相关透明度的强度，需启用 ray_transparency_oblique。
+ray_transparency_shadows	透明几何投射阴影	控制透明几何是否在光追中投射阴影。
+ray_transparency_spec_cut	透明表面高光截断	调整透明表面的镜面高光截断参数。
+ray_transparency_specular	透明表面高光强度	调整透明表面的镜面反射强度。
+ray_triangle_fudge	光追三角面数值修正	用于三角面求交的内部调优参数，通常无需修改。
+ray_volume	光追包含体积对象	控制是否将体积表示加入光追场景。
+reflect	可移动光源总强度	设置全部可移动光源的总光照强度，常用范围为 0–1。
+reflect_power	可移动光源反射指数	调整可移动光源的反射分布指数。
+render_as_cylinders	圆柱几何渲染	控制可用的线段几何是否采用圆柱方式渲染。
+retain_order	保留加载时原子顺序	控制是否保留输入原子顺序，而不执行内部排序。
+ribbon_as_cylinders	带状表示使用圆柱	控制 ribbon 线条是否采用圆柱渲染。
+ribbon_nucleic_acid_mode	带状核酸骨架模式	0：P；1：糖环 C4*；2：P 并扩展 3′端；3：扩展 5′端；4：同时扩展两端。
+ribbon_power	带状曲线形状指数	调整 ribbon 曲线的形状参数。
+ribbon_power_b	带状曲线辅助指数	调整 ribbon 曲线的第二项形状参数。
+ribbon_radius	带状表示半径	正值指定 ribbon 渲染采用的半径。
+ribbon_sampling	带状曲线采样	设置引导点之间使用的曲线分段数。
+ribbon_side_chain_helper	带状侧链显示辅助	显示 ribbon 时自动隐藏主链原子的原子与键表示。
+ribbon_throw	带状曲线几何偏移	调整 ribbon 曲线的几何形状。
+ribbon_trace_atoms	带状曲线经过全部原子	控制 ribbon 经过全部原子还是仅经过引导原子。
+ribbon_transparency	带状表示透明度	设置 ribbon 表示的透明度。
+ribbon_use_shader	带状表示使用着色器	开启时采用 GLSL 渲染 ribbon；关闭时使用旧版 OpenGL 路径。
+robust_logs	稳健选择日志	按属性匹配记录选区，较慢但稳健；关闭时按对象索引记录，较快但更依赖原子顺序。
+rock	实时摆动	控制当前场景是否持续进行实时摆动动画。
+rock_delay	摆动更新间隔	设置摆动动画的更新频率。
+roving_byres	局部漫游按残基显示	控制局部漫游的显示范围是否以完整残基为单位。
+roving_cartoon	局部漫游示意图半径	设置漫游中心附近显示二级结构示意图的范围。
+roving_delay	局部漫游更新延迟	设置漫游显示更新之间的延迟。
+roving_detail	局部漫游细节	启用或关闭随观察位置更新的局部细节显示。
+roving_isomesh	局部漫游等值网格半径	设置漫游中心附近等值网格的显示半径。
+roving_isosurface	局部漫游等值面半径	设置漫游中心附近实体等值面的显示半径。
+roving_labels	局部漫游标签半径	设置漫游中心附近显示标签的范围。
+roving_lines	局部漫游线状半径	设置漫游中心附近显示线状表示的范围。
+roving_map1_level	局部漫游密度图 1 等值	设置第一幅漫游密度图的等值水平。
+roving_map1_name	局部漫游密度图 1 名称	指定第一幅漫游密度图的对象名。
+roving_map2_level	局部漫游密度图 2 等值	设置第二幅漫游密度图的等值水平。
+roving_map2_name	局部漫游密度图 2 名称	指定第二幅漫游密度图的对象名。
+roving_map3_level	局部漫游密度图 3 等值	设置第三幅漫游密度图的等值水平。
+roving_map3_name	局部漫游密度图 3 名称	指定第三幅漫游密度图的对象名。
+roving_nb_spheres	局部漫游非成键球体半径	设置漫游中心附近非成键球体的显示范围。
+roving_nonbonded	局部漫游非成键标记半径	设置漫游中心附近非成键十字标记的显示范围。
+roving_origin	旋转中心随漫游移动	控制旋转中心是否随观察画面移动。
+roving_origin_z	旋转中心深度随裁剪移动	控制旋转中心的 Z 分量是否随裁剪面移动。
+roving_origin_z_cushion	漫游旋转中心裁剪缓冲	设置旋转中心与裁剪面之间允许的最小缓冲距离。
+roving_polar_contacts	局部漫游极性接触半径	设置漫游中心附近显示极性接触的范围。
+roving_polar_cutoff	局部漫游极性接触距离	设置局部极性接触计算的原子间距离阈值。
+roving_ribbon	局部漫游带状半径	设置漫游中心附近 ribbon 表示的显示范围。
+roving_selection	局部漫游选区	指定参与漫游显示的原子选择。
+roving_spheres	局部漫游球体半径	设置漫游中心附近原子球的显示范围。
+roving_sticks	局部漫游棒状半径	设置漫游中心附近棒状表示的显示范围。
+salt_bridge_distance	盐桥最大距离	设置盐桥识别的最大原子间距离。
+scene_animation	场景切换动画	控制场景切换是否使用动画；负值沿用 animation 设置。
+scene_animation_duration	场景切换动画时长	设置场景之间相机插值过渡的时间。
+scene_buttons	显示场景按钮	控制屏幕上的场景快捷按钮是否显示。
+scene_current_name	当前场景名称	记录当前已调用场景的名称。
+scene_frame_mode	场景帧恢复模式	控制调用场景时如何恢复动画帧。
+scene_loop	循环切换场景	控制场景列表是否连续循环，而不插入空白场景。
+scene_restart_movie_delay	场景切换后动画延迟	控制调用场景后是否重新计算动画播放延迟。
+scenes_changed	场景已修改标志	供程序内部记录场景列表是否发生变化。
+sculpt_angl_weight	塑形键角权重	调整分子塑形中键角约束的权重；属于内部塑形参数。
+sculpt_auto_center	塑形自动居中	控制分子塑形过程中是否自动调整中心。
+sculpt_avd_excl	塑形避碰排除范围	设置塑形避碰作用的连接关系排除范围。
+sculpt_avd_gap	塑形避碰间隙	调整塑形避碰约束允许的原子间隙。
+sculpt_avd_range	塑形避碰作用范围	设置塑形避碰计算的作用范围。
+sculpt_avd_weight	塑形避碰权重	调整塑形中避碰约束的权重。
+sculpt_bond_weight	塑形键长权重	调整分子塑形中键长约束的权重。
+sculpt_field_mask	塑形约束位掩码	以位掩码指定启用哪些塑形约束项。
+sculpt_hb_overlap	塑形氢键重叠容许量	调整氢键相关接触允许的重叠程度。
+sculpt_hb_overlap_base	塑形氢键基础重叠量	设置氢键相关重叠修正的基础值。
+sculpt_line_weight	塑形线性约束权重	调整分子塑形中线性几何约束的权重。
+sculpt_max_max	塑形最大约束上界	设置塑形最大距离约束的上界参数；属于内部塑形调优项。
+sculpt_max_min	塑形最大约束下界	设置塑形最大距离约束的下界参数；属于内部塑形调优项。
+sculpt_max_scale	塑形最大约束缩放	设置塑形最大距离约束的缩放系数。
+sculpt_max_weight	塑形最大约束权重	设置塑形最大距离约束的权重。
+sculpt_memory	塑形参考记忆	控制塑形过程对参考几何的记忆处理。
+sculpt_min_max	塑形最小约束上界	设置塑形最小距离约束的上界参数；属于内部塑形调优项。
+sculpt_min_min	塑形最小约束下界	设置塑形最小距离约束的下界参数；属于内部塑形调优项。
+sculpt_min_scale	塑形最小约束缩放	设置塑形最小距离约束的缩放系数。
+sculpt_min_weight	塑形最小约束权重	设置塑形最小距离约束的权重。
+sculpt_nb_interval	塑形非键相互作用更新间隔	设置塑形中非键相互作用的更新周期。
+sculpt_plan_weight	塑形平面约束权重	调整分子塑形中平面性约束的权重。
+sculpt_pyra_inv_weight	塑形锥体反转权重	调整塑形中锥体构型反转约束的权重。
+sculpt_pyra_weight	塑形锥体几何权重	调整塑形中锥体几何约束的权重。
+sculpt_tors_tolerance	塑形扭转角容差	设置扭转角约束允许的偏离范围。
+sculpt_tors_weight	塑形扭转角权重	调整分子塑形中扭转角约束的权重。
+sculpt_tri_max	塑形三角几何上界	设置三角几何约束的上界参数。
+sculpt_tri_min	塑形三角几何下界	设置三角几何约束的下界参数。
+sculpt_tri_mode	塑形三角约束模式	选择分子塑形采用的三角几何约束模式。
+sculpt_tri_scale	塑形三角约束缩放	设置三角几何约束的缩放系数。
+sculpt_tri_weight	塑形三角约束权重	调整分子塑形中三角几何约束的权重。
+sculpt_vdw_scale	塑形范德华半径缩放	设置一般非键接触使用的范德华半径缩放系数。
+sculpt_vdw_scale14	塑形 1–4 接触半径缩放	设置相隔三条键的 1–4 接触使用的范德华半径缩放系数。
+sculpt_vdw_vis_max	塑形接触显示最大阈值	设置塑形范德华接触可视化的上限参数。
+sculpt_vdw_vis_mid	塑形接触显示中间阈值	设置塑形范德华接触可视化的中间参数。
+sculpt_vdw_vis_min	塑形接触显示最小阈值	设置塑形范德华接触可视化的下限参数。
+sculpt_vdw_vis_mode	塑形接触显示模式	选择范德华接触的塑形可视化模式。
+sculpt_vdw_weight	塑形范德华作用权重	调整一般非键接触的范德华约束权重。
+sculpt_vdw_weight14	塑形 1–4 范德华作用权重	调整 1–4 非键接触的范德华约束权重。
+sculpting	分子塑形	控制是否执行分子塑形计算。
+sculpting_cycles	每次更新塑形循环数	设置每次界面更新执行多少轮塑形计算。
+sdf_write_zero_order_bonds	SDF 写出零级键	控制保存 SDF 时是否写出零级键。
+sdof_drag_scale	六自由度拖动缩放	调整六自由度输入设备拖动对象的灵敏度。
+secondary_structure	构建器二级结构预设	1：螺旋；2：反平行 β 折叠；3：平行 β 折叠；4：伸展构象（180°/180°）。
+security	内部安全级别	供程序内部控制脚本等操作的安全处理。
+sel_counter	选区自动编号计数器	启用自动编号时，记录最近创建选区的编号。
+selection_overlay	选区标记置顶	开启时将选区标记叠加在三维几何上方；关闭时标记可能被原子表示遮挡。
+selection_round_points	圆形选区标记	选择使用圆形还是方形点显示选区。
+selection_visible_only	只标记可见选中原子	仅标记至少具有一种可见表示的选中原子。
+selection_width	选区标记最小宽度	设置选区标记的最小像素宽度。
+selection_width_max	选区标记最大宽度	设置选区标记的最大像素宽度。
+selection_width_scale	选区标记缩放比例	调整选区标记随视图缩放的变化速率。
+seq_view_alignment	序列视图比对保留项	序列视图的历史设置；官方说明未提供受支持的完整行为定义。
+seq_view_color	序列视图颜色	设置序列视图颜色；默认沿用对应原子的颜色。
+seq_view_discrete_by_state	序列按状态分离保留项	序列视图的历史设置；官方说明标记为当前不支持。
+seq_view_fill_char	序列填充字符保留项	序列视图填充字符的历史设置；官方说明标记为当前不支持。
+seq_view_fill_color	序列填充颜色保留项	序列视图填充颜色的历史设置；官方说明标记为当前不支持。
+seq_view_format	序列视图格式	0：单字母残基代码；1：残基代码；2：原子；3：链；4：状态。
+seq_view_gap_mode	序列缺口显示模式	控制序列视图是否及如何显示缺口。
+seq_view_label_color	序列标签颜色	设置序列视图标签文字的颜色。
+seq_view_label_spacing	序列标签间距	调整序列视图标签的间隔。
+seq_view_label_start	序列标签起点	序列标签起始位置的历史参数；官方未完整说明其行为。
+seq_view_location	序列视图位置	0：绘图区上方；1：绘图区下方。
+seq_view_overlay	序列视图叠加显示	控制序列视图是否覆盖在三维分子图形上方。
+seq_view_unaligned_color	未比对序列颜色保留项	序列视图未比对区域颜色的历史设置；官方标记为当前不支持。
+seq_view_unaligned_mode	未比对序列模式保留项	序列视图未比对区域的历史设置；官方标记为当前不支持。
+session_cache_optimize	会话缓存优化	控制保存会话时对缓存数据执行的优化。
+session_changed	会话已修改标志	供程序内部记录会话自上次保存后是否发生变化。
+session_compression	会话压缩	控制会话文件保存时的压缩处理。
+session_embeds_data	会话内嵌数据	控制会话是否嵌入相关数据内容。
+session_file	当前会话文件	记录当前会话文件的文件名。
+session_migration	自动迁移旧会话	加载旧版本会话时自动适配当前 PyMOL 版本。
+session_version_check	加载会话时检查版本	控制加载会话时是否执行版本兼容性检查。
+shaders_from_disk	从磁盘读取着色器	控制着色器代码是否从磁盘文件加载，主要用于开发调试。
+show_alpha_checker	透明背景棋盘格	在背景显示用于指示透明度的棋盘格。
+show_frame_rate	显示帧率	控制是否显示实时渲染帧率。
+show_progress	显示进度条	控制绘图区内是否显示任务进度条。
+single_image	每状态单帧图像优化	假定每个分子状态只对应一个动画图像，以优化特定分子动画；不适用于所有动画。
+slice_dynamic_grid	切片动态采样网格	根据切片与相机的距离自动调整采样网格。
+slice_dynamic_grid_resolution	切片动态采样分辨率	以屏幕像素设置切片动态网格的采样精细度。
+slice_grid	切片静态网格间距	设置切片静态采样网格的空间间距。
+slice_height_map	切片高度图	启用或关闭切片高度图显示。
+slice_height_scale	切片高度缩放	设置切片高度图的高度缩放系数。
+slice_track_camera	切片跟随相机	使采样平面始终垂直于相机，并经过旋转中心。
+slow_idle	慢速空闲周期	调整慢速空闲状态的调度行为，通常无需修改。
+smooth_color_triangle	平滑三角面颜色	控制三角面内部的颜色平滑插值。
+smooth_half_bonds	平滑半键颜色	控制半键连接处的颜色平滑过渡。
+spec_count	高光光源数量	设置参与镜面高光计算的可移动光源数量。
+spec_direct	相机光源高光强度	设置来自相机方向光源的镜面反射强度。
+spec_direct_power	相机光源高光指数	设置相机光源镜面反射的集中程度。
+spec_power	光追高光指数	设置光追镜面高光指数；负值沿用 shininess。
+spec_reflect	光追高光强度	设置光追镜面反射强度；负值沿用通用高光设置。
+specular_intensity	可移动光源高光强度	设置可移动光源的镜面反射强度，通常在 specular 为 1 时使用。
+sphere_color	原子球颜色	设置球体表示的颜色；默认沿用原子颜色。
+sphere_mode	原子球渲染模式	选择三角网格、方形点、圆点或着色器球体等渲染路径，影响大体系显示性能。
+sphere_point_max_size	球体点表示大小上限	限制球体采用点表示时的最大尺寸。
+sphere_point_size	球体点表示大小	设置球体模式 1、6 使用的点尺寸。
+sphere_solvent	原子球加入溶剂半径	在原子球半径上额外加入溶剂探针半径。
+sphere_use_shader	原子球使用着色器	开启时采用 GLSL 渲染球体；关闭时使用旧版 OpenGL 路径。
+spheroid_fill	旋转椭球填充系数	调整 spheroid 表示的填充尺度。
+spheroid_scale	旋转椭球缩放	设置 spheroid 表示的整体尺寸缩放系数。
+spheroid_smooth	旋转椭球平滑	调整 spheroid 表示的平滑程度。
+ss_helix_phi_exclude	螺旋 φ 排除阈值	设置基于 φ 二面角排除螺旋构象的判定阈值。
+ss_helix_phi_include	螺旋 φ 纳入阈值	设置基于 φ 二面角纳入螺旋构象的判定阈值。
+ss_helix_phi_target	螺旋目标 φ 角	设置螺旋二级结构识别使用的目标 φ 二面角。
+ss_helix_psi_exclude	螺旋 ψ 排除阈值	设置基于 ψ 二面角排除螺旋构象的判定阈值。
+ss_helix_psi_include	螺旋 ψ 纳入阈值	设置基于 ψ 二面角纳入螺旋构象的判定阈值。
+ss_helix_psi_target	螺旋目标 ψ 角	设置螺旋二级结构识别使用的目标 ψ 二面角。
+ss_strand_phi_exclude	折叠 φ 排除阈值	设置基于 φ 二面角排除 β 链构象的判定阈值。
+ss_strand_phi_include	折叠 φ 纳入阈值	设置基于 φ 二面角纳入 β 链构象的判定阈值。
+ss_strand_phi_target	折叠目标 φ 角	设置 β 链二级结构识别使用的目标 φ 二面角。
+ss_strand_psi_exclude	折叠 ψ 排除阈值	设置基于 ψ 二面角排除 β 链构象的判定阈值。
+ss_strand_psi_include	折叠 ψ 纳入阈值	设置基于 ψ 二面角纳入 β 链构象的判定阈值。
+ss_strand_psi_target	折叠目标 ψ 角	设置 β 链二级结构识别使用的目标 ψ 二面角。
+state_counter_mode	状态计数显示模式	控制界面中分子状态计数的显示方式。
+static_singletons	单状态对象作为静态对象	仅含状态 1 的对象在其他状态下也保持可见，适合与多状态动态对象共同制作动画。
+stereo_angle	立体视角系数	调整双眼观察角差相对于自然双眼角差的缩放系数。
+stereo_double_pump_mono	单眼视图双缓冲立体兼容	使用立体上下文渲染单眼画面，适配需要此方式的显示系统。
+stereo_dynamic_strength	动态立体强度	调整动态立体效果的强度。
+stereo_shift	立体相机间距	设置两台立体相机的间隔，以到观察目标距离的百分比表示。
+stick_as_cylinders	棒状表示使用圆柱	控制棒状表示的圆柱渲染路径。
+stick_ball	棒状表示附加原子球	在棒状表示中加入球体，形成球棍效果。
+stick_ball_color	球棍附加球体颜色	设置球棍表示中附加球体的颜色。
+stick_ball_ratio	球棍球棒半径比	设置球体半径相对于棒半径的比例。
+stick_debug	棒状几何调试	启用棒状表示的开发调试行为。
+stick_fixed_radius	多重键固定半径	启用键级显示时，选择多重键使用固定半径还是可变半径。
+stick_good_geometry	棒状几何质量处理	控制棒状表示对几何连接质量的处理。
+stick_h_scale	氢原子棒半径缩放	设置涉及氢原子的棒状几何半径缩放系数。
+stick_nub	棒末端突起尺寸	设置棒状圆柱末端锥形突起的大小。
+stick_overlap	棒状圆柱延伸量	设置棒状圆柱超出原子坐标的延伸距离。
+stick_round_nub	棒末端圆化	控制棒状圆柱末端突起是否采用圆化处理。
+stick_use_shader	棒状表示使用着色器	开启时采用 GLSL 渲染棒；关闭时使用旧版 OpenGL 路径。
+stick_valence_scale	多重键分布尺度	调整容纳多重键各分支的虚拟圆柱半径，相对于棒半径缩放。
+stop_on_exceptions	遇到异常停止脚本	脚本发生错误时停止后续执行。
+suppress_hidden	抑制隐藏内容	控制程序对隐藏表示或内部内容的抑制处理。
+surface_best	表面高质量调优参数	分子表面生成的内部调优参数，通常无需修改。
+surface_carve_cutoff	表面局部保留距离	只保留 surface_carve_selection 指定原子附近该距离内的表面点。
+surface_carve_normal_cutoff	表面局部保留法向阈值	设置局部保留表面时采用的方向点积阈值。
+surface_carve_selection	表面局部保留选区	指定作为表面局部保留中心的原子选区。
+surface_carve_state	表面局部保留状态	指定局部保留计算使用的状态；默认使用对应坐标状态。
+surface_cavity_cutoff	表面孔穴截断阈值	设置分子表面孔穴识别使用的截断参数。
+surface_cavity_mode	表面孔穴显示模式	选择分子表面孔穴的生成或显示方式。
+surface_cavity_radius	表面孔穴探针半径	设置孔穴表面计算使用的半径参数。
+surface_circumscribe	表面凹区细化	使近似表面更紧密地跟随凹陷区域；可能影响外观，默认自动选择。
+surface_clear_cutoff	表面局部清除距离	清除 surface_clear_selection 指定原子附近该距离内的表面点。
+surface_clear_selection	表面局部清除选区	指定局部清除表面所避开的原子选区。
+surface_clear_state	表面局部清除状态	指定局部清除表面计算使用的原子状态。
+surface_color_smoothing	表面颜色平滑	控制分子表面上原子颜色之间的平滑过渡。
+surface_color_smoothing_threshold	表面颜色平滑阈值	设置表面颜色平滑处理使用的阈值。
+surface_debug	表面调试模式	启用供开发使用的分子表面调试显示。
+surface_miserable	表面低质量调优参数	分子表面生成的内部调优参数，通常无需修改。
+surface_mode	分子表面原子范围	0：遵循 ignore/exfoliate 标志；1：全部原子；2：只使用非氢原子。
+surface_negative_color	负等值面颜色	设置负等值面表示的颜色。
+surface_negative_visible	显示负等值面	控制负等值面是否可见。
+surface_normal	表面法向调优参数	分子表面法向计算的内部调优参数，通常无需修改。
+surface_optimize_subsets	优化表面子集计算	允许直接计算局部子表面；对相同对象生成多个表面时可能需要关闭。
+surface_poor	表面简化调优参数	分子表面生成的内部调优参数，通常无需修改。
+surface_proximity	显示边界邻近三角面	控制是否绘制部分顶点属于当前未显示原子的边界三角面。
+surface_ramp_above_mode	表面外侧渐变取样	选择按表面位置还是向外一个溶剂半径的位置采样颜色渐变。
+surface_residue_cutoff	表面残基范围阈值	设置表面处理采用的残基范围截断参数。
+surface_smooth_edges	平滑裁切表面边缘	对连续边界顶点位置取平均，使局部裁切表面的边缘更平滑。
+surface_trim_cutoff	表面修剪阈值	调整表面边缘修剪的内部阈值，通常无需修改。
+surface_trim_factor	表面修剪系数	调整表面边缘修剪的内部比例，通常无需修改。
+surface_type	分子表面类型	0：实体；1：点；2：三角网格；3：适合动态动画的确定性实体；4：模式 3 的变体；5：基于成对交线的实体表面。
+surface_use_shader	表面使用着色器	开启时采用 GLSL 渲染表面；关闭时使用旧版 OpenGL 路径。
+suspend_deferred	暂停延后任务	暂时停止执行延后处理的更新任务。
+suspend_undo	暂停撤销记录	开启时不记录撤销操作；开源版可能不支持此原生功能。
+suspend_undo_atom_count	撤销原子数上限	超过该原子数的对象不记录撤销；0 表示不按原子数限制，原生支持依版本而定。
+suspend_updates	暂停画面更新	暂时停止界面和显示更新，以便连续执行操作后统一刷新。
+swap_dsn6_bytes	DSN6 字节序交换	控制加载 DSN6 密度图时是否自动交换字节序。
+sweep_angle	摆动角度范围	设置实时摆动的扫掠角范围。
+sweep_mode	摆动轴模式	0：绕 Y 轴；1：绕 X 轴；2：绕 Z 轴；3：XY 进动。
+sweep_phase	摆动相位	设置摆动运动的相位。
+sweep_speed	摆动速度	设置摆动运动的速度。
+test1	开发测试参数 1	原生开发测试用浮点参数，通常保留默认值。
+test2	开发测试参数 2	原生开发测试用浮点参数，通常保留默认值。
+text	绘图区文字模式	选择在内部绘图区显示文字输出还是分子图形。
+trace_atoms_mode	骨架追踪断链模式	控制追踪原子构建骨架时如何判断链断点。
+transparency_global_sort	透明对象全局排序	控制透明几何是否在对象之间进行全局深度排序。
+transparency_mode	透明渲染模式	0：快速近似；1：多层；2：单层。
+transparency_picking_mode	透明对象拾取模式	控制透明对象如何响应鼠标拾取。
+triangle_max_passes	表面问题区域处理次数	限制程序为解决问题表面区域允许执行的处理轮数。
+trilines	三角线绘制模式	控制线段采用三角几何的渲染路径。
+trim_dots	按标志修剪表面点	根据 ignore 和 exfoliate 标志调整原子的点状表面处理。
+use_geometry_shaders	使用几何着色器	控制是否启用 OpenGL 几何着色器路径。
+use_shaders	使用着色器	开启时使用 GLSL 渲染；关闭时使用旧版 OpenGL 1.x 渲染流程。
+use_tessellation_shaders	使用细分着色器	控制是否启用 OpenGL 细分着色器路径。
+valence_mode	多重键显示模式	选择键级和多重键的显示处理方式。
+valence_size	多重键分支间距	设置双键、三键等各分支之间的距离。
+valence_zero_mode	零级键显示方式	0：不显示；1：虚线；2：实线。
+valence_zero_scale	零级键棒半径比例	设置零级键半径相对于 stick_radius 的比例。
+validate_object_names	检查对象名称	限制对象名称使用可安全解析的字符。
+virtual_trackball	虚拟轨迹球	控制鼠标旋转是否采用虚拟轨迹球方式。
+volume_bit_depth	体积数据位深	设置体积渲染数据使用的位深。
+volume_data_range	体积配色数据范围	以均值上下的标准差倍数定义体积颜色渐变的数据范围。
+volume_layers	体积渲染层数	层数较少时实时渲染更快；层数较多时更慢且颜色累积更强。
+volume_mode	体积渲染方式	0：后分类，速度较快；1：预积分，效果较好。
+wildcard	选择通配符	指定选择表达式匹配使用的通配符字符。
+wizard_prompt_mode	向导提示显示模式	控制原生绘图区内向导提示的显示方式。
+wrap_output	输出文字自动换行	控制输出文字换行的历史设置；官方说明提示该设置存在问题。

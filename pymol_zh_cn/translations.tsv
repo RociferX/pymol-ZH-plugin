@@ -1,0 +1,1412 @@
+# English<TAB>简体中文 — display only; identifiers and scientific data are untouched.
+File	文件
+Edit	编辑
+Build	构建
+Movie	动画
+Display	显示
+Setting	设置
+Settings	设置
+Scene	场景
+Mouse	鼠标
+Wizard	向导
+Plugin	插件
+Plugins	插件
+Help	帮助
+New PyMOL Window	新建 PyMOL 窗口
+Default	默认
+Ignore .pymolrc and plugins (-k)	忽略 .pymolrc 和插件 (-k)
+Open	打开
+Open file	打开文件
+Open Recent	最近打开
+Get PDB	获取 PDB
+Get PDB File	获取 PDB 文件
+Save Session	保存会话
+Save Session As	会话另存为
+Export Molecule	导出分子
+Export Map	导出密度图
+Export Alignment	导出比对
+Export Image As	导出图像为
+Export Movie As	导出动画为
+PNG Images	PNG 图像序列
+Log File	日志文件
+Resume	续接
+Append	追加
+Close	关闭
+Run Script	运行脚本
+Working Directory	工作目录
+Change	更改
+Change Working Directory	更改工作目录
+File Browser	文件浏览器
+Edit pymolrc	编辑 pymolrc
+Reinitialize	重新初始化
+Everything	全部内容
+Original Settings	初始设置
+Stored Settings	已存设置
+Store Current Settings	存储当前设置
+Quit	退出
+Exit	退出
+Undo	撤销
+Redo	重做
+Fragment	分子片段
+Residue	残基
+Acetylene	乙炔
+Amide N->C	酰胺 N→C
+Amide C->N	酰胺 C→N
+Bromine	溴
+Carbon	碳
+Carbonyl	羰基
+Chlorine	氯
+Cyclobutyl	环丁基
+Cyclopentyl	环戊基
+Cyclopentadiene	环戊二烯
+Cyclohexyl	环己基
+Cycloheptyl	环庚基
+Fluorine	氟
+Iodine	碘
+Methane	甲烷
+Nitrogen	氮
+Oxygen	氧
+Sulfer	硫
+Sulfur	硫
+Sulfonyl	磺酰基
+Phosphorus	磷
+Acetyl	乙酰基
+Alanine	丙氨酸
+Amine	胺基
+Aspartate	天冬氨酸
+Asparagine	天冬酰胺
+Arginine	精氨酸
+Cysteine	半胱氨酸
+Glutamate	谷氨酸
+Glutamine	谷氨酰胺
+Glycine	甘氨酸
+Histidine	组氨酸
+Isoleucine	异亮氨酸
+Leucine	亮氨酸
+Lysine	赖氨酸
+Methionine	甲硫氨酸
+N-Methyl	N-甲基
+Phenylalanine	苯丙氨酸
+Proline	脯氨酸
+Serine	丝氨酸
+Threonine	苏氨酸
+Tryptophan	色氨酸
+Tyrosine	酪氨酸
+Valine	缬氨酸
+Helix	螺旋
+Antiparallel Beta Sheet	反平行 β 折叠
+Parallel Beta Sheet	平行 β 折叠
+Sculpting	构象雕塑
+Auto-Sculpting	自动构象雕塑
+Activate	激活
+Deactivate	停用
+Clear Memory	清除记忆
+Bonds Only	仅键长
+Bonds and Angles Only	仅键长和键角
+Local Geometry Only	仅局部几何
+All Except VDW	除范德华项外全部
+All Except 1-4 VDW and Torsions	除 1–4 范德华和扭转项外全部
+All Terms	全部能量项
+Cycle Bond Valence	循环切换键级
+Fill Hydrogens on (pk1)	为 (pk1) 补氢
+Invert (pk2)-(pk1)-(pk3)	反转 (pk2)-(pk1)-(pk3)
+Create Bond (pk1)-(pk2)	创建键 (pk1)-(pk2)
+Remove (pk1)	移除 (pk1)
+Make (pk1) Positive	将 (pk1) 设为正电荷
+Make (pk1) Negative	将 (pk1) 设为负电荷
+Make (pk1) Neutral	将 (pk1) 设为中性
+Program	动画程序
+Camera Loop	相机循环
+Nutate	章动
+X-Rock	绕 X 轴摆动
+Y-Rock	绕 Y 轴摆动
+X-Roll	绕 X 轴旋转
+Y-Roll	绕 Y 轴旋转
+Scene Loop	场景循环
+Steady	平稳切换
+Full Speed	全速
+no pause	无暂停
+State Loop	状态循环
+State Sweep	状态往返
+Update Last Program	更新上一个动画程序
+Remove Last Program	移除上一个动画程序
+Reset	重置
+Frame Rate	帧率
+Show Frame Rate	显示帧率
+Reset Meter	重置计数器
+Auto Interpolate	自动插值
+Show Panel	显示面板
+Loop Frames	循环播放
+Draw Frames	绘制各帧
+Ray Trace Frames	光线追踪各帧
+Cache Frame Images	缓存帧图像
+Clear Image Cache	清除图像缓存
+Static Singletons	静态单状态对象
+Show All States	显示全部状态
+Sequence	序列
+Sequence Mode	序列显示模式
+Residue Codes	残基单字母代码
+Residue Names	残基名称
+Chain Identifiers	链标识
+Atom Names	原子名称
+States	状态
+All Residue Numbers	全部残基编号
+Top Sequence Only	仅最上方序列
+Object Names Only	仅对象名称
+No Labels	不显示标签
+No Gaps	不显示缺口
+All Gaps	全部缺口
+Single Gap	单个缺口
+Internal GUI	内部界面
+Internal Prompt	内部命令提示
+Internal Feedback	内部反馈
+Overlay	叠加显示
+Stereo	立体显示
+Stereo Mode	立体显示模式
+Anaglyph Stereo	红蓝立体
+Cross-Eye Stereo	交叉眼立体
+Wall-Eye Stereo	平行眼立体
+Quad-Buffered Stereo	四缓冲立体
+Zalman Stereo	Zalman 立体
+Swap Sides	交换左右视图
+Chromadepth	色深立体
+off	关闭
+on	开启
+Zoom	缩放
+All	全部
+Complete	完整范围
+Clip	裁剪
+Nothing	无
+Background	背景
+Opaque	不透明
+Alpha Checker	透明棋盘格
+White	白色
+Light Grey	浅灰色
+Light Gray	浅灰色
+Grey	灰色
+Gray	灰色
+Black	黑色
+Red	红色
+Green	绿色
+Blue	蓝色
+Yellow	黄色
+Cyan	青色
+Magenta	品红
+Orange	橙色
+Color Space	色彩空间
+CMYK (for publications)	CMYK（出版印刷）
+PyMOL (for video + web)	PyMOL（视频和网页）
+RGB (default)	RGB（默认）
+Quality	质量
+Maximum Performance	最高性能
+Reasonable Performance	均衡性能
+Reasonable Quality	均衡质量
+Maximum Quality	最高质量
+Grid	网格视图
+By Object	按对象
+By State	按状态
+By Object-State	按对象与状态
+Disable	禁用
+Enable	启用
+Orthoscopic View	正交投影
+Show Valences	显示键级
+Smooth Lines	平滑线条
+Depth Cue (Fogging)	深度雾化
+Two Sided Lighting	双面光照
+Specular Reflections	镜面反射
+Animation	动画过渡
+Roving Detail	随视点调整细节
+Edit All	编辑全部设置
+Keyboard Shortcuts	键盘快捷键
+Colors	颜色
+Label	标签
+Size	大小
+Font	字体
+Sans	无衬线
+Sans Oblique	无衬线斜体
+Sans Bold	无衬线粗体
+Sans Bold Oblique	无衬线粗斜体
+Serif	衬线
+Serif Oblique	衬线斜体
+Serif Bold	衬线粗体
+Serif Bold Oblique	衬线粗斜体
+Mono	等宽
+Mono Oblique	等宽斜体
+Mono Bold	等宽粗体
+Mono Bold Oblique	等宽粗斜体
+Color	颜色
+Front	前景
+Back	背景
+Show Connectors	显示连接线
+Background Color	背景颜色
+None	无
+Lines & Sticks	线条与棒状
+Lines	线条
+Sticks	棒状
+Ball and Stick	球棍模型
+Ball and Stick Ratio	球棍比例
+Zero Order Bonds	零级键
+Hide	隐藏
+Show	显示
+Dashed	虚线
+Solid	实体
+Zero Order Stick Scale	零级键棒状缩放
+Stick Radius	棒半径
+Stick Hydrogen Scale	氢原子棒状缩放
+Line Width	线宽
+Lines As Cylinders	线条绘制为圆柱
+Cartoon	二级结构示意
+Rings and Bases	环与碱基
+Filled Rings (Round Edges)	填充环（圆边）
+Filled Rings (Flat Edges)	填充环（平边）
+Filled Rings (with Border)	填充环（带边框）
+Spheres	球体
+Base Ladders	碱基梯状结构
+Bases and Sugars	碱基与糖环
+Bases Only	仅碱基
+Non-protein Rings	非蛋白质环
+All Rings	全部环
+Transparent Rings	透明环
+Side Chain Helper	侧链辅助
+Round Helices	圆形螺旋
+Fancy Helices	精细螺旋
+Cylindrical Helices	圆柱螺旋
+Flat Sheets	平面折叠片
+Fancy Sheets	精细折叠片
+Smooth Loops	平滑环区
+Discrete Colors	离散着色
+Highlight Color	高亮颜色
+Sampling	采样
+Atom count dependent	由原子数量决定
+Gap Cutoff	缺口阈值
+Ribbon	带状
+Trace Atoms	按原子轨迹
+As Lines	显示为线条
+As Cylinders	显示为圆柱
+Cylinder Radius	圆柱半径
+Match Line Width	匹配线宽
+Surface	表面
+Default (Atomic)	默认（原子颜色）
+Dot	点状
+Dots	点状
+Wireframe	线框
+Cavities and Pockets Only	仅空腔与口袋
+Cavities and Pockets (Culled)	空腔与口袋（剔除）
+Cavity Detection Radius	空腔检测半径
+Cavity Detection Cutoff	空腔检测阈值
+Exterior (Normal)	外表面（常规）
+Solvent Accessible	溶剂可及表面
+Smooth Edges	平滑边缘
+Edge Proximity	边缘邻近判断
+Ignore None	不忽略任何原子
+Ignore HETATMs	忽略 HETATM 原子
+Ignore Hydrogens	忽略氢原子
+Ignore Unsurfaced	忽略未显示表面的原子
+Volume	体渲染
+Pre-integrated Rendering	预积分渲染
+Number of Layers	层数
+Transparency	透明度
+Sphere	球体
+Stick	棒状
+Uni-Layer	单层
+Multi-Layer	多层
+Multi-Layer (Real-time OIT)	多层（实时 OIT）
+Fast and Ugly	快速粗略
+Angle-dependent	随角度变化
+Rendering	渲染
+OpenGL 2.0 Shaders	OpenGL 2.0 着色器
+Antialias (Ray Tracing)	抗锯齿（光线追踪）
+Antialias (Real Time)	抗锯齿（实时）
+Modernize	启用现代渲染
+Shadows	阴影
+Light	轻
+Medium	中
+Heavy	重
+Matte	哑光
+Soft	柔和
+Occlusion	环境遮蔽
+Occlusion2	环境遮蔽 2
+Texture	纹理
+Interior Texture	内部纹理
+Matte 1	哑光 1
+Matte 2	哑光 2
+Swirl 1	漩涡 1
+Swirl 2	漩涡 2
+Fiber	纤维
+Memory	内存
+Use Less (slower)	较少内存（较慢）
+Use Standard Amount	标准内存用量
+Use More (faster)	较多内存（较快）
+Use Even More	更多内存
+Use Most	最大内存用量
+Cull Backfaces	剔除背面
+Opaque Interiors	内部不透明
+PDB File Loading	PDB 文件加载
+Ignore PDB Segment Identifier	忽略 PDB 片段标识
+mmCIF File Loading	mmCIF 文件加载
+Use "auth" Identifiers	使用 auth 标识
+Load Assembly (Biological Unit)	加载生物学组装体
+Bonding by "Chemical Component Dictionary"	按化学组分字典成键
+Map File Loading	密度图文件加载
+Normalize CCP4 Maps	归一化 CCP4 密度图
+Normalize O Maps	归一化 O 密度图
+Auto-Show	自动显示
+Cartoon/Sticks/Spheres by Classification	按分类显示二级结构、棒状或球体
+Auto-Show Lines	自动显示线条
+Auto-Show Spheres	自动显示球体
+Auto-Show Nonbonded	自动显示非键合原子
+Auto-Show New Selections	自动显示新选区
+Auto-Hide Selections	自动隐藏选区
+Auto-Zoom New Objects	自动缩放至新对象
+Auto-Remove Hydrogens	自动移除氢原子
+Show Text (Esc)	显示文字 (Esc)
+Overlay Text	叠加文字
+Scenes	场景管理
+Next [PgDn]	下一个 [PgDn]
+Previous [PgUp]	上一个 [PgUp]
+Camera	相机
+Reps	表示方式
+Reps + Color	表示方式与颜色
+Insert Before	在前面插入
+Insert After	在后面插入
+Update	更新
+Delete	删除
+Recall	调出
+Store	存储
+Clear	清除
+Buttons	按钮
+Cache	缓存
+Optimize	优化
+Read Only	只读
+Selection Mode	选择模式
+Atoms	原子
+Residues	残基
+Chains	链
+Segments	片段
+Objects	对象
+Molecules	分子
+C-alphas	Cα 原子
+3 Button Motions	三键鼠标：运动
+3 Button Editing	三键鼠标：编辑
+3 Button Viewing	三键鼠标：查看
+3 Button Lights	三键鼠标：光照
+3 Button All Modes	三键鼠标：全部模式
+2 Button Editing	双键鼠标：编辑
+2 Button Viewing	双键鼠标：查看
+1 Button Viewing Mode	单键鼠标：查看
+Emulate Maestro	模拟 Maestro
+Virtual Trackball	虚拟轨迹球
+Show Mouse Grid	显示鼠标操作表
+Roving Origin	随视点调整原点
+Appearance	外观
+Measurement	测量
+Mutagenesis	定点突变
+Protein	蛋白质
+Nucleic Acids	核酸
+Pair Fitting	配对拟合
+Density	密度
+Filter	筛选
+Charge	电荷
+Demo	演示
+Representations	表示方式
+Cartoon Ribbons	二级结构带状示意
+Roving Density	随视点显示密度
+Ray Tracing	光线追踪
+Scripted Animation	脚本动画
+Electrostatics	静电势
+Compiled Graphics Objects	编译图形对象
+Molscript/Raster3D Input	Molscript/Raster3D 输入
+End Demonstration	结束演示
+PyMOL Home Page	PyMOL 主页
+PyMOL Product Page	PyMOL 产品页
+PyMOL Community Wiki	PyMOL 社区 Wiki
+PyMOL Command Reference	PyMOL 命令参考
+PyMOL 3 Documentation	PyMOL 3 文档
+Legacy Online Documentation	旧版在线文档
+Topics	主题
+Selection Algebra	选择表达式
+Timeline Python API	时间轴 Python API
+PyMOL Mailing List	PyMOL 邮件列表
+About PyMOL	关于 PyMOL
+Sponsorship Information	资助信息
+How to Cite PyMOL	如何引用 PyMOL
+External GUI	外部界面
+Toggle dockable	切换可停靠状态
+Visible	可见
+Initialize Plugin System	初始化插件系统
+Plugin Manager	插件管理器
+Installed Plugins	已安装插件
+Install New Plugin	安装新插件
+Install from local file	从本地文件安装
+Choose file	选择文件
+Install from PyMOLWiki or any URL	从 PyMOLWiki 或网址安装
+Fetch	获取
+Install from Repository	从仓库安装
+Add	添加
+Remove	移除
+Info	信息
+Install	安装
+Plugin override search path	插件搜索路径覆盖
+Add new directory	添加目录
+Move up	上移
+Move down	下移
+Preferences	偏好设置
+Name	名称
+Value	值
+About	关于
+loaded	已加载
+startup	启动时加载
+startup all	全部启动时加载
+startup none	全部不自动加载
+Load	加载
+Unload	卸载
+Uninstall	卸载
+Reload	重新加载
+OK	确定
+Cancel	取消
+Apply	应用
+Yes	是
+No	否
+Save	保存
+Save As	另存为
+Save Changes	保存更改
+Discard	放弃
+Browse	浏览
+Select	选择
+Select All	全选
+Copy	复制
+Paste	粘贴
+Cut	剪切
+Refresh	刷新
+Search	搜索
+Find	查找
+Next	下一个
+Previous	上一个
+Finish	完成
+Done	完成
+Abort	中止
+Stop	停止
+Start	开始
+Play	播放
+Pause	暂停
+Rewind	回到开头
+Forward	前进
+Backward	后退
+Console	控制台
+Command Line	命令行
+Command History	命令历史
+History	历史
+Contents	内容
+Presets	预设
+Timeline	时间轴
+Builder	构建器
+Properties	属性
+Options	选项
+Advanced	高级
+General	常规
+Width	宽度
+Height	高度
+Units	单位
+at	@
+Use current viewport size	使用当前视口尺寸
+Lock aspect ratio	锁定宽高比
+Dots per Inch	每英寸点数
+transparent background ("Ray" only)	透明背景（仅光线追踪）
+Use fast on-screen rendering	使用快速屏幕渲染
+Draw (fast)	绘制（快）
+Ray (slow)	光线追踪（慢）
+- or -	或
+Use high-quality ray-tracing.	使用高质量光线追踪。
+Save Image to File	保存图像到文件
+Copy Image to Clipboard	复制图像到剪贴板
+< Back	< 返回
+PDB ID	PDB 编号
+4 letter PDB code	4 位 PDB 代码
+2FoFc Map	2FoFc 密度图
+PDB Structure	PDB 结构
+FoFc Map	FoFc 密度图
+Object name (optional)	对象名称（可选）
+PDB Structure Options	PDB 结构选项
+Chain name (optional)	链名称（可选）
+Assembly (optional)	组装体（可选）
+This will run the following command	将运行以下命令
+Download	下载
+Save Molecule	保存分子
+enabled	已启用对象
+-1 (current)	-1（当前）
+0 (all states)	0（全部状态）
+Selection	选择范围
+State	状态
+Generic Options	通用选项
+Original atom order (according to "rank")	原始原子顺序（按 rank）
+PDB Options	PDB 选项
+Write multiple bonds as duplicate CONECT records	将多重键写为重复的 CONECT 记录
+Write CONECT records for all bonds	为全部键写入 CONECT 记录
+Write segment identifier (segi) column	写入片段标识（segi）列
+Retain atom ids	保留原子编号
+use "multisave" command	使用 multisave 命令
+Write HEADER for every object	为每个对象写入 HEADER
+Multi-File	多文件
+Write objects or states to	对象或状态写入方式
+one single file	单个文件
+one file per object	每个对象一个文件
+one file per object-state	每个对象状态一个文件
+Prompt for every file	逐个文件询问
+Open Logfile	打开日志文件
+Load Map	加载密度图
+Load Trajectory	加载轨迹
+Load Alignment	加载比对
+Export Image	导出图像
+Render	渲染
+Resolution	分辨率
+Format	格式
+File name	文件名
+Files of type	文件类型
+Look in	查找位置
+Recent Places	最近位置
+Computer	计算机
+Parent Directory	上级目录
+Create New Folder	新建文件夹
+List View	列表视图
+Detail View	详细信息视图
+Show hidden files	显示隐藏文件
+All Files	全部文件
+Description	说明
+Type	类型
+Enabled	已启用
+Disabled	已禁用
+Action	操作
+Representation	表示方式
+Orientation	朝向
+Center	居中
+Orient	定向
+Align	比对
+Rename	重命名
+Duplicate	复制对象
+Group	分组
+Ungroup	取消分组
+New Group	新建分组
+New Scene	新建场景
+New Selection	新建选区
+Distance	距离
+Angle	角度
+Dihedral	二面角
+Hydrogens	氢原子
+Water	水分子
+Solvent	溶剂
+Organic	有机分子
+Inorganic	无机分子
+Ligand	配体
+Ligands	配体
+Mesh	网格
+Nonbonded	非键合原子
+Putty	按数值变径
+By Element	按元素
+By Chain	按链
+By Secondary Structure	按二级结构
+By B-Factor	按 B 因子
+Spectrum	光谱着色
+Rainbow	彩虹着色
+Show All	全部显示
+Hide All	全部隐藏
+Delete All	全部删除
+Select none	取消选择
+Select all	全选
+Save Image	保存图像
+Set Background Color	设置背景颜色
+Full Screen	全屏
+Fullscreen	全屏
+Reset View	重置视图
+Fit to Window	适应窗口
+Zoom In	放大
+Zoom Out	缩小
+Warning	警告
+Error	错误
+Information	信息
+Question	询问
+Confirmation	确认
+Rock	摆动
+Draw/Ray	绘制/光追
+3-Button Viewing	三键鼠标：查看
+3-Button Editing	三键鼠标：编辑
+3-Button Motions	三键鼠标：运动
+3-Button Lights	三键鼠标：光照
+2-Button Viewing	双键鼠标：查看
+2-Button Editing	双键鼠标：编辑
+1-Button Viewing	单键鼠标：查看
+Undo Enabled	启用撤销
+Clear Undo History	清除撤销历史
+Toggle floating	切换浮动状态
+Check for Updates	检查更新
+Register File Extensions	注册文件扩展名
+Register with Maestro	关联 Maestro
+Zoom all	缩放至全部
+Zoom visible	缩放至可见对象
+Zoom active selection	缩放至当前选区
+Zoom next ligand [CTRL-L]	缩放至下一个配体 [CTRL-L]
+Align workspace structures to the XYZ axes	将工作区结构对齐 XYZ 轴
+Zoom the camera based on selection	根据选区调整相机缩放
+Rock the camera back and forth	使相机来回摆动
+Modify and apply style presets	修改并应用样式预设
+Toggle the Scenes Panel	切换场景面板
+Open Builder to modify structures	打开构建器以修改结构
+Create an image	创建图像
+More actions	更多操作
+Nothing to undo	没有可撤销操作
+Nothing to redo	没有可重做操作
+Open Wizards Menu	打开向导菜单
+Toggle Sequence Viewer	切换序列视图
+Toggle Movie Timeline	切换动画时间轴
+Toggle Command Log	切换命令日志
+Click to type in command line	点击输入命令
+Selection mode locked when editing	编辑时锁定选择模式
+Object	对象
+Object properties	对象属性
+Atom properties	原子属性
+Molecular Object	分子对象
+Object/group name	对象/分组名称
+Object name	对象名称
+Object:	对象：
+Atom:	原子：
+Molecular Object:	分子对象：
+Secondary Structure:	二级结构：
+Alpha Helix	α 螺旋
+Beta Sheet (Anti-Parallel)	β 折叠（反平行）
+Beta Sheet (Parallel)	β 折叠（平行）
+Global Frames	全局帧
+Split Current State as Object	将当前状态拆分为对象
+Track Animation Loop	轨道动画循环
+Timeline Inspector	时间轴检查器
+SHOW INSPECTOR	显示检查器
+HIDE INSPECTOR	隐藏检查器
+Add Scene	添加场景
+Delete Scene	删除场景
+Update Scene	更新场景
+Save the current workspace as a scene	将当前工作区保存为场景
+Update the scene to the current workspace view.	将场景更新为当前工作区视图。
+Edit the description of the scene.	编辑场景说明。
+Add the selected scene to the Timeline	将选中场景加入时间轴
+Copy and edit	复制并编辑
+Create New	新建
+Custom	自定义
+Delete Selected	删除所选项
+Reset All	全部重置
+Reset Selected	重置所选项
+Restore selected key bindings to their default values	将所选快捷键恢复为默认值
+Refresh the table to reflect any external changes	刷新表格以反映外部更改
+Save the current key bindings to be loaded automatically when opening PyMOL	保存当前快捷键，在启动 PyMOL 时自动加载
+Restore all key bindings to their default values and remove any that have been created	恢复全部默认快捷键并移除自建快捷键
+Unbind selected key bindings and remove any that have been created	取消绑定所选快捷键并移除自建条目
+Add a key binding that does not currently appear on the table	添加表格中尚不存在的快捷键
+Save as	另存为
+Save PNG image as	PNG 图像另存为
+Save Movie as	动画另存为
+Common Video Resolutions	常用视频分辨率
+Common:	常用：
+High	高
+Low	低
+Interval	间隔
+Duration	时长
+Encoder	编码器
+Animated GIF	GIF 动画
+Export a series of numbered PNG files	导出连续编号的 PNG 图像
+video height in pixels	视频高度（像素）
+video width in pixels	视频宽度（像素）
+antialiased on-screen rendering	屏幕抗锯齿渲染
+Render each movie frame with ray tracing.\nMay take a long time, but produces the\nbest quality.	逐帧进行光线追踪。\n耗时较长，图像质量最高。
+Use high-quality ray-tracing.\nSupports optimal multi-layer\ntransparency, shadows, and\nalpha-channel background.	使用高质量光线追踪。\n支持多层透明、阴影\n和透明通道背景。
+Use settings to match cartoon/ribbon color and ballstick style	按设置匹配二级结构/带状颜色与球棍样式
+Get colors as script	将颜色导出为脚本
+Selected Color:	所选颜色：
+Palette:	调色板：
+Update volume colors in real-time	实时更新体渲染颜色
+Reset Data Range	重置数据范围
+New Map Name Prefix	新密度图名称前缀
+normalize (mean=0 stdev=1)	归一化（均值 0，标准差 1）
+carve	按原子范围裁切
+level	等值面水平
+contour level ("sigma" or "rmsd" if data is normalized)	等值面水平（归一化数据使用 sigma 或 rmsd）
+margin around the selection (in Angstrom)	选区周围边距（Å）
+only show density which is within the carve-radius of any atom	仅显示距任一原子不超过裁切半径的密度
+isomesh	等值网格
+isosurface	等值表面
+load custom	加载自定义
+Append if state=0	state=0 时追加
+Load entire trajectory if stop &lt; 1	stop 小于 1 时加载完整轨迹
+Weights	权重
+Phases	相位
+Amplitudes	振幅
+Redefine selection	重新定义选区
+Enter name of selection:	输入选区名称：
+Enter selection string:	输入选择表达式：
+Enter name of selection: This name is not unique	输入选区名称：该名称已被使用
+Enter selection string: This selection string is invalid	输入选择表达式：该表达式无效
+Automatically rename duplicate objects	自动重命名同名对象
+Open in new PyMOL Window	在新的 PyMOL 窗口中打开
+Discard current session	放弃当前会话
+Merge with current session (partial load)	合并到当前会话（部分加载）
+Each session will have its own window.	每个会话使用独立窗口。
+All currently loaded objects will be deleted.	将删除当前加载的全部对象。
+Will not restore global settings, selections, scenes or movies from the session file	不恢复会话文件中的全局设置、选区、场景及动画
+The current PyMOL window has a session in progress. How do you want to proceed?	当前 PyMOL 窗口中已有会话，请选择处理方式。
+Legacy Plugins	旧版插件
+Install new License File	安装新许可证文件
+Activation	激活
+Skip	跳过
+Continue	继续
+Success	成功
+Failure	失败
+New Window (Default)	新建窗口（默认）
+New Window (-k)	新建窗口（忽略启动配置）
+Export Movie	导出动画
+Export Structure	导出结构
+Auto-Copy Images	自动复制图像
+Internal Feedback (Legacy)	内部反馈（旧版）
+Internal GUI (Legacy)	内部界面（旧版）
+Internal Prompt (Legacy)	内部命令提示（旧版）
+Legacy Movie Maker	旧版动画制作器
+Volume Rendering	体渲染
+Email PyMOL Help	通过邮件联系 PyMOL 支持
+Auto-Show ...	自动显示...
+Note: Downloading will save the files in the directory defined by the	下载文件将保存到
+ setting.	 设置指定的目录。
+Plugins are external modules which extend PyMOL's capabilities.	插件是扩展 PyMOL 功能的外部模块。
+Plugins can provide new commands and/or add menu items to the	插件可以提供新命令，也可以在下列菜单中添加选项：
+For technical details, visit	技术说明请参阅
+PyMOL restart required in order to find plugins in modified plugin search path	修改插件搜索路径后，需要重启 PyMOL 才能发现插件。
+Paste a link to a script or plugin, or a PyMOLWiki url which then will be downloaded and scanned for scripts that extend the PyMOL API	粘贴脚本、插件或 PyMOLWiki 链接，下载后会查找扩展 PyMOL API 的脚本。
+Map Object	密度图对象
+Target Object	目标对象
+Movie Format	动画格式
+Frames	帧
+buffer	边距
+To render a sized antialiased image, use the Draw/Ray panel in the upper right.	要按指定尺寸生成抗锯齿图像，请使用右上方的“绘制/光追”面板。
+Normalization does NOT take the unit cell into account. PyMOL normalizes across the data extent present in the map file, which may not be aligned with the unit cell. (This is different from Coot)	归一化按密度图文件中的实际数据范围计算，不考虑晶胞；该范围可能不与晶胞对齐（与 Coot 的处理方式不同）。
+Placeholders:\n{name} - object name\n{state} - state number\n{title} - state title\n{num} - running number	占位符：\n{name} - 对象名称\n{state} - 状态编号\n{title} - 状态标题\n{num} - 顺序编号
+"movie_quality" setting, the lower the lossier	movie_quality 设置值越低，压缩损失越大
+defer_builds_mode=3 (don't keep geometry for other states in memory)	defer_builds_mode=3（不在内存中保留其他状态的几何信息）
+for periodic systems (x-ray) display the data acound the given atom selection (box shaped, unless "carve" is checked)	对于周期体系（X 射线），显示指定原子选区周围的数据；默认按长方体范围显示，勾选“按原子范围裁切”后按原子距离裁切。
+With Overlay	含叠加内容
+Movie Type	动画类型
+Legacy (incl. mset, madd, etc...)	旧版（mset、madd 等）
+Movie Quality	动画质量
+Load entire trajectory if stop < 1	stop 小于 1 时加载完整轨迹
+Unpick	取消拾取
+Deselect	取消选择
+Get View	获取视角
+MClear	清除帧缓存
+Rebuild	重建显示
+As	仅显示为
+wire	线框
+licorice	粗棒模型
+nb_spheres	非键合原子球
+cell	晶胞
+Labels	标签
+main chain	主链
+side chain	侧链
+waters	水分子
+unselected	未选中部分
+valence	键级
+nonpolar	非极性
+flag ignore	表面计算忽略标记
+set	设置
+unset	取消设置
+Note: Atoms with the "ignore"	注意：带有 ignore 标记的原子
+flag are ignored during surface	在表面计算中会被忽略。
+calculation. By default, all	默认情况下，所有
+non-polymer atoms are ignored.	非聚合物原子均被忽略。
+origin	旋转中心
+drag matrix	拖动变换矩阵
+reset matrix	重置变换矩阵
+drag coordinates	拖动原子坐标
+clean	优化几何结构
+preset	预设
+generate	生成
+assign sec. struc.	指派二级结构
+rename object	重命名对象
+copy to object	复制到对象
+delete object	删除对象
+remove waters	移除水分子
+masking	拾取屏蔽
+movement	移动控制
+compute	计算
+rename group	重命名组
+delete group	删除组
+rename selection	重命名选区
+delete selection	删除选区
+delete selections	删除全部选区
+delete everything	删除全部内容
+extract object	提取为对象
+remove atoms	移除原子
+modify	修改
+expand	扩展空间范围
+extend	扩展成键范围
+around	周围
+include	包含
+exclude	排除
+restrict	限定
+invert	反转
+split	拆分
+mask	屏蔽拾取
+unmask	取消拾取屏蔽
+protect	保护原子
+deprotect	取消原子保护
+freeze	固定坐标
+thaw	解除坐标固定
+matrix from	复制矩阵自
+matrix to	复制矩阵至
+matrix reset	重置矩阵
+matrix_copy	复制变换矩阵
+surface atoms	表面原子
+charges	电荷
+surface area	表面积
+molecular weight	分子量
+atom count	原子数
+formal charge sum	形式电荷总和
+partial charges sum	部分电荷总和
+area (molecular)	分子表面积
+area (solvent)	溶剂可及表面积
+Surface Area Type	表面积类型
+molecular	分子
+ligand sites	配体位点
+polar contacts	极性接触
+any contacts	所有接触
+halogen-bond interactions	卤键相互作用
+salt-bridge interactions	盐桥相互作用
+pi interactions	π 相互作用
+halogen-bond	卤键
+salt-bridge	盐桥
+pi-cation	π-阳离子
+pi-pi	π-π
+Polar Contacts	极性接触
+Any Contacts	所有接触
+Halogen-bond Interactions	卤键相互作用
+Salt-Bridge Interactions	盐桥相互作用
+Pi Interactions	π 相互作用
+Ligand Sites	配体位点
+Symmetry Mates	对称相关分子
+symmetry mates	对称相关分子
++/- one unit cell and...	正负一个晶胞并且…
+excluding solvent	排除溶剂
+excluding main chain	排除主链
+excluding intra-main chain	排除主链内部
+involving side chains	涉及侧链
+involving solvent	涉及溶剂
+just intra-main chain	仅主链内部
+just intra-side chain	仅侧链内部
+to any atoms	与任意原子
+to any excluding solvent	与溶剂以外的任意原子
+to other atoms in object	与对象内其他原子
+to others excluding solvent	与溶剂以外的其他原子
+to inorganic	与无机分子
+to organic	与有机分子
+to polymer	与聚合物
+to solvent	与溶剂
+to visible	与可见部分
+to selection	与选区
+to object	与对象
+within any	在任意部分内部
+within chain(s)	在链内部
+within molecule(s)	在分子内部
+within object(s)	在对象内部
+within residue(s)	在残基内部
+within segment(s)	在片段内部
+within selection	在选区内部
+between chains	链间
+acceptors	受体
+donors	供体
+add polar	添加极性氢
+remove nonpolar	移除非极性氢
+polar hydrogens	极性氢
+non-polar hydrogens	非极性氢
+with missing hydrogens	补全缺失氢
+polymer	聚合物
+simple	简洁
+simple (no solvent)	简洁（不含溶剂）
+technical	技术示意
+pretty	美化
+pretty (with solvent)	美化（含溶剂）
+publication	出版风格
+publication (with solvent)	出版风格（含溶剂）
+b factor putty	B 因子变径管
+protein interface	蛋白质界面
+classified	分类
+vacuum electrostatics	真空静电势
+Vacuum Electrostatics	真空静电势
+protein contact potential (local)	局部蛋白质接触势
+NOTE: Due to short cutoffs, truncations, and	注意：由于截断距离较短、截断处理，
+lack of solvent "screening", these computed	以及缺少溶剂屏蔽，这些计算所得的
+potentials are only qualitatively useful.	静电势仅可用于定性观察。
+Please view with skepticism!	请审慎解读。
+solid surface	不透明表面
+transparent surface	透明表面
+mesh surface	网格表面
+dot surface	点状表面
+solid (better)	不透明（较佳）
+transparent (better)	透明（较佳）
+explicit	显式原子
+by rep	按表示方式
+By Representation	按表示方式
+by ss	按二级结构
+by obj	按对象
+by segi	按片段标识
+by segi (elem C)	按片段标识（仅碳）
+by obj(elem C)	按对象（仅碳）
+by chain(elem C)	按链（仅碳）
+by chain(*/CA)	按链（仅 Cα）
+Helix Sheet Loop	螺旋／折叠／环
+chainbows	逐链彩虹
+rainbow2	彩虹 2
+rainbow(elem C)	彩虹（仅碳）
+rainbow(*/CA)	彩虹（仅 Cα）
+b-factors	B 因子
+b-factor	B 因子
+b-factors(*/CA)	B 因子（仅 Cα）
+states (*/CA)	状态（仅 Cα）
+elem C	仅碳原子
+all states	全部状态
+auto	自动
+atom name	原子名称
+element symbol	元素符号
+residue name	残基名称
+one letter code	单字母代码
+residue identifier	残基编号
+chain identifier	链标识
+segment identifier	片段标识
+residues (oneletter)	残基（单字母）
+atom identifiers	原子标识
+Atom Identifiers	原子标识
+other properties	其他属性
+Other Properties	其他属性
+occupancy	占有率
+vdw radius	范德华半径
+elec. radius	静电半径
+formal charge	形式电荷
+partial charge (0.00)	部分电荷（两位小数）
+partial charge (0.0000)	部分电荷（四位小数）
+text type	文本类型
+numeric type	数字类型
+stereochemistry	立体化学
+rank	顺序编号
+index	索引
+ID	原子 ID
+angles	键角
+dihedrals	二面角
+dashes	虚线
+disulfides	二硫键
+per residue (relative sol. acc.)	按残基（相对溶剂可及性）
+all to this (*/CA)	全部比对至此（Cα）
+enabled to this (*/CA)	启用对象比对至此（Cα）
+to molecule (*/CA)	至分子（Cα）
+to selection (*/CA)	至选区（Cα）
+Gradient	梯度
+Slice	切片
+levels	等值级别
+negative	负值
+Negative Color	负值颜色
+panel	面板
+Form	形式
+Memory Optimization	内存优化
+Load on startup	启动时加载
+Add New	新增
+Show Basic	显示基本项
+Command	命令
+Create Shortcut	创建快捷键
+Key	按键
+Press Key	按下按键
+Type Command	输入命令
+Confirm	确认
+Confirm Changing Existing Binding	确认修改现有绑定
+Are you sure you want to change this existing key binding?	确定修改此按键的现有绑定吗？
+Don't show this again	不再显示
+Shortcut Help	快捷键帮助
+Creating New Shortcuts	创建新快捷键
+Chemical	化学片段
+Nucleic Acid	核酸
+Secondary Structure	二级结构
+Fix H	修正氢原子
+Add H	添加氢原子
+Arom	芳香键
+Sculpt	分子塑形
+Fix	固定
+Rest	位置约束
+El-stat	静电项
+Bumps	范德华接触
+Bonds	化学键
+Single	单链
+Double	双链
+Fix hydrogens on picked atoms	修正拾取原子的氢
+Add hydrogens to entire molecule	为整个分子添加氢
+Invert stereochemistry around pk1 (pk2 and pk3 will remain fixed)	反转 pk1 周围的立体构型（固定 pk2 和 pk3）
+Remove atoms	移除原子
+Delete everything	删除全部内容
+Positive Charge	正电荷
+Neutral Charge	中性电荷
+Negative Charge	负电荷
+Remove residue	移除残基
+Create bond between pk1 and pk2	在 pk1 与 pk2 之间成键
+Delete bond between pk1 and pk2	删除 pk1 与 pk2 之间的键
+Create single bond	创建单键
+Create double bond	创建双键
+Create triple bond	创建三键
+Create aromatic bond	创建芳香键
+Cleanup structure	优化几何结构
+Molecular sculpting	分子塑形
+Fix atom positions	固定原子位置
+Restrain atom positions	约束原子位置
+Electrostatics term for 'Clean' action	几何优化的静电项
+Show VDW contacts during sculpting	塑形时显示范德华接触
+Undo last change	撤销上一步修改
+Redo last change	重做上一步修改
+aquamarine	碧绿
+bluewhite	蓝白
+brightorange	亮橙
+brown	棕色
+chartreuse	黄绿
+chocolate	巧克力色
+darksalmon	暗鲑红
+deepblue	深蓝
+deepolive	深橄榄
+deeppurple	深紫
+deepsalmon	深鲑红
+deepteal	深蓝绿
+dirtyviolet	暗灰紫
+firebrick	砖红
+forest	森林绿
+greencyan	绿青
+hotpink	亮粉
+lightblue	浅蓝
+lightmagenta	浅品红
+lightorange	浅橙
+lightpink	浅粉
+lightteal	浅蓝绿
+lime	青柠绿
+limegreen	石灰绿
+limon	柠檬黄绿
+marine	海蓝
+olive	橄榄绿
+palecyan	淡青
+palegreen	淡绿
+paleyellow	淡黄
+pink	粉色
+purple	紫色
+purpleblue	紫蓝
+raspberry	覆盆子红
+ruby	宝石红
+salmon	鲑红
+sand	沙色
+skyblue	天蓝
+slate	板岩蓝
+smudge	灰绿
+splitpea	豌豆绿
+teal	蓝绿
+violet	紫罗兰
+violetpurple	紫罗兰紫
+warmpink	暖粉
+wheat	麦色
+yelloworange	黄橙
+blues	蓝色系
+cyans	青色系
+grays	灰色系
+greens	绿色系
+magentas	品红色系
+oranges	橙色系
+reds	红色系
+tints	浅色系
+yellows	黄色系
+gray10	灰色 10
+gray20	灰色 20
+gray30	灰色 30
+gray40	灰色 40
+gray50	灰色 50
+gray60	灰色 60
+gray70	灰色 70
+gray80	灰色 80
+gray90	灰色 90
+tv_blue	高亮蓝
+tv_green	高亮绿
+tv_orange	高亮橙
+tv_red	高亮红
+tv_yellow	高亮黄
+within 4 A	4 Å 范围内
+by 4 A	向外扩展 4 Å
+by 4 A, residues	扩展 4 Å 并包含完整残基
+atoms within 4 A	4 Å 范围内的原子
+residues within 4 A	4 Å 范围内的残基
+within 5 A	5 Å 范围内
+by 5 A	向外扩展 5 Å
+by 5 A, residues	扩展 5 Å 并包含完整残基
+atoms within 5 A	5 Å 范围内的原子
+residues within 5 A	5 Å 范围内的残基
+within 6 A	6 Å 范围内
+by 6 A	向外扩展 6 Å
+by 6 A, residues	扩展 6 Å 并包含完整残基
+atoms within 6 A	6 Å 范围内的原子
+residues within 6 A	6 Å 范围内的残基
+within 8 A	8 Å 范围内
+by 8 A	向外扩展 8 Å
+by 8 A, residues	扩展 8 Å 并包含完整残基
+atoms within 8 A	8 Å 范围内的原子
+residues within 8 A	8 Å 范围内的残基
+within 12 A	12 Å 范围内
+by 12 A	向外扩展 12 Å
+by 12 A, residues	扩展 12 Å 并包含完整残基
+atoms within 12 A	12 Å 范围内的原子
+residues within 12 A	12 Å 范围内的残基
+within 20 A	20 Å 范围内
+by 20 A	向外扩展 20 Å
+by 20 A, residues	扩展 20 Å 并包含完整残基
+atoms within 20 A	20 Å 范围内的原子
+residues within 20 A	20 Å 范围内的残基
+within 50 A	50 Å 范围内
+by 50 A	向外扩展 50 Å
+by 50 A, residues	扩展 50 Å 并包含完整残基
+atoms within 50 A	50 Å 范围内的原子
+residues within 50 A	50 Å 范围内的残基
+within 100 A	100 Å 范围内
+by 100 A	向外扩展 100 Å
+by 100 A, residues	扩展 100 Å 并包含完整残基
+atoms within 100 A	100 Å 范围内的原子
+residues within 100 A	100 Å 范围内的残基
+within 250 A	250 Å 范围内
+by 250 A	向外扩展 250 Å
+by 250 A, residues	扩展 250 Å 并包含完整残基
+atoms within 250 A	250 Å 范围内的原子
+residues within 250 A	250 Å 范围内的残基
+within 1000 A	1000 Å 范围内
+by 1000 A	向外扩展 1000 Å
+by 1000 A, residues	扩展 1000 Å 并包含完整残基
+atoms within 1000 A	1000 Å 范围内的原子
+residues within 1000 A	1000 Å 范围内的残基
+by 1 bond	扩展 1 个键
+by 1 bond, residues	扩展 1 个键并包含完整残基
+by 2 bonds	扩展 2 个键
+by 2 bonds, residues	扩展 2 个键并包含完整残基
+by 3 bonds	扩展 3 个键
+by 3 bonds, residues	扩展 3 个键并包含完整残基
+by 4 bonds	扩展 4 个键
+by 4 bonds, residues	扩展 4 个键并包含完整残基
+by 5 bonds	扩展 5 个键
+by 5 bonds, residues	扩展 5 个键并包含完整残基
+by 6 bonds	扩展 6 个键
+by 6 bonds, residues	扩展 6 个键并包含完整残基
+between chains within 3.0A	链间 3.0 Å 范围内
+between chains within 3.5A	链间 3.5 Å 范围内
+between chains within 4.0A	链间 4.0 Å 范围内
+Selections	选区
+set 2	元素配色方案 2
+set 3	元素配色方案 3
+set 4	元素配色方案 4
+set 5	元素配色方案 5
+set 6/H	元素配色方案 6／氢
+Create	成键
+Cycle	切换键级
+Model	模型
+Please click on the first atom...	请点击第一个原子…
+Please click on the second atom...	请点击第二个原子…
+Please click on the third atom...	请点击第三个原子…
+Please click on the fourth atom...	请点击第四个原子…
+Please click a atom...	请点击一个原子…
+Please click an atom...	请点击一个原子…
+Please click on the first residue...	请点击第一个残基…
+Please click on the second residue...	请点击第二个残基…
+Please click on the third residue...	请点击第三个残基…
+Please click on the fourth residue...	请点击第四个残基…
+Please click a residue...	请点击一个残基…
+Please click an residue...	请点击一个残基…
+Please click on the first chain...	请点击第一个链…
+Please click on the second chain...	请点击第二个链…
+Please click on the third chain...	请点击第三个链…
+Please click on the fourth chain...	请点击第四个链…
+Please click a chain...	请点击一个链…
+Please click an chain...	请点击一个链…
+Please click on the first segment...	请点击第一个片段…
+Please click on the second segment...	请点击第二个片段…
+Please click on the third segment...	请点击第三个片段…
+Please click on the fourth segment...	请点击第四个片段…
+Please click a segment...	请点击一个片段…
+Please click an segment...	请点击一个片段…
+Please click on the first object...	请点击第一个对象…
+Please click on the second object...	请点击第二个对象…
+Please click on the third object...	请点击第三个对象…
+Please click on the fourth object...	请点击第四个对象…
+Please click a object...	请点击一个对象…
+Please click an object...	请点击一个对象…
+Please click on the first molecule...	请点击第一个分子…
+Please click on the second molecule...	请点击第二个分子…
+Please click on the third molecule...	请点击第三个分子…
+Please click on the fourth molecule...	请点击第四个分子…
+Please click a molecule...	请点击一个分子…
+Please click an molecule...	请点击一个分子…
+Please click on the first C-alpha...	请点击第一个Cα 原子…
+Please click on the second C-alpha...	请点击第二个Cα 原子…
+Please click on the third C-alpha...	请点击第三个Cα 原子…
+Please click on the fourth C-alpha...	请点击第四个Cα 原子…
+Please click a C-alpha...	请点击一个Cα 原子…
+Please click an C-alpha...	请点击一个Cα 原子…
+Measurement Mode	测量模式
+New Measurements?	新建测量结果？
+Merge With Previous	合并至前一对象
+Replace Previous	替换前一对象
+Create New Object	创建新对象
+Delete Last Object	删除上一个对象
+Delete All Measurements	删除全部测量
+Pick a residue...	请拾取一个残基…
+Loading rotamers...	正在加载侧链构象…
+Distances to Rings	至环的距离
+in all objects	在全部对象中
+in object	在对象中
+in selection	在选区中
+in other objects	在其他对象中
+in same object	在同一对象中
+Object-Level	对象级
+Object-State-Level	对象状态级
+Atom-Level	原子级
+Atom-State-Level	原子状态级
+TTT Matrix	平移旋转矩阵
+State Matrix	状态变换矩阵
+Identifiers	标识字段
+Properties (built-in)	内置属性
+No Mutation	不突变
+Main Pop-Up	绘图区菜单
+new	新建
+zoom (vis)	缩放至可见对象
+orient (vis)	定向可见对象
+center (vis)	居中可见对象
+(all)	（全部对象）
+(visible)	（可见对象）
+ray	光线追踪
+fragment+joint(s)	片段及连接原子
+ss	二级结构
+create object	创建对象
+PyMOL Advanced Settings	PyMOL 高级设置
+Distance Between Atom Pairs	原子对间距离
+Distances Between Atoms	原子间距离
+Measure Distances	测量距离
+Measure Angles	测量键角
+Measure Dihedrals	测量二面角
+Heavy Atom Neighbors	重原子邻近接触
+Polar Neighbors	极性邻近接触
+Neighbors	邻近接触
+Really delete everything?	确定删除全部内容吗？
+Retry	重试
+Ignore	忽略
+Yes to All	全部是
+No to All	全部否
+Close without Saving	关闭且不保存
+Discard Changes	放弃修改
+Don't Save	不保存
+Unknown file type	未知文件类型
+atom	原子
+chain	链
+segment	片段
+molecule	分子
+pseudoatom	伪原子
+coordinates	坐标
+disable others	禁用其他对象
+drag	拖动
+drag object coords	拖动对象坐标
+drag object matrix	拖动对象矩阵
+matrix	变换矩阵
+(none)	（无）
+Appearance Wizard	外观向导
+Backbone Depen. Rotamers	依赖骨架的侧链构象
+Backbone Indep. Rotamers	独立于骨架的侧链构象
+By Atom	按原子
+By Molecule	按分子
+By Residue	按残基
+By Segment	按片段
+C-Cap	C 端封端
+N-Cap	N 端封端
+Color (elem c)	颜色（仅碳）
+Delete Last Pair	删除上一对原子
+Density Map Wizard	密度图向导
+Distances	距离
+Fixed Atom Cushion	固定原子缓冲范围
+Heavy Neighbors	重原子邻近接触
+Hydrogens: Add & Retain	氢原子：添加并保留
+Hydrogens: Current	氢原子：保持当前
+Hydrogens: Remove	氢原子：移除
+Mobile Atom Sphere	可移动原子球形范围
+Mode	模式
+Mutant	突变目标
+NB Spheres	非键合原子球
+Next Res. (PgDown)	下一残基（PgDown）
+No change	不修改
+One Residue	一个残基
+Pick the mobile atom...	请拾取待移动的原子…
+Pick the target atom...	请拾取目标原子…
+Please pick the center atom...	请拾取中心原子…
+Previous Res. (PgUp)	上一残基（PgUp）
+Redraw	重新绘制
+Relocate	重新定位
+Residue Shells	残基外壳
+Rotamers	侧链构象
+Scope	范围
+Select Map	选择密度图
+Show Dots	显示点
+Show Lines	显示线
+Show Spheres	显示球体
+Show Sticks	显示棒状
+Toggle	切换
+Toggle Bumps	切换接触碰撞显示
+Toggle Sculpting	切换分子塑形
+Track & Center	跟随并居中
+Track & Set Origin	跟随并设置旋转中心
+Track & Zoom	跟随并缩放
+Track Off	关闭跟随
+Update Maps	更新密度图
+What	操作内容
+Title	标题
+APBS Electrostatics	APBS 静电分析
+Lighting Settings	光照设置
+Need 4 letter PDB code	请输入 4 位 PDB 编号
+Save changes?	保存修改吗？
+Load as structures?	加载为结构？
+Load sequences as extended structures instead?	将序列加载为伸展的分子结构吗？
+To load a trajectory, you first need to load a molecular object	加载轨迹前，请先加载一个分子对象。
+No map objects loaded	尚未加载密度图对象
+Properties Inspector	属性检查器
+Save?	保存？
+Column Labels	数据列标签
+Map Options	密度图选项
+Multiple entries	多个条目
+Map Import	导入密度图
+Maestro File Import	导入 Maestro 文件
+Reflection File Import	导入反射数据文件
+Movie Export	导出动画
+Save PNG image	保存 PNG 图像
+Trajectory Import	导入轨迹
+Load Session	加载会话
+as one multi-state object (discrete states)	作为一个多状态对象（独立状态）
+as one multi-state object (trajectory)	作为一个多状态对象（轨迹）
+as separate objects	作为多个独立对象
+automatic handling	自动处理
+For same topology with different conformations, choose "trajectory". For independent molecules, like a set of different ligands, choose "separate objects" or "discrete states".	相同拓扑、不同构象请选择“轨迹”；独立分子（例如不同配体）请选择“多个独立对象”或“独立状态”。
+space delimited list of property names, or * for all	属性名称以空格分隔；输入 * 表示全部属性。
+capture current display	截取当前显示
+draw antialiased OpenGL image	绘制抗锯齿 OpenGL 图像
+ray trace with opaque background	光线追踪：不透明背景
+ray trace with transparent background	光线追踪：透明背景
+New in PyMOL 2.0: To render a sized antialiased image, use the Draw/Ray panel in the upper right.	要按指定尺寸渲染抗锯齿图像，请使用右上角的“绘制/光追”面板。
+Labeling	原子标签
+Messages: On	提示：开启
+Messages: Off	提示：关闭
+Click atoms...	请点击原子…
+Mode: {resn}-{resi}	模式：残基名称－编号
+Mode: {onelettercode}{resi}	模式：单码＋残基编号
+Mode: {chain}/{resn}`{resi}	模式：链／残基
+Mode: {chain}/{resn}`{resi}/{name}`{alt}	模式：链／残基／原子
+Mode: /{model}/{segi}/{chain}/{resn}`{resi}/{name}`{alt}	模式：完整原子路径
+Mode: {chain}	模式：链标识
+Mode: {resn}	模式：残基名称
+Mode: {resi}	模式：残基编号
+Mode: {name}	模式：原子名称
+convert	转换
+inch	英寸
+cm	厘米
+DPI	分辨率（DPI）
+URL:	网址：
+Show Details...	显示详细信息…
+Hide Details...	隐藏详细信息…
+No alignment objects loaded\n\nHint: create alignment objects with "align" and\n"super" using the "object=..." argument.	尚未加载比对对象。\n\n可在 align 或 super 命令中使用 object=... 参数创建比对对象。
